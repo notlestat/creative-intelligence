@@ -1,0 +1,42 @@
+name: {{name}}
+entity_type: {{entity_type}}
+website: UNKNOWN
+location: UNKNOWN
+market: UNKNOWN
+representation: UNKNOWN
+identity:
+  positioning: UNKNOWN
+  personality: UNKNOWN
+  tone: UNKNOWN
+  visual_style: UNKNOWN
+  colours: []
+  typography: UNKNOWN
+  restrictions: []
+artist:
+  genre: UNKNOWN
+  themes: []
+  catalogue: UNKNOWN
+  current_era: UNKNOWN
+  collaborators: []
+  artist_approved_biography: UNKNOWN
+offer:
+  product_or_release: UNKNOWN
+  price: UNKNOWN
+  audience_action: UNKNOWN
+audience:
+  primary: UNKNOWN
+  secondary: UNKNOWN
+creative:
+  preferred_styles: []
+  avoid: []
+  humour: UNKNOWN
+  realism: UNKNOWN
+  pace: UNKNOWN
+platforms: []
+goals:
+  primary: UNKNOWN
+  measurement: UNKNOWN
+creative_learnings: []
+# Empty lists mean not yet supplied. They do not confirm absence.
+# Known facts need provenance in knowledge/identity.md or the project's evidence log.
+# Lyrics may only be analysed when the user supplies them.

@@ -1,0 +1,76 @@
+{
+  "inspected_at": "2026-09-03",
+  "skills": [
+    {
+      "name": "axis-creative-director",
+      "repository": "https://github.com/smixs/creative-director-skill",
+      "commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
+      "source_path": "creative-director",
+      "license": "CC-BY-4.0",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-visual-image",
+      "repository": "https://github.com/smixs/visual-skills",
+      "commit": "3c554715b5eb30f54de78fac3c0df4a7105e4955",
+      "source_path": "image",
+      "license": "CC-BY-4.0",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-visual-video",
+      "repository": "https://github.com/smixs/visual-skills",
+      "commit": "3c554715b5eb30f54de78fac3c0df4a7105e4955",
+      "source_path": "video",
+      "license": "CC-BY-4.0",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-performance-creative",
+      "repository": "https://github.com/realjaymes/marketingagentskills",
+      "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
+      "source_path": "skills/ad-creative",
+      "license": "MIT",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-positioning",
+      "repository": "https://github.com/realjaymes/marketingagentskills",
+      "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
+      "source_path": "skills/product-positioning",
+      "license": "MIT",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-messaging",
+      "repository": "https://github.com/realjaymes/marketingagentskills",
+      "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
+      "source_path": "skills/product-messaging",
+      "license": "MIT",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-audience",
+      "repository": "https://github.com/realjaymes/marketingagentskills",
+      "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
+      "source_path": "skills/icp-persona",
+      "license": "MIT",
+      "distribution": "bundled",
+      "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
+    },
+    {
+      "name": "axis-meta-context",
+      "repository": "https://github.com/adkit/ads-skills",
+      "commit": "9bb3f878a73e01c65a1fc105010985ba32b9afa7",
+      "source_path": "skills/meta-ads-strategy",
+      "license": "AdKit Skills License",
+      "distribution": "local-only; excluded from Git and skill package"
+    }
+  ]
+}

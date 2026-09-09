@@ -1,45 +1,72 @@
-# Axis Creative Intelligence v0.1
+# Axis creative agency
 
-An internal creative-direction workspace for answering one question: **what should this brand or artist create next?**
+One Codex-first creative agency for brands, artists and releases. Give Axis a client, the source material and the job. Codex keeps the work in local files, conducts evidence-led research, develops options and stops for your decisions.
 
-Axis keeps sourced facts, observations, inferences, signals and creative proposals visibly separate. It supports brand and artist projects through one shared workflow, with explicit human selection before development.
+There is no website, subscription product or model API to configure. Codex is the working interface.
 
-## Run locally
+## Start an artist project
 
-```bash
-npm install
-npm run db:local
-npm run dev
+Open this folder in Codex and say:
+
+> Start a new Axis artist project for [artist]. This is a [single, EP, album or artist platform]. Here are the music, brief, links, assets and deadlines.
+
+Codex will create the artist and project folders, organise what you supplied, identify the few missing answers that change the work, and begin the correct phase.
+
+You can also run the file tools directly:
+
+```sh
+python3 tools/agency.py create-client aster-vale --name "Aster Vale" --type artist
+python3 tools/agency.py start-project aster-vale new-single --name "New single" --type single
+python3 tools/agency.py status aster-vale new-single
 ```
 
-The app runs at `http://localhost:3000`. The two demo projects contain fictional evidence only.
+## The workflow
+
+1. Intake and source organisation
+2. Artist or brand intelligence
+3. Audience, culture, competitor and visual research
+4. Evidence-linked signals
+5. Up to ten distinct creative opportunities
+6. Your opportunity decision
+7. Creative brief and five developed concepts
+8. Your concept decision
+9. Creative direction, art direction and moodboard analysis
+10. Storyboard, shot list, sound and copy
+11. Production package and controlled generation
+12. Asset review, handoff and saved learning
+
+Axis supports brands, artists, singles, EPs, albums, ongoing artist platforms and label projects through the same evidence and approval system. It chooses only the deliverables the project needs. It does not force every artist into the same rollout checklist.
+
+## Human decisions
+
+Codex recommends but does not select. The guarded stages require explicit decisions:
+
+- `APPROVE OPPORTUNITY 03`
+- `APPROVE CONCEPT 02`
+- `APPROVE ART DIRECTION`
+- `APPROVE STORYBOARD`
+- `APPROVE SHOT LIST`
+- `APPROVE ASSETS`
+
+Melius remains the primary visual production engine. Preparing or staging a Melius package does not authorise generation or credit spend. Generation requires a separate instruction naming the shot and maximum attempts.
+
+## Client records
+
+Each client lives under `clients/<slug>/`:
+
+- `client.yaml` records supplied facts, preferences and unknowns.
+- `source/` holds original music, lyrics, images, documents and references.
+- `knowledge/` holds identity, audience, catalogue, competitors and append-only learnings.
+- `projects/<project>/` holds the complete working trail from intake to handoff.
+
+Client files are excluded from Git. Facts, observations, inferences, hypotheses and unknowns stay visibly separate.
 
 ## Checks
 
-```bash
-npm run lint
-npm run typecheck
-npm run test
-npm run build
+```sh
+PYTHONPYCACHEPREFIX=/tmp/axis-agency-pycache python3 -m unittest discover -s tests -v
+PYTHONPYCACHEPREFIX=/tmp/axis-agency-pycache python3 -m compileall -q tools tests
+python3 tools/validate.py
 ```
 
-## Environment
-
-Copy `.env.example` to `.env.local` and add only the providers you intend to use.
-
-- `OPENAI_API_KEY`: required only for model-assisted synthesis.
-- `LLM_BASE_URL`: defaults to OpenAI and supports compatible endpoints.
-- `LLM_MODEL`: must be chosen explicitly. Axis does not hardcode a model.
-- `AGENT_REACH_BASE_URL`: optional HTTP bridge for a safe Agent Reach runtime. The installed local CLI is not invoked from a Cloudflare Worker.
-
-Project records use D1 through Drizzle. Uploads and editable Excalidraw scenes use R2. The UI still works as a transparent demo when providers are absent.
-
-Use `npm run db:generate` only after intentionally changing `db/schema.ts`; inspect the generated migration before applying it. Security review details and upstream dependency constraints are recorded in `docs/security.md`.
-
-## Boundaries
-
-- No authentication, billing, teams, CRM, outreach, ad accounts or autonomous posting.
-- No image or video generation pipeline.
-- No automatic lyric fetching.
-- No recommendation counts as approval.
-- Missing sources stay unavailable. Missing facts stay unknown.
+The previous web application remains recoverable in Git at commit `8e2e03a`. It is no longer part of the active Axis workflow.

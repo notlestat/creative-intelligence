@@ -1,0 +1,4 @@
+interface:
+  display_name: "Axis creative agency"
+  short_description: "Run a one-person agency for artists and brands"
+  default_prompt: "Use $axis-creative-agency to start or continue this artist, release or brand project at the next authorised phase."

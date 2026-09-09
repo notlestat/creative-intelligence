@@ -1,0 +1,4246 @@
+[
+  {
+    "repository": "ads-skills",
+    "commit": "9bb3f878a73e01c65a1fc105010985ba32b9afa7",
+    "files": [
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "bytes": 689,
+        "sha256": "88fc014593ef3a8d1e5f949d4cbc91e3b6afba5498c0d506d8eb9521463a6b09"
+      },
+      {
+        "path": ".gitignore",
+        "bytes": 31,
+        "sha256": "a4ca45ef027a3b105173beff6f1b0a63e76a3437daac4ee376e16b9c5c698267"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 1857,
+        "sha256": "776f8f8b31491b8b1382cb39723067c33b24b0bff7aea06001c6be9693d0c877"
+      },
+      {
+        "path": "README.md",
+        "bytes": 4943,
+        "sha256": "86ec17cd31b9cb86948ef89c4e767ed35f7febd25633dbda0297b75128460a02"
+      },
+      {
+        "path": "ads-skills.png",
+        "bytes": 1144861,
+        "sha256": "4bbe12ec2f06965769b65b7685c933e1db24e83d95387ad16cd59528620121de"
+      },
+      {
+        "path": "skills/adkit/SKILL.md",
+        "bytes": 2650,
+        "sha256": "35627630068cf8ce3778204ee7e30ae2a7c3521d448e293218ebfdfd0d4d0b4a"
+      },
+      {
+        "path": "skills/adkit/cli.md",
+        "bytes": 4657,
+        "sha256": "da8610843458fc0f817aaea39ab676b42590def567de22a4f86a46ca03bab22e"
+      },
+      {
+        "path": "skills/adkit/mcp.md",
+        "bytes": 3318,
+        "sha256": "85d88c873c7833fb477614dadc9cbc20fbcda6a8f0582c6302fab48392b814bf"
+      },
+      {
+        "path": "skills/google-ads-strategy/1-fundamentals.md",
+        "bytes": 5252,
+        "sha256": "f2593bd601d3b503c6e313bf2b5315dde72eb624a11e5ca9c4f78f2ff8017f04"
+      },
+      {
+        "path": "skills/google-ads-strategy/2-keyword-mining.md",
+        "bytes": 4080,
+        "sha256": "c0628bea73d545c2b82932c377698ba55107e678d4a019ff8b12dac1871ade44"
+      },
+      {
+        "path": "skills/google-ads-strategy/3-account-structure.md",
+        "bytes": 4546,
+        "sha256": "e1ea9f66742a21cd41188df59398f6139b689943c577ed4809348f4100b0c69c"
+      },
+      {
+        "path": "skills/google-ads-strategy/4-ad-copy.md",
+        "bytes": 4568,
+        "sha256": "1821d0e52fd6d1c3fa85993fa94c00e84fb8842302fb2fd4039ec230743421b0"
+      },
+      {
+        "path": "skills/google-ads-strategy/5-negative-keywords.md",
+        "bytes": 4868,
+        "sha256": "ec78e703517c5c6c2e442eda3c5fd8566203ee3ca0b305f6753e797d35dc82f3"
+      },
+      {
+        "path": "skills/google-ads-strategy/6-analyze.md",
+        "bytes": 4193,
+        "sha256": "28ebb2063c98841f2f1e74a1cda0b9dc77b3d11eca08b607b4ab3e5b2b4d487c"
+      },
+      {
+        "path": "skills/google-ads-strategy/SKILL.md",
+        "bytes": 5206,
+        "sha256": "36456ed629dbd994ac739c87846fe1e8ebba8553dfae49a7edcb68a443636c33"
+      },
+      {
+        "path": "skills/meta-ads-strategy/1-fundamentals.md",
+        "bytes": 10509,
+        "sha256": "1990ed8c92d3d2c88d4a767a39399d63e6c611e361f7b76d325cd4ba84022071"
+      },
+      {
+        "path": "skills/meta-ads-strategy/2-preparation.md",
+        "bytes": 11946,
+        "sha256": "50db46e1d9a0b7905a3aed0e470ccd641588ba48ff42f713d084bf7d9ff1c826"
+      },
+      {
+        "path": "skills/meta-ads-strategy/3-account-setup.md",
+        "bytes": 10801,
+        "sha256": "0ab68913fb624ff0901789ea95c45d3201c95dfe3b978f97a8efb7f035f2a92b"
+      },
+      {
+        "path": "skills/meta-ads-strategy/4-copy.md",
+        "bytes": 5148,
+        "sha256": "b88abf6b087fe4b439ede0af1d970aa4aec8bac7547fca89d0de5f4afdbc0c16"
+      },
+      {
+        "path": "skills/meta-ads-strategy/5-creative.md",
+        "bytes": 9287,
+        "sha256": "f7221866ca914fbf9326a1822e252dae7e9e1777411b2e941827294fd71fefae"
+      },
+      {
+        "path": "skills/meta-ads-strategy/6-campaign-structure.md",
+        "bytes": 11600,
+        "sha256": "2cc7df8f3df5b10edf51d06d900582708ef3857bd587d65b34ea653a90fa9511"
+      },
+      {
+        "path": "skills/meta-ads-strategy/7-launch.md",
+        "bytes": 9317,
+        "sha256": "d851f9c495abede1894f4747dee66e724f94f92651a1d0ef971707999db929e1"
+      },
+      {
+        "path": "skills/meta-ads-strategy/8-results.md",
+        "bytes": 13164,
+        "sha256": "a32824998dd3d46fdd1ef303cca7332d3244c0fed307dad8e80c4fda475ab7a4"
+      },
+      {
+        "path": "skills/meta-ads-strategy/SKILL.md",
+        "bytes": 6416,
+        "sha256": "71a8b542ef89cfafa22244bc7e3b8d78341e84e4e630aaa27dcb8514da77fff0"
+      },
+      {
+        "path": "skills/meta-ads-strategy/brief.md",
+        "bytes": 1971,
+        "sha256": "a501889587fea772c3191ecb01787023aafbd7b822aa0b51a3624938dbd631ea"
+      },
+      {
+        "path": "skills/meta-ads-strategy/templates/ad-brief.md",
+        "bytes": 2148,
+        "sha256": "221929df606501725d42570386f81cc57979d97883a3c02c9708820c53e3ff6a"
+      }
+    ]
+  },
+  {
+    "repository": "creative-director-skill",
+    "commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
+    "files": [
+      {
+        "path": ".mailmap",
+        "bytes": 116,
+        "sha256": "a7224f6a707a272d7769b63877455d406559bc6b3fb7a6bc13a387ebc24cc929"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 18657,
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      },
+      {
+        "path": "NOTICE",
+        "bytes": 554,
+        "sha256": "b82cfae27f5c2e390ce50f99534763d3896819ca85380836c39fbaa3612dbb43"
+      },
+      {
+        "path": "README.md",
+        "bytes": 19919,
+        "sha256": "ef305dab78239db61d0cc09310740ed75f9e875d8c8b34c9a1c67003e3ebb65e"
+      },
+      {
+        "path": "README.ru.md",
+        "bytes": 27130,
+        "sha256": "50bf08ea6946106b3c1ad3b3dd2a9edf29fb9fdf9dddf6a19ca38640b0501894"
+      },
+      {
+        "path": "assets/case-library.webp",
+        "bytes": 147986,
+        "sha256": "0974eee0328251a9065de15e7269e976f48dbb2b8fffec8862d38f46d86481ea"
+      },
+      {
+        "path": "assets/cd-skill-site.webp",
+        "bytes": 158410,
+        "sha256": "10f900c6915f4def2353059c9bfb09cdf15518ec8d17006aa4004cb36a77a3a3"
+      },
+      {
+        "path": "assets/header.webp",
+        "bytes": 96038,
+        "sha256": "1ed6001c9342f6d754a1cfc97473899ea21b436576e7d7923c6acc8ec2681130"
+      },
+      {
+        "path": "assets/methods-20.webp",
+        "bytes": 104704,
+        "sha256": "ef131381abac1cbf16f99e41ab8f44ef95623f8cdfeccac752367500e5b49938"
+      },
+      {
+        "path": "assets/pipeline-phases.webp",
+        "bytes": 110128,
+        "sha256": "2ac1ea04149bf806ed62e68c70a1c63151448c49187302be960ddd6bd7770fff"
+      },
+      {
+        "path": "assets/scoring-loop.webp",
+        "bytes": 53020,
+        "sha256": "d73ea5e3cc2fad035c7f127b35a131ed1048db9fa2064f1715c21a609bf98794"
+      },
+      {
+        "path": "assets/why-averaged.webp",
+        "bytes": 137232,
+        "sha256": "436849c1736568fcf25368a3b2a0fb586e7ca928a120c8bbe3d075c790f04822"
+      },
+      {
+        "path": "creative-director/SKILL.md",
+        "bytes": 20426,
+        "sha256": "9c312234bf6ad35c61860a63f08724736ba66a7f96b653a1ac5210ae672eeac6"
+      },
+      {
+        "path": "creative-director/assets/output-templates.md",
+        "bytes": 5734,
+        "sha256": "93cbeda0f2640a54a15ab8fd7f205dfd56dc1df0dbbaa3a617e40686570858fc"
+      },
+      {
+        "path": "creative-director/references/activation-toolkit.md",
+        "bytes": 15214,
+        "sha256": "82bf17bec225bb9fbe89496c4a4edf68eb405c2d196542e066544eca5eba5646"
+      },
+      {
+        "path": "creative-director/references/creative-constitution.md",
+        "bytes": 20515,
+        "sha256": "778788717953fe503ad8ce29933661629999c9b0212573b0d5ecb092464a466b"
+      },
+      {
+        "path": "creative-director/references/emotion-hierarchy.md",
+        "bytes": 7844,
+        "sha256": "7e1d1930d17111f7553eca49a5b649459e72c95242b0747ad85f545defe93dc6"
+      },
+      {
+        "path": "creative-director/references/idea-taxonomy.md",
+        "bytes": 11469,
+        "sha256": "966587dfcc1217170d443fcf568bad022457089632505430575e3d5d0b399ea7"
+      },
+      {
+        "path": "creative-director/references/insight-mining.md",
+        "bytes": 9229,
+        "sha256": "a43108c345b7f327b4031888aa6480d4e2a2cc7ea46a27a7ddb13a14b42bebe6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-budget.md",
+        "bytes": 74883,
+        "sha256": "991daf28e3ddb1a90fe49c66f97e3e054abbd4fe9e4c81eb2ebee836a8e34eb1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-emotion.md",
+        "bytes": 74888,
+        "sha256": "be05929f414560f6d25660c59cd9b4bcbea85d7742e72e05cbbef2f44f37250a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-format.md",
+        "bytes": 75020,
+        "sha256": "1f1a96361394f9fe18dd76db31eb92b81658ee7f1e7d118316d6e52e1d6dff6b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-index.md",
+        "bytes": 74820,
+        "sha256": "75a37e838e2d85defa952ef54885715d49659c3a0c5134991e6ed02b02af0240"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-industry.md",
+        "bytes": 75373,
+        "sha256": "8a65da8d6cbb0554c77eb52e6dcfde83b0cfed2d485ca8f05c0e1f4b0b277672"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/MOC-pattern.md",
+        "bytes": 138942,
+        "sha256": "8ad6ba0526605094972d7f5b2a0df79f1a457c58ab1bab2b0055ae3037da4d90"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/README.md",
+        "bytes": 3831,
+        "sha256": "f3c0a9f736c2fdef691717c73ba58c45a6f7cf396bdde197e71f75556fe526a3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/350action-climate-name-change-2014.md",
+        "bytes": 2214,
+        "sha256": "e750f99171b95c023bf1f24500020293c7fdc95ed46cb24c26f265863a074e38"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/absolut-absolut-campaign-1981.md",
+        "bytes": 2765,
+        "sha256": "bda8683a580ab3338e1ddcbc5cd53da4679af7ee563503da8296fbd12a41ac96"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ad-council-love-has-no-labels-2015.md",
+        "bytes": 1965,
+        "sha256": "0e0e5ba4b9ed2c0b14b9022668c9ec8f3d5651b4fd11d51b2ee9616fa94dd63f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/addictaide-like-my-addiction-2017.md",
+        "bytes": 2441,
+        "sha256": "a2f469d7841518772b006b9dfd2df256ccc0e4183fac56515f36ee1a747d4ac2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/adidas-billie-jean-king-your-shoes-2019.md",
+        "bytes": 2089,
+        "sha256": "cc7bde1921f325bd5a637d3f16de542bbc63ae7ad3565abe62686463469b89b0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/adidas-d-rose-jump-store-2012.md",
+        "bytes": 2403,
+        "sha256": "780c6187c16c6792cc14a6e2e6c373a69550b331d53d6ebb3e869a21f82d9681"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/adidas-hello-tomorrow-2018.md",
+        "bytes": 2008,
+        "sha256": "3885ea8edd1b6e263f85bbacf9d9bdf6e5b51cab423b8d5c2077feed067c017f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/adidas-impossible-goalkeeper-2019.md",
+        "bytes": 2107,
+        "sha256": "2c95dde9a3cd7c066eab71fd4486c4470c736b2c83dce524905e10ac1c5385b2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/adidas-original-is-never-finished-2017.md",
+        "bytes": 2579,
+        "sha256": "3bd0cc4a87fbae79bdc951aacaf91fc0fb7bea1cb3280863b845e4e2e2560f8b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/airbnb-until-we-all-belong-2017.md",
+        "bytes": 2415,
+        "sha256": "6ee5fde33d837ec2bb7bc5e63619c13bd80dd7b45b629230e52b6146b813b78c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/always-like-a-girl-2014.md",
+        "bytes": 2480,
+        "sha256": "7cbd474891185842244b638abe1fdd0407a7f4b11f3ba67239c6c10d402f933c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/amazon-prime-great-shows-stay-with-you-2022.md",
+        "bytes": 2386,
+        "sha256": "667a2f8883ad3139ddd5bdbe0ee4bf1e8a968d37cae6856cbdac082562c0313a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/american-express-small-business-saturday-2010.md",
+        "bytes": 2985,
+        "sha256": "07afb25ad7d5b90097f5b7bcc58ca5d6189ec0cbc57fee808d58c0cdce1c687d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/american-greetings-worlds-toughest-job-2014.md",
+        "bytes": 2816,
+        "sha256": "fd27fb1e22ef8346d3b4b2b2640f3064b985a15c269a5b0070db936b354844f6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/amnesty-international-trial-by-timeline-2012.md",
+        "bytes": 2339,
+        "sha256": "2ebdf2b3defe66639680abfeb699b076553b87a72519771cd25b7460eff0a677"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/android-friends-furever-2015.md",
+        "bytes": 2413,
+        "sha256": "eb793ba3c39e96a1fc62c8dd4aa522dc85d7a4afd4217c2ade60b73328e49010"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-1984-1984.md",
+        "bytes": 2791,
+        "sha256": "8cd858dcc8afbf3b32b85a7b0da7664fbd94b6b90d324fbd8122b910a83f9170"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-barbershop-2017.md",
+        "bytes": 2001,
+        "sha256": "b3f3402825526ef5dacefe840754b635865d2225ec49211ae44fa2e891e46f99"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-bounce-2019.md",
+        "bytes": 1896,
+        "sha256": "09a7dcdbe6a72384fe27afb5d1fe70c0712423191d33b1eeb23747267b8311ec"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-detectives-2022.md",
+        "bytes": 2176,
+        "sha256": "f30ab04dd71c977eb3b0ec0c24ee8a0b717d80c2770838773ed6d71a1d26ba3f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-get-a-mac-2006.md",
+        "bytes": 2984,
+        "sha256": "c75a5263b519e1ed97125b14251d5ef9dbe3563018cb0813f708a565c3cbf4f4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-homepod-welcome-home-2018.md",
+        "bytes": 2136,
+        "sha256": "b6ac3b3e4f73da3c6bdf0a1ebc9bda13bdd2b47a1c3da30e3a489b4a6d2278ae"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-ipod-silhouettes-2004.md",
+        "bytes": 2728,
+        "sha256": "90bcba85afed5ad48692abba2a98dee25b128b317f05be463ca3ae074e8f2c4e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-misunderstood-2013.md",
+        "bytes": 2858,
+        "sha256": "9a405d98a68ca4c5e632c3b73ad439c850248fe5781ab705ef2f07c40f1f7a79"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-shot-on-iphone-2015.md",
+        "bytes": 2058,
+        "sha256": "fb482d963b7bd10938c0ee861aba769f53145ed3ceba6526c84429d5be3800d6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-snap-2020.md",
+        "bytes": 1914,
+        "sha256": "e81412e1093cba6e6887b90cd0454f9e0114fcc70c283947785296b4130b6834"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-stroll-2017.md",
+        "bytes": 1839,
+        "sha256": "774fda2f50051fa316465614df76e7a39109326d32f81bcdf5375aceb012f891"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-sway-2016.md",
+        "bytes": 1832,
+        "sha256": "5cadff96aad4ad41b34781213518eb60e7e62ed8285b6fc891096583c85b2996"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-the-greatest-2023.md",
+        "bytes": 2235,
+        "sha256": "8cc6eb0b90b8649cb88117318e6150b1ba5905a3c9d7b6f301e387605b41dcab"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-think-different-1997.md",
+        "bytes": 2844,
+        "sha256": "6ae9fae365996483b1e66976c4e465311dc20598460b9c196905c1177135743e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/apple-unlock-2018.md",
+        "bytes": 1820,
+        "sha256": "115eb063949728844b2602969509636667d8a8cb49b8b031e954b3b2a6452d4a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/art-institute-van-gogh-bnb-2016.md",
+        "bytes": 2083,
+        "sha256": "0205ac0345f9bf917f947209c377e9f2c133e64697ad68b6eeabf9fd1d3a9565"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/att-cinema-2019.md",
+        "bytes": 2310,
+        "sha256": "29e04df336bccc97541d18d9e0842add037605573880ead9ec868ef9ef460445"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/att-close-to-home-2018.md",
+        "bytes": 2332,
+        "sha256": "5fb40b17b0ce83fa2a3fb4e7ada78c6b2ffbeb81b2a27bf30e3b6ed0d9c8400e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/avis-we-try-harder-1962.md",
+        "bytes": 2898,
+        "sha256": "b66a550944a4030903452ffa4be9568546a5bbc02009601f35b2a7f903517873"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/axe-destiny-2009.md",
+        "bytes": 2383,
+        "sha256": "a885fac1a0cad09ab6808345069f3a69d5d0cf5a20e71b2b0b8f3b5ca61ccdc4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/axe-fear-no-susan-glenn-2012.md",
+        "bytes": 2394,
+        "sha256": "46a78eabe39ce329b0dbd3ae7a14d440d1abbfc407d428abb06476fa30451d84"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/axe-find-your-magic-2016.md",
+        "bytes": 2050,
+        "sha256": "bcd66255ce0f0230261037f5bf51ea732e09f0e635bbf2cb126f4ae0a524dca9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/b-classic-dvorak-2018.md",
+        "bytes": 2050,
+        "sha256": "be68144e6bbf2aa809b825ac8505955547a69a61c10c1a3c534f845cffce294b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/back-market-hack-market-2023.md",
+        "bytes": 2247,
+        "sha256": "ec3ef05f7dfc666eb5cebc962191ba7ec418799c61fa0c2c54c25132a2a2ddb5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bafici-cat-with-a-pipe-2010.md",
+        "bytes": 2567,
+        "sha256": "1505a6cfb3fbb312bb240618f4f6c79171a045e90d89605947f7dec61b3e0529"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/barclays-money-2014.md",
+        "bytes": 2039,
+        "sha256": "e61b5cc462f2bc8975f6f3df7ea3b2a9acfaba66cd3bf7b721ca46e56d16f5bc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/beats-game-before-the-game-2014.md",
+        "bytes": 1981,
+        "sha256": "17cfdf9a7a1174eb14c047ff6101781f945d8a4b40a3acffb3df74b4f8c36d37"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/beats-straight-outta-somewhere-2015.md",
+        "bytes": 2025,
+        "sha256": "2fbf712ac73d9782b8795adc2e51226a736e63955d4d8634efcc61102e0a017e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/beats-you-love-me-2020.md",
+        "bytes": 2203,
+        "sha256": "327c008ab8e2a486b6d8d1e6e61b67e82e4744686692884216d8fca76beb3c15"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/benetton-unhate-2011.md",
+        "bytes": 2700,
+        "sha256": "975a6887304fbaa40f3bc086eeca226bcbe9f20d414954ffc84da40d41af2329"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bgh-dads-in-briefs-2022.md",
+        "bytes": 2213,
+        "sha256": "8bde170eb7ef57ccfa7bdae31b585ae67a4abd30880c228903290fc0e73d773e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bing-decode-jay-z-2010.md",
+        "bytes": 2363,
+        "sha256": "f057bee0d0b6442da465e9ac1b424af0920450e389fac7da53500716816778d0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/black-and-abroad-go-back-to-africa-2020.md",
+        "bytes": 2249,
+        "sha256": "deb7289e1789fb36c6c9fce5a0e6094c43897cf8740345c925ee8bb0ffa5abb9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/black-and-abroad-the-black-elevation-map-2023.md",
+        "bytes": 2251,
+        "sha256": "687f528379df6451ca6cc27eefe84515020e2dc14887360a7d7441c893a53984"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/black-forest-so-juicy-ja-2018.md",
+        "bytes": 2534,
+        "sha256": "0e05a12ccfca814cf925f400b4df81b0f1bf044b813bc5273aea2b78762e3e74"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/black-lives-matter-unsafety-check-2017.md",
+        "bytes": 2050,
+        "sha256": "22a4c24538ebbd8ab610827b15687cc39d213f0790db380297e8b073bc5d65cf"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bmw-starry-night-2023.md",
+        "bytes": 2328,
+        "sha256": "ec27826fef7177107e0b9fe0fa0c565a811155739b09a41117c0c64c66d25057"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bmw-the-hire-2001.md",
+        "bytes": 2963,
+        "sha256": "ddffd85f70bb388aaa850ffc8fc9162914856e2a340c7ecba66864a026af315a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bolthouse-farms-eat-em-like-junk-food-2012.md",
+        "bytes": 2868,
+        "sha256": "3abc9a25695584f62a887f127fc979e1a9fc4dbb9ae1af3aaa5e82a487c37a23"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/boost-mobile-boost-your-voice-2020.md",
+        "bytes": 2275,
+        "sha256": "238a7e6bc629e4e1bd994156988943860485fea665054d2718abf4601700287d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/british-airways-a-british-original-2022.md",
+        "bytes": 2326,
+        "sha256": "b9e659eda80a98e9085328b2d3cba1d4eb430de5e55df3152700f810d1579ccd"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/british-airways-magic-of-flying-2013.md",
+        "bytes": 2743,
+        "sha256": "4f35e31a62b84805e5b30bbf1ef259c109bce47eaa47b5c6490cd0e3f81b18c9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/british-airways-windows-2024.md",
+        "bytes": 2135,
+        "sha256": "dffcd482d9d36da035fce23157ddf1f45a1507bd426bc1f230f76491fd106e9f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/brylcreem-effortless-2010.md",
+        "bytes": 2099,
+        "sha256": "696e269b1a78100859f3b5fa58364ffa126ab2c3d4ba9883d192a06a0b4c6f6c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bud-light-clothing-drive-2009.md",
+        "bytes": 2168,
+        "sha256": "62a80a6163aba16d51171ad5dc413f4c4c3a4f47dc164ebda05aca35918328e3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/bud-light-swear-jar-2008.md",
+        "bytes": 2465,
+        "sha256": "a70096b125951d6bf4aaabb082701ec4c561d931c8e34946e85f4341527f8378"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/budweiser-frogs-1995.md",
+        "bytes": 2625,
+        "sha256": "6104108ffb44134c926e9b3df646bf406031b1a804be8f5778c78f44588d9f83"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/budweiser-lizards-1998.md",
+        "bytes": 2632,
+        "sha256": "763772c297395a19b36fa8e4b9b99e702b8c4a33d58b2f3bac8ae0fedbf1686a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/budweiser-real-men-of-genius-1998.md",
+        "bytes": 2859,
+        "sha256": "8c4571578d47caac9748eaaca041ad870b8918c287358439efc1afa70827bc23"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/budweiser-tagwords-2019.md",
+        "bytes": 2412,
+        "sha256": "bf406ad266a8c0e54c513fae33f2ff07064cb8bbfb44083b7a981ab2afc17728"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/budweiser-whassup-1999.md",
+        "bytes": 2872,
+        "sha256": "d1fc842acbb159c7f1f522e887e29a55077a9210c3634207b0e33f61de84c757"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burberry-festive-2020.md",
+        "bytes": 2095,
+        "sha256": "1ac17e26acc075706b4ab35f655492ca75204fe3788667470dc070fbbc73ef9f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burberry-open-spaces-2021.md",
+        "bytes": 2186,
+        "sha256": "5ad55c3ef370f9a444e03aec06e0f44f8a50db3a308934eed321ead13093aba5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-burger-glitch-2023.md",
+        "bytes": 2319,
+        "sha256": "1ec12b2d1439f8c92f3c3f5037be23be0e28bb07f3cc2ff3a637df3114d81788"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-burning-stores-2017.md",
+        "bytes": 2305,
+        "sha256": "b2833e7d09a213fff67df60ee4012b61ad0330b4d43bcba9044f9e9729310cf1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-confusing-times-2020.md",
+        "bytes": 2244,
+        "sha256": "a086ea1a28c8a46ec83a081eaa8a3fe0d7b4cd3f18108299b83d1b2c07046f65"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-google-home-whopper-2017.md",
+        "bytes": 2367,
+        "sha256": "a87dfd74628049843d9a9050390223c9d6b0f9b5157f76561cca79c2b702d861"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-mcwhopper-proposal-2015.md",
+        "bytes": 2117,
+        "sha256": "2f39a307cbd430b90d435f88f62267dafb4b235edb6a40a192139d9179979655"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-moldy-whopper-2020.md",
+        "bytes": 2495,
+        "sha256": "961fda7a634aadc6bba2a44f2117aaa61ded31fe350029684b190e12e705fd9c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-proud-whopper-2014.md",
+        "bytes": 2237,
+        "sha256": "0abbe4f0740d4219f33072c68f5a941f5a0ffcc8d086fbda2ea9c16a01886bf2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-stevenage-2020.md",
+        "bytes": 2302,
+        "sha256": "014069daba35bcb990ce9fc0f5d4f7f44750201af194d5665e1343790a43b0a1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-subservient-chicken-2004.md",
+        "bytes": 2786,
+        "sha256": "ca9829fc8db4d6846dae15feca20c213b95f42b32a5a712b3e601b6743959dec"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-turning-their-tweets-against-them-2017.md",
+        "bytes": 2151,
+        "sha256": "c5bc0dc7de8ab5a84d3eaf4b03a40660637c99aeb20d8f68306541537a7485a9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-whopper-detour-2018.md",
+        "bytes": 2230,
+        "sha256": "7040195acb06a31db61ec2d2668cd1a944136b026d3ae2b0d9a2638670dbe516"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-whopper-freakout-2007.md",
+        "bytes": 2496,
+        "sha256": "7de4dfb4b107854090c2bdc55a02a47241ee192a4f3a2de22fd9e76bdc905a03"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-whopper-neutrality-2018.md",
+        "bytes": 2352,
+        "sha256": "538bf4b1cbe07840e9a6e2abf49f2501f126222c3c350a8c5b07d42e5fe7fa4e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-whopper-sacrifice-2009.md",
+        "bytes": 2755,
+        "sha256": "0233ebb1910fc253f07c06a4c80b4133495bc58da2222618e2716f47fad92d6b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/burger-king-whopper-virgins-2008.md",
+        "bytes": 2558,
+        "sha256": "90866611062738b7199fbbd94af09f03eaafe6c4041a74590cb30e6efdf7710f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/cadbury-gorilla-2007.md",
+        "bytes": 2833,
+        "sha256": "60e05e4338e03639cdf87d4e109a28856af6e73656e9e1041052639d082c872c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/cadbury-gorilla-guardian-article-2015.md",
+        "bytes": 2495,
+        "sha256": "3b4843210a116f17e0631900f636ae6f39e0a30e70197fe8c04a1f31e9c48e05"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/cadbury-made-to-share-2024.md",
+        "bytes": 2396,
+        "sha256": "892625afb6a10483b2c6271d0a0bcaee34b6148f0bc08a999501c590bed3e19f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/california-milk-processor-board-got-milk-1993.md",
+        "bytes": 2974,
+        "sha256": "91ff4e6e6054f5bfb0f45f51e45f62911e1d004ccec5d6250cf125944517a971"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/calm-the-last-photo-2022.md",
+        "bytes": 2179,
+        "sha256": "1399b99ac2f31e26561861711cf1120af1e1a192e14e6830022dd9a2ef4c37a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/canal-march-of-the-emperors-2006.md",
+        "bytes": 2479,
+        "sha256": "ee1d3b18db3d8d3cf99e1af1a15728d8a5c8f28a3863c046c84b5f50b6e4ed68"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/canal-the-bear-2011.md",
+        "bytes": 2555,
+        "sha256": "29151acae7ecd4b186561a9248088020c0663ff27e735985decc811e719bbc59"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/canon-inspired-2012.md",
+        "bytes": 1785,
+        "sha256": "7f049374e340e6c51b8914a0a11351e79c18179bf8d887def893efc28d385bd5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/carlton-draught-beer-chase-2005.md",
+        "bytes": 2396,
+        "sha256": "b5b4999ff02c0b98f20d0b34199fc6b5eed69742a23586fad610e42e774c8c14"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/carlton-draught-big-ad-2005.md",
+        "bytes": 2892,
+        "sha256": "cf84e8b6157724cc9b5f77822bbb61bc667ec8e01c534c8983439b46d542fea0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/carrefour-black-supermarket-2018.md",
+        "bytes": 2636,
+        "sha256": "6b1666547d97ab3c36a2fc724f030e0e650b933cf5581770f682da0a31e0d619"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/cerave-michael-cerave-2024.md",
+        "bytes": 2255,
+        "sha256": "2e38f29cacdfef8653b1c26c7e5285e0d0705872fea1e6eab579cbff47126c0c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/chanel-no5-share-the-fantasy-1979.md",
+        "bytes": 2501,
+        "sha256": "9a3b596619a1667c1a474b2d44533483e463f6ca75d980707f33c32903882ffa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/changetheref-lost-class-2022.md",
+        "bytes": 2251,
+        "sha256": "23a47847e97a29c5181a9e289a26af3f3a5fadd34f58725f0f3dc09cf10b2436"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/channel-4-idents-2024.md",
+        "bytes": 2078,
+        "sha256": "133bcbeee721e7e94903dee11970c48cd49538071cf96cdd22dc7b1f08796e15"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/channel-4-meet-the-superhumans-2012.md",
+        "bytes": 2073,
+        "sha256": "5285a368f27fb7149acc37a1b2060174f9acd677a4d507df36c26888f4f6cbcb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/channel-4-super-human-2021.md",
+        "bytes": 2065,
+        "sha256": "9325881e9cc670110d44daf5c6f98fb9760f7c06317ba398bd3c90e074495eb7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/channel-4-were-the-superhumans-2016.md",
+        "bytes": 2088,
+        "sha256": "224f89198d841034c98461214d22ef5cb883ef1a4528f8507cd7cfbdd0d21dc2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/chipotle-back-to-the-start-2011.md",
+        "bytes": 2717,
+        "sha256": "42f23c01a04f0438b5b17beed991508befe0e2b3b3024648766d25681c2c6b28"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/chipotle-the-scarecrow-2013.md",
+        "bytes": 2849,
+        "sha256": "f3c69d46ffb7da680e26bf7663adfef69b4561e6f7b3873dd102b2244d8a59d2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/christies-last-da-vinci-2017.md",
+        "bytes": 2464,
+        "sha256": "3f310f73d01f6b19ff6e5d0f6f7776cdcd0570b0092294f9b257f63d2992029a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/chrysler-halftime-in-america-2012.md",
+        "bytes": 2424,
+        "sha256": "8842ac9d1de00b8e9240bc6d192f96c19b24e2a569a62ba96e1d567bb90959cd"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/chrysler-imported-from-detroit-2011.md",
+        "bytes": 2569,
+        "sha256": "52ef0146271f0cd9ba8bb77bac5af3518ff57f5ab7471ac4461c8ae61869ebd9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/citizen-chasing-horizons-2019.md",
+        "bytes": 2323,
+        "sha256": "d2e36c146baaafc7f9c6ed493d239dd194d66b9a07a64c0725b60d0079d1d4f0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/clash-of-clans-revenge-2015.md",
+        "bytes": 2250,
+        "sha256": "27c0366d334489ae316214764c6f4818fcc08a379664c8a07db2e479852f260c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/clash-of-clans-stairlift-2015.md",
+        "bytes": 2156,
+        "sha256": "b5b00965b5f6755fe5a84d85719a4c7faad51c870a5d826db46cfe3351446bab"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/clash-of-clans-surgeon-2015.md",
+        "bytes": 2140,
+        "sha256": "1335f5509035afa996ee5b622516a35ee561405aa811e46afb9942afd8bd9eed"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-border-2012.md",
+        "bytes": 2061,
+        "sha256": "0e51996cd705c2b0f5a5897c8579563ba05657dbd09a45738c1c2d98060f7976"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-christmas-caravan-1995.md",
+        "bytes": 2623,
+        "sha256": "9f92ce3eaaf30ec9f5d57672466ec22c3ac2bf81bd5c0980a80e06aeeede03fa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-first-taste-2017.md",
+        "bytes": 2298,
+        "sha256": "01f42fed0872fae71f7a19c1fc346878cc8ae72f51c6b6ca57e298ad36e6e869"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-hands-2014.md",
+        "bytes": 1831,
+        "sha256": "681fb2dc07758d489c3d6e8d8df7a33a26f43057cfda9f2068ce74faa40296c7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-happiness-factory-2006.md",
+        "bytes": 2344,
+        "sha256": "c8a73a8834870d79ca79bea9d3331903fc6f067aa017c09025daecb4e0f69f02"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-heist-2010.md",
+        "bytes": 2193,
+        "sha256": "ece9e877a10e5f73200128b15a3aeb4b61f8895e2d0bc0f084b2f662e45f7b63"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-hilltop-1971.md",
+        "bytes": 2714,
+        "sha256": "47c207068dfa3b3f780840e0a0dda753e652934e02fcb979e8c78468e913bd5b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-its-mine-2008.md",
+        "bytes": 2148,
+        "sha256": "2aaaf319f35f69a94f4bff08671590a039ed2216400d1b279de45615d55276a6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-masterpiece-2023.md",
+        "bytes": 2021,
+        "sha256": "6b5846a6926be01994508ca72f827a207a69a0e7921571e3a94527fe153aa8e0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-recycle-me-2022.md",
+        "bytes": 2250,
+        "sha256": "47fafc9bf61d170638ce3706ca950e08ccbf313283ed831211a6ae9ab0dd2f92"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-small-world-machines-2012.md",
+        "bytes": 2512,
+        "sha256": "145a7f0a23d5e5bea4f1d9ac890fa0757ee2fcc97388819fcfb4c55ff254d586"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coca-cola-video-game-2013.md",
+        "bytes": 2164,
+        "sha256": "11427e9c6e7e41dc7b68c09033ee3dd5b9a35da038e8817a3b7e578e26fa96ce"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/combos-man-mom-2008.md",
+        "bytes": 2127,
+        "sha256": "4c96f554328c5ff49575b921f626f045f519493e20bcd62fefa0a2791b4c82a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/comcast-rabbit-2009.md",
+        "bytes": 2137,
+        "sha256": "9d3e5688125de3682be594745120b4f847e201a62285d00894f246947b194fdb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/conservation-international-nature-is-speaking-2014.md",
+        "bytes": 2340,
+        "sha256": "911fdb5e2350c77576df20c56d0394b5e48d502ee10f0c3c473aceae90a038ea"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/contours-baby-stroller-test-ride-2023.md",
+        "bytes": 2138,
+        "sha256": "fbc5f0fa7e247d450f9e05f0a6ed8cdf23f4f778d7b5cff8fd39f47cf025b39b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/coors-light-lights-out-2024.md",
+        "bytes": 2169,
+        "sha256": "5527e2830e8429983d8fe5c80abdfa1cbbf969004ed7d531f0479d67cc10a102"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/corona-beach-absurd-2017.md",
+        "bytes": 2212,
+        "sha256": "3a255036f3ebdf8173e02ea41dc6ae3784890dbb4e2778c68f8feab87846fcc8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/corona-karate-absurd-2017.md",
+        "bytes": 2066,
+        "sha256": "01420f02caa7c382f929a36331736ae05f1f29c26a9675f85b4de5dc0aa2d7a3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/corona-native-sportscasters-2023.md",
+        "bytes": 2118,
+        "sha256": "3fbc96e4e2a35e4eae6b1a05ee97fb11c513215f6d3190f6df8b7ed10e4af079"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/corona-shampoo-absurd-2017.md",
+        "bytes": 2144,
+        "sha256": "a0d37cd5c2cc9b7df405c0c1c3cca976268270861d7af2e8a62607bd5034e7f8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/corona-shottasoco-2017.md",
+        "bytes": 2125,
+        "sha256": "290de767bf82db583ea68903292fa25e60d3a4eefe0632f2591775a1e718a130"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dali-museum-dreams-of-dali-2016.md",
+        "bytes": 2362,
+        "sha256": "8f4e614b69a9c5cee9f80efad9eaa23e61f97becfab76502d33784782242b63d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/db-export-brewtroleum-2015.md",
+        "bytes": 2382,
+        "sha256": "5e28c8139d0006c9c3af0cc17397befc4041c9024c7e38bf65b5bef233bf8621"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/diesel-be-stupid-2010.md",
+        "bytes": 2469,
+        "sha256": "aa2bd5ddf15f35c6fb74dfbd92a9ceca6873030ad1f3e08b9f08afff6f1a7922"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/diesel-go-with-the-flaw-2017.md",
+        "bytes": 2355,
+        "sha256": "38c684b53998c2f9b0536c37301b0d69c9a4bacb7d947a4224473be9a1dcc9dc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/diesel-keep-the-world-flawed-2018.md",
+        "bytes": 2401,
+        "sha256": "98635bc7958ad4caa42821ff50bffab5d8f3428a25a6d05534cf4670b9d3cc0f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/diesel-sfw-xxx-2010.md",
+        "bytes": 2609,
+        "sha256": "6ed777b64c487fcf1b69d60bc1c7f0eba159e90ea89cc1736bee55ed94f0715b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/diet-pepsi-truck-1995.md",
+        "bytes": 2038,
+        "sha256": "850fe6a22c2d47b5142ba94590cb47cda8a306e5cee2d1a3991ff5825dec3d96"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dior-homme-un-rendez-vous-2008.md",
+        "bytes": 2278,
+        "sha256": "b20d33ca0145773ed102473a94d91bac5900dca677d585f56b917e866592cf56"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/directv-get-rid-of-cable-2014.md",
+        "bytes": 2632,
+        "sha256": "2c0096b31a76fee5fac64d4a99a1e4923e5ea0e4643f047736d3bae982baf9bb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dollar-shave-club-our-blades-are-fing-great-2012.md",
+        "bytes": 2543,
+        "sha256": "37acc9603b501bb7a3c13dafa1898330ff1d8d8c0f32479c940b0110bc28be2e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/donate-life-worlds-biggest-asshole-2016.md",
+        "bytes": 2185,
+        "sha256": "515bf226799d97e12ae9a9df17075156ddbfe81f790d9f9bf74a0a2a98151050"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/doordash-all-the-ads-2024.md",
+        "bytes": 2499,
+        "sha256": "5bf5a42dfd744beffa401e97eab2f9e2631ae7afdf37aecd25b0fadc64962819"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/doritos-spicy-but-not-too-spicy-2024.md",
+        "bytes": 2163,
+        "sha256": "3c288f7077c7105b451b9d2f590b25ee1308e90ef9b68bffe28a89b791cc9845"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dos-equis-most-interesting-man-2006.md",
+        "bytes": 2847,
+        "sha256": "351645a065fa34c86d6373df843ea650a603ff5174bacc9de08d2f72d8c812d9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dove-evolution-2006.md",
+        "bytes": 2675,
+        "sha256": "88b2c8dc63cdb0f1c48263592c4b89e31a8c5045c9804d50b42530639e11e2a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dove-little-girls-2007.md",
+        "bytes": 2510,
+        "sha256": "9908dcfaf32ee7c67e9c22024f66dcb046bb31c349e0e5645e54ca6e31ff0bad"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dove-real-beauty-sketches-2013.md",
+        "bytes": 2874,
+        "sha256": "51ed81cc44a536a694a49ee4f54d70319c5aa370751f76a27b1df0995c204b45"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/dramamine-the-last-barf-bag-2023.md",
+        "bytes": 2258,
+        "sha256": "361a5df1950d60b16047c36c69534214dbd71467d75cf7bb86e3196cbd543b69"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/droga5-after-hours-athlete-2014.md",
+        "bytes": 2070,
+        "sha256": "f069e8609344950cc6281edbd64ffa51a2c1127e92b54ea3db0eac4d70da60e5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ecko-still-free-2006.md",
+        "bytes": 2172,
+        "sha256": "ff28d0d553d5de47ed3aa2f5d4eb68182da2a1d8a56ecdeb1943e1399882cc91"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/eds-cat-herders-2000.md",
+        "bytes": 2919,
+        "sha256": "50c1abf1a69e54c68f2b3a93359bdecf59434fe74325af32203c0a786a8d521e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/emerald-nuts-yes-good-2006.md",
+        "bytes": 2021,
+        "sha256": "362ce3ee86b17e2ffd0c61c23c2f903fc5550ea0eaa9ae1accfe675e56860eb4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/epuron-mr-w-2006.md",
+        "bytes": 2683,
+        "sha256": "f1c277a04dfc84911e8d162ce54cdf8794815500e441310d46e14e6fd06aa254"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/espn-born-into-it-2012.md",
+        "bytes": 2246,
+        "sha256": "19294d6412f1c0fe139c7c0f24c29bae6d423e163fb92e626460c3e68e5e3331"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/espn-its-not-crazy-its-sports-2002.md",
+        "bytes": 2487,
+        "sha256": "418f220ad5a46fab78aa80a116f70f0c1d712b628f26a805ef78ea151eaf1e56"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/espn-sportscenter-best-of-list-1995.md",
+        "bytes": 2247,
+        "sha256": "eb8bc15334642b1a69aba67ffd43e5f1fe07ef0c5cb9f58221db719ca02be0a9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/espn-the-name-2012.md",
+        "bytes": 1605,
+        "sha256": "8910cd531fc3951bbb3ff758e1c190699909879a70880e642cab27a003c18095"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/espn-this-is-sportscenter-1995.md",
+        "bytes": 2509,
+        "sha256": "a31330277984163d668533990f7186af09c138015a4f8d16e74770a9d7689ff7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/essity-bloodnormal-2017.md",
+        "bytes": 2390,
+        "sha256": "f6a9fb371bf5399b27699e34a4542704721592237e76ef503aad3140fd537f91"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/essity-periodsomnia-2022.md",
+        "bytes": 2506,
+        "sha256": "ef90d07bba456b55c93a3846ab2f4564c472a46adad16e15c2a06f0cd39547d3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/essity-viva-la-vulva-2018.md",
+        "bytes": 2470,
+        "sha256": "e2eb88f5e197441f9846ba740847824acf747b338ccb8f752a862b9500fe27e2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/essity-womb-stories-2020.md",
+        "bytes": 2695,
+        "sha256": "074a5fc6b6d44a92e91c20965d8cab47f59f48c5d5c93592f380a2d74ac6310d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/etrade-wasted-2008.md",
+        "bytes": 2270,
+        "sha256": "dad4e4a6e43f56fb8bc8be2210904ff5b6bfa35a971e3433b50f83e75d362aa6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/evian-baby-and-me-2013.md",
+        "bytes": 2542,
+        "sha256": "cb1edc264b099ca132d06002f0e840872df86501d8de45fd0a2b33d3496c1c8f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/evian-baby-inside-2011.md",
+        "bytes": 2300,
+        "sha256": "6bf879906d0d52b70cca37777003a77c5d0dc9427ae37709bb4500b079fdca5d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/evian-roller-babies-2009.md",
+        "bytes": 2664,
+        "sha256": "660ac4f726066006b86ed8f8844be62250c31994e574cf97c8e644610931d3ff"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/expensify-expensify-this-2018.md",
+        "bytes": 2029,
+        "sha256": "6b1d986a397fa9e1db98e52406dbeac9fd3fa8279419b6adb1a304a9776c8de8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/facebook-find-each-other-2021.md",
+        "bytes": 2312,
+        "sha256": "feed5736d1b507a0ea47f44da405b9facdba0c2619e4189c08ceb45f37803fb7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fedex-didnt-ship-with-fedex-2002.md",
+        "bytes": 2388,
+        "sha256": "74f03cf5ef5d487f5364d3410a9970ad341b7b4e26cd7d8fcdaafdb23cce6a0d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fedex-fast-talker-1981.md",
+        "bytes": 2574,
+        "sha256": "5404b3c21ac824ef3aeb29a0a0b0bad0ad0cd0144ea1fa61b65e78aa01f31ea0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fedex-most-dangerous-band-2016.md",
+        "bytes": 2356,
+        "sha256": "25bc3e423d9f0d995ec47320b1d4995ee631ae3c1f7b38d47f51797d58b35ffc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fedex-stolen-idea-2006.md",
+        "bytes": 2242,
+        "sha256": "e75597b9c52101dfa75fc883ba8edce93f1bf4aff296e0b1593b46da9be30fb0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fiat-handbuilt-by-robots-1979.md",
+        "bytes": 2720,
+        "sha256": "b03124999ae876386a27019287287af894a6c1eda70c2003a7da056552ba49a9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/finish-i-love-doing-dishes-2014.md",
+        "bytes": 2220,
+        "sha256": "719c0a9ac1c142915078c6557acea1312ca98a986bfbd871fd600227fe5cc00f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/foot-locker-it-wouldnt-be-weird-if-it-was-sneakers-2012.md",
+        "bytes": 2300,
+        "sha256": "559dcb4f2a0dd7f0df8fcc8e2f5b2238b6c729659b1eb9fbc6293755c4121979"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fox-regional-sports-2003.md",
+        "bytes": 2169,
+        "sha256": "64229be3550cc75e35b3534623f9b87ab3fc8eb6944c2312f86e1f2e1ba12dd5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/fox-sports-beware-of-things-made-in-october-2006.md",
+        "bytes": 2141,
+        "sha256": "b7ff898c7e057115abb1e8b982fc2f7e95e2dade668aec6652dffe453caaf7b2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/furphy-what-the-truck-2023.md",
+        "bytes": 2113,
+        "sha256": "19ee3958e7b8fc5549a0162022e6e2d63d72ce8c9346d188b4e32f5812542de1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/gatorade-23-vs-39-2009.md",
+        "bytes": 2419,
+        "sha256": "cc1ed34f58d4a65dac3d7831e686dd552cc3a906a232d38f64f0d10f162d0122"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/gatorade-be-like-mike-1991.md",
+        "bytes": 2741,
+        "sha256": "dc3511d00f65f203115e1a9f4c569bfe85538cfbcc7e942060a102533a977bab"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/gatorade-replay-2009.md",
+        "bytes": 2580,
+        "sha256": "04f2ec1d300d1989e450bcd90898a349332dabf7f46f91d91827b6f06a9bb410"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-bell-2016.md",
+        "bytes": 2201,
+        "sha256": "8218aa7849960c544aa7ee630541b9d6ad27ca2a66e418350acdb600a97a3ad7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-childlike-imagination-2014.md",
+        "bytes": 2344,
+        "sha256": "b1c87562a8fbfa9338c9492c66c99c10fd5a42cead1f8da14e9c97a719025aa5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-freak-chain-2016.md",
+        "bytes": 2291,
+        "sha256": "18a37049d769ef15d54fedc99ce239410f574a28c03c76291451dd71ed497666"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-lightning-2016.md",
+        "bytes": 2309,
+        "sha256": "173551cd11ef72f8c1d9e85d26aff5510420e4d8e3718c75605390004c00fa52"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-snowball-2016.md",
+        "bytes": 2270,
+        "sha256": "dda06f0c7e566f82f3292b20e0371c7a5689e6342364c344e675e032e92d3264"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-the-message-2015.md",
+        "bytes": 2160,
+        "sha256": "b6c2b665b84d8fbb3562b72bf5ffc5ad33e9dcc6f03676589e8e604f5aa1ec9e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-time-upon-a-once-2015.md",
+        "bytes": 2159,
+        "sha256": "789aba8c8c03f8307fd1dc219ae6251596891431d19e8d6583def2b8fb6d7b36"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ge-wall-2016.md",
+        "bytes": 2370,
+        "sha256": "235e55b8c1d68666e1ace1295f4984f840eba9a89e7adc6555a5da8353d614dc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/geico-best-of-campaigns-2020.md",
+        "bytes": 2413,
+        "sha256": "ac2f3ccff357ef0bf2cc73adea15f5be7b769fca3cae09de64ab9a5a1a2af850"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/geico-cavemen-2004.md",
+        "bytes": 2531,
+        "sha256": "b69de3ee546beb08e0a5c82938a3615cfcf56894e13015421eb51adfb148787e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/geico-hump-day-2013.md",
+        "bytes": 2330,
+        "sha256": "ac3f52ab545a7ae6dff72550cca0d2a69bb61e9a22784fae755de9c9cf09b11a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/geico-kash-2012.md",
+        "bytes": 2275,
+        "sha256": "b1f3f740d2944138795115a34e427738097757fe8eb78250e57c9f805486602d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/geico-unskippable-2015.md",
+        "bytes": 2040,
+        "sha256": "7eb4d48399e2f69ece851aa401a9bf9f1d31571e68da1b9b152daa943e399553"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/getty-images-endless-possibilities-2018.md",
+        "bytes": 2429,
+        "sha256": "bc1ccd209b2bd7f0d993c4a03e4dc568f8643bb6a607ab653f0acde62277465b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/getty-images-endless-stories-2019.md",
+        "bytes": 2131,
+        "sha256": "d627e9e9c975ea011a4adf4453429eeb14abd10351e41c7b99b274ca5efd7043"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/godaddy-stick-it-2013.md",
+        "bytes": 2082,
+        "sha256": "ca469cada561e00f80eb4855fd564085312957bb0cb4fc1bb397258364e08c15"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/google-chrome-speed-tests-2010.md",
+        "bytes": 2570,
+        "sha256": "9b7c1b9c7baba98bb5761fd52ed440e82aae2b62a0a83ab4846092acf9bbfeee"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/google-dear-sophie-2011.md",
+        "bytes": 2585,
+        "sha256": "5da7a73147fb2b158f44a1aa3072a54f9eae06743cc51a162555cfab1c942246"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/google-parisian-love-2010.md",
+        "bytes": 2694,
+        "sha256": "df2ae6be286c5eada1d2ff03a873fe028cb79d85b206859572d5c30fc269abec"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/google-pixel-ask-more-2019.md",
+        "bytes": 2118,
+        "sha256": "cc334975538fc31338aaa66983a8e4e5dffe8100781f160b542a4390a9b93c18"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/google-pixel-life-by-you-2022.md",
+        "bytes": 2198,
+        "sha256": "7492a6a44884b169ae1da9004f11c8424064d71fa26c4aa61b062949d4cec8cd"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/got-milk-alexander-hamilton-1993.md",
+        "bytes": 2889,
+        "sha256": "b3449704d00d66cbf1bba0c81060d116b2a1dddcfc76c3dabbaa3f8b4ce1d090"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/got-milk-heaven-or-hell-1994.md",
+        "bytes": 2529,
+        "sha256": "d2c9633075256f8d386a60a60fdd7f3353a1151573683196138bea85b8c09718"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-made-of-black-2015.md",
+        "bytes": 2159,
+        "sha256": "33fcc2d9dc1a9bfc88c86b1462ee8cf26a38cef73e78b50f39a5536920ffb051"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-noitulove-2003.md",
+        "bytes": 2234,
+        "sha256": "acb2ddd003c734775873ab4a45901dcd0f0dfcf7cf8e1957d4c5dc69ac8def19"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-sapeurs-2014.md",
+        "bytes": 2272,
+        "sha256": "c734d0639261a488ab1a87f31d8d00384c1c0d8f1f0fa29a13fc42794ae71d50"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-surfer-1999.md",
+        "bytes": 2599,
+        "sha256": "0b8d2bbc6211274e0fb3095e17530a009d2b067da823da9e81434c7b16eba2cc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-swimmer-2000.md",
+        "bytes": 2117,
+        "sha256": "78a454d8af048471920f849224de54834507b7c6c9350e43e42c6ef73f42b3c9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-tipping-point-2007.md",
+        "bytes": 2407,
+        "sha256": "172d827580cb4f73f34fbb516bc2ceee130a8634c960d00d6f0c7e493c24f4fb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/guinness-wheelchair-basketball-1999.md",
+        "bytes": 2308,
+        "sha256": "910d3f1d3a46a99d8bbc8b02c95f724aed65311b5bce47cdb37cea359e3259a5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hamlet-cigars-photobooth-1985.md",
+        "bytes": 2667,
+        "sha256": "8c55ddee01daf163049c1f12e21dcd8f1cb3b6a7589015906a3f45b230f66d1a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harley-davidson-peanuts-1998.md",
+        "bytes": 2333,
+        "sha256": "7c48e9dc23c4e211bf28a2a292952283ee39e4e0a5898b603414d9391ca6792d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harvey-nichols-chickens-2010.md",
+        "bytes": 2104,
+        "sha256": "698e78b06073748c17b44d3d5aa8b6fb34fbd4ee8ec775dc9080cfd2986ec428"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harvey-nichols-mannequins-2011.md",
+        "bytes": 2030,
+        "sha256": "145b6ec432a11d4b5d313b324f55318cc54df9a7172e246b0038c480d5e43f95"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harvey-nichols-shoplifters-2013.md",
+        "bytes": 2071,
+        "sha256": "c1a32aa5d08c1c6c7339c98f68a7391da7ba92efb6278cff8bf2280af580eac8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harvey-nichols-sorry-i-spent-it-on-myself-2012.md",
+        "bytes": 2251,
+        "sha256": "e184f64567ee97f7ba5fe72ac0f055211d4e7cca3d9cad09b33d9e1590dd90f7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/harvey-nichols-try-to-contain-your-excitement-2009.md",
+        "bytes": 2065,
+        "sha256": "e5ad9606f270b2f47d441bb91434c4438c39316d78e5fd99f48065db142008db"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-for-the-throne-2019.md",
+        "bytes": 2440,
+        "sha256": "6f37a610a6e3cdb1a94aafd65f548f438d9ebb59fa45f6b1c4d218a228033713"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-go-acceptance-2014.md",
+        "bytes": 2092,
+        "sha256": "740f8468e048591e6c33687da035657bf7abd8630ea44b883fdf6b583163d4d9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-go-appreciation-2014.md",
+        "bytes": 2157,
+        "sha256": "6445f849bdd0bda5bb0c33edc002d3b88675b91ebb5782ea551f0139582eda53"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-go-awkward-family-viewing-2014.md",
+        "bytes": 2029,
+        "sha256": "af92bdd687746e21cf03f5d0a65e835127cd6d75d2b5a28075ea36ac060a97ee"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-go-cousins-2014.md",
+        "bytes": 1994,
+        "sha256": "1fdc02e521bbf98148c8a1a4da52cbfad6cd6b9b0a01ccecddff9a6c1c4358a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-go-faithful-2014.md",
+        "bytes": 2165,
+        "sha256": "9308edb1ea328948c748913ed6e78447d70e3b392d80cb33a17dc9b7f2ac3d5d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hbo-voyeur-2007.md",
+        "bytes": 2300,
+        "sha256": "7a1b9f6b2b671fa039cecf0906c4854a245378d35dabb7f20774302483977cbe"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/heineken-departure-roulette-2013.md",
+        "bytes": 2458,
+        "sha256": "072f0e7ed107371529c9d2008f48c0931ff2b9f2b2b96a760d39109faac904d0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/heineken-legendary-posters-2014.md",
+        "bytes": 2208,
+        "sha256": "7dea1834598d46314ce6970dce79025d412615cf0a74849c81f8fd9089c2b04c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/heineken-pub-museums-2022.md",
+        "bytes": 1944,
+        "sha256": "41f1f3cf60b679c7694c3265edd54a644f18e28d5b3fc5d6df2940a0ba91a2b8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/heineken-pub-succession-2023.md",
+        "bytes": 2003,
+        "sha256": "f93cd82f40fd630155d175e6c602b3e194d8909eaacf7613173e6ce0b5615238"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/heinz-ketchup-fraud-2023.md",
+        "bytes": 2000,
+        "sha256": "cd05db1fe5e8d8afacac61b4f7eb46e3f6f7fd8a91fb12f5266fa414035a07cf"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hennessy-major-2016.md",
+        "bytes": 2205,
+        "sha256": "9aa02ef2a0acf2edeeb836473cc304757ac9ee1ba97e8e88194255860bf9eff9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hillary-clinton-role-models-2016.md",
+        "bytes": 2221,
+        "sha256": "a305c0a278290402cc50780ad846c6a03615df032f1a0ebaef922d55c5263baa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hm-close-the-loop-2014.md",
+        "bytes": 2005,
+        "sha256": "8b4a8f68aeea99cc3259beef2aa42528696bdc9a5ce2f87c0e6c6319967b69cc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/hm-come-together-2016.md",
+        "bytes": 2119,
+        "sha256": "a6fa6b6bc5ed7ae94ca562156b558b750f07f0e06d9ccf3900eefe8fec73b623"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honda-grr-2004.md",
+        "bytes": 2473,
+        "sha256": "911c8cace46a21ab7aa880ddd376747b5b052598d702483b6d96fb8e8b85c9f5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honda-hands-2014.md",
+        "bytes": 2412,
+        "sha256": "8acb08fd0c3887ed2d11cc72b6e92cd51765f728be36cb63ba76dc34731d0286"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honda-impossible-dream-2005.md",
+        "bytes": 2428,
+        "sha256": "9d9b34462014c3a7af6fe25e34306dae3465c9aafaab6de505690ae73f553a51"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honda-the-cog-2003.md",
+        "bytes": 2734,
+        "sha256": "2168c42a6a3bac8f64893257cb3d8e4ff84f0e0e3c81016dbaa98fd20dd5dbcd"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honda-type-r-the-other-side-2015.md",
+        "bytes": 2500,
+        "sha256": "b4a05fdca782812951f933ce9b11ad9daebd31cdb1f1a0890af5b0e99ee196b3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/honey-maid-this-is-wholesome-2014.md",
+        "bytes": 2349,
+        "sha256": "9539aa887fc14623840b7bc293b568b2355a55e8b66d620cd0af1b27f8cbdd09"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/house-of-lapland-salla-2032-2021.md",
+        "bytes": 2542,
+        "sha256": "ffbdcd03df7a936593d08c0cef57482382372aeb4a98fb2076d315e154a85434"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/husqvarna-happy-birthday-from-earth-2023.md",
+        "bytes": 2224,
+        "sha256": "584478f46018d251992baf0949359cef1cdf6efc59228b3997f92be7b69d07ae"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ibm-boy-and-his-atom-2013.md",
+        "bytes": 2167,
+        "sha256": "f73f68821cae7af6c939db6b1e20f406bcab4b6f65994604d6ace1b22ee5e688"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ibm-smarter-cities-2013.md",
+        "bytes": 2248,
+        "sha256": "f371abaf79c12930880a01b23fbf3573eb71fb346ef346f14437fb3b3ce60c82"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ihop-ihob-2018.md",
+        "bytes": 2345,
+        "sha256": "e7ca45d6b442479ac3a84bc2f4918eaf8a3b35e4e7c011aaad334a20131a9d87"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-beds-2018.md",
+        "bytes": 2111,
+        "sha256": "532efbebe0ac24d34f3cfa9d81f8bf88385ef95dbf9f9b14ad7904f1ec80ff6e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-bookbook-2014.md",
+        "bytes": 2128,
+        "sha256": "2e964e11c2afe5e8f9bc6ff5b424528a3e59b747593ce396441408eed050669a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-cook-this-page-2017.md",
+        "bytes": 2210,
+        "sha256": "d525fadd3e67d756f0ff586e1433bfb2e94e67f7b9fa99aec1b222f90c6faf49"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-ghosts-2018.md",
+        "bytes": 2097,
+        "sha256": "d07b1de726ee0fecd9d7ac9f5f0255784644643b62350f9378f340abb9dadafb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-irresistible-pointless-ads-2018.md",
+        "bytes": 2349,
+        "sha256": "d1f03f627d452e415dac4b455b22e805c29a9669a622b795068bfb0a4f1df0be"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-lamp-2002.md",
+        "bytes": 2602,
+        "sha256": "518c3289705f9867d1dc92d8de7c0b76a6d49e9db4dadd21b778b9238af97f06"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-playin-with-my-friends-2013.md",
+        "bytes": 2423,
+        "sha256": "99b543ab76b1c7574b4364098a931cd03ae69b6fbe24a0321bb0a256ce59d98a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ikea-t-shirts-2018.md",
+        "bytes": 2067,
+        "sha256": "3a2a874d8ffc0645deeea640a92d9a193e3f26ee77110d9ecf6d787884d02644"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ing-next-rembrandt-2016.md",
+        "bytes": 2211,
+        "sha256": "31984b527b75262234e47d8741f868fa3a8fb6f4e8b76bd3c7066f58f31a72a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/intel-the-beauty-inside-2012.md",
+        "bytes": 2887,
+        "sha256": "3f4b9db9316cfaafffe50d8fcc1d68aa095382fff7ecf8c693d936f70cb0af6b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/intermarche-inglorious-produce-2014.md",
+        "bytes": 2571,
+        "sha256": "c0be868bbf9192301d951ca8caa8ef0fbfb2e5e2565f40c54d8f7af2d9f3a1ee"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jack-in-the-box-jacks-back-1994.md",
+        "bytes": 3079,
+        "sha256": "2ef66a4b0268a87e3eef0d8b3d3970c5e5c058e9b7d61803a19e27ee36cf9b10"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jcdecaux-meet-marina-prieto-2024.md",
+        "bytes": 2224,
+        "sha256": "f9576449e296f7748914924357a2a5c67bdb86f55a6cdb14961fc276ea3431b1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jcer-great-schlep-2008.md",
+        "bytes": 2281,
+        "sha256": "3b4a2cced02c28bc1a707ea56b308fc2c8a75edb09032f676859f3bb9836cd8d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jeep-snow-covered-2020.md",
+        "bytes": 2096,
+        "sha256": "8375b1dec17f8b46c38abf7422009daefc7fa8f45511249ec29b0e7ab0e7edfa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jim-beam-parallels-2011.md",
+        "bytes": 2052,
+        "sha256": "ed1bd17cb894bbf7d58cf063c1088ec2349959585364c81f000e17a174460d22"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-buster-the-boxer-2016.md",
+        "bytes": 2146,
+        "sha256": "037d20e90639fb45bf2c3bcd2bf02d5d56df342754619d1e4d65c88f956d1e42"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-compilation-2007.md",
+        "bytes": 2229,
+        "sha256": "add78576b171be85af7b4cee636db4dc85a07c39842e7001c94247c932813e81"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-man-on-the-moon-2015.md",
+        "bytes": 2238,
+        "sha256": "b06d8cddb3ce8034bda9ac2cef64398c83499a20c8ce58842293d4ab97281e8d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-monty-the-penguin-2014.md",
+        "bytes": 2131,
+        "sha256": "556a240f11f6f059d5f3e1e9a0c0d13f83ae3eb07a4642a9173b8c202d707ea7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-partners-bohemian-rhapsody-2017.md",
+        "bytes": 2186,
+        "sha256": "89a75e18a160d4751a2fd8aa79fb35687848e0ca2c0308e025644ba15cb040e1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-the-beginner-2022.md",
+        "bytes": 2092,
+        "sha256": "03f63d58fa8bab18d47511127c48b859584cbffb4bf87b3e0824ccad590105ad"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-the-boy-and-the-piano-2018.md",
+        "bytes": 2115,
+        "sha256": "188c1498f0435925f32667078a5b2c8de789a596720b331b4b09875d220f3c19"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-the-long-wait-2011.md",
+        "bytes": 2123,
+        "sha256": "ffca16da6766bbf1a5627a4c567ee9edc306c1efca56f2700089ce652bcfbe44"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-lewis-tiny-dancer-2023.md",
+        "bytes": 2152,
+        "sha256": "997c0383e0ff3c559333bd6a691edb2197aed82e7ce10ff49edb9bba6f265144"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/john-west-salmon-bear-fight-2000.md",
+        "bytes": 2428,
+        "sha256": "f5080b9608f39572dc88f42447e6051d8516ea603a002f8bf88fe05a37ec0d3e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnnie-walker-gentlemans-wager-2014.md",
+        "bytes": 2203,
+        "sha256": "b1847e88bc69485084bb027cefb457a49d3b2c41b2ed92f87883909b81b34c28"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnnie-walker-hawk-of-achill-2013.md",
+        "bytes": 2257,
+        "sha256": "b3e658e00380f5a5297dbf04ea58e1effe8e7a435ff3e14b7e2fc9a899c6a22a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnnie-walker-iron-horse-2013.md",
+        "bytes": 2031,
+        "sha256": "e0d4f1a0d69f0dcbb70b349226816916eea69ee04636056cf1beb82413012113"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnnie-walker-lost-barrel-2013.md",
+        "bytes": 2072,
+        "sha256": "6a2c76e2ab9dfe0c887bc9b2cb1bc1ff9d6ecbc355ef59e6090017dcfa8f2efe"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnnie-walker-man-who-walked-around-world-2009.md",
+        "bytes": 2637,
+        "sha256": "b23313a964537c3e2859129c76324922d2ad0eee75925aab7dfd2da8547338a2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/johnsonville-made-the-johnsonville-way-2017.md",
+        "bytes": 2555,
+        "sha256": "cc0e7400ed9df7ee2ddd4ac850f92ba728f4fcd1b81ce782a0024e906583f7a4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/jordan-re2pect-2014.md",
+        "bytes": 2416,
+        "sha256": "c6631e2e46f5e15e02e84385bd2a85b3ea7b2b82941a578c0c8f49176a4d6ed1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/k-swiss-the-mfceo-2012.md",
+        "bytes": 2693,
+        "sha256": "56796563c80157a3afa5e802421bfb7e23b50017f72fd317509aa26d35df5631"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kayak-5-man-job-2020.md",
+        "bytes": 2112,
+        "sha256": "b19788c69859885352e070847a2ff4be46db575397fb70bf7736b015f24750e5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kenzo-world-2016.md",
+        "bytes": 2196,
+        "sha256": "e3a4641c3f240adcd499bd94f33ac5c52967681edf185b7ee839b24b954286e2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kfc-11-herbs-and-spices-2017.md",
+        "bytes": 2583,
+        "sha256": "e7edeeafc30ef8d306a490da0ff757443aa20f8dab09078da842075a049157c8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kfc-fck-2018.md",
+        "bytes": 2715,
+        "sha256": "34a56e5e73dc3a37beb34fa354b524e94072a7816f04a69310c3e2e273833f57"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kfc-return-of-the-colonel-2015.md",
+        "bytes": 2455,
+        "sha256": "b61ce483b1f528389a6d5776c693d703055141b5c34833dec163040ed1633ef3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kiwi-portraits-completed-2018.md",
+        "bytes": 2135,
+        "sha256": "aff8990c2af9e1740f1b5c18413afff9a0e5bce6ab5eaf452e9e0a22301e4d18"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/konzerthaus-dortmund-concert-milk-2015.md",
+        "bytes": 2109,
+        "sha256": "3012b7e211b2724ccdfe946cf77a823cd614790c0cb56b837707826e6b66e243"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/kpn-evert-45-2016.md",
+        "bytes": 2267,
+        "sha256": "54ade28cfa423a571d4556502c421355c5f01de42e7eaeabc70c2c9b2810fa16"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/krylon-pinterest-yard-sale-2013.md",
+        "bytes": 2112,
+        "sha256": "673943cf30b40760751652b2cf161c42f7aeb3aba84714d1e89bb5347baabba8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lacoste-save-our-species-2018.md",
+        "bytes": 2366,
+        "sha256": "f4014b12b644d985e11dd1cccc4015918b35f0b4c2534a96e8ad973df9065a09"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lacoste-the-big-leap-2021.md",
+        "bytes": 2064,
+        "sha256": "4064dcecdc294247df9056d1785b6176263ec26722279c1aa81962d5fcbd6ac7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lacoste-timeless-2017.md",
+        "bytes": 2077,
+        "sha256": "b3571a80e3bd3d361267d720777eae160e4e7e1dd88e013982b104fa14d17d16"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lacoste-unexpected-encounters-2023.md",
+        "bytes": 2196,
+        "sha256": "7721f48a78c71c4b23a9c36ade96f20924603df1c990ef7b37e381cff2f59d59"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ladbible-the-trash-isles-2017.md",
+        "bytes": 2534,
+        "sha256": "bc71f7404b8248e101b4af1189d703e0d13783627e48671872a7c8210ca80667"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/leica-100-2014.md",
+        "bytes": 2004,
+        "sha256": "37eef3b4dd66a9f620106edc6dbfc0eb4c121d9a97e4176782fe3dbde7a8438f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/leroy-merlin-lifes-adventure-2018.md",
+        "bytes": 2046,
+        "sha256": "9f1657453460169defb99c1303e076923df1b2927bbb56b98e80b057facd9dc9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levi-strauss-faces-2013.md",
+        "bytes": 1824,
+        "sha256": "213169768042c29458b476cd9fd88aa455e22717a8d32c1a403445917d919c47"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levi-strauss-sweat-it-out-2018.md",
+        "bytes": 1878,
+        "sha256": "54fbcc6c337769f5784233ec760135fcdbe63ad7f6cdcd71acb48c0027a02fed"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levi-strauss-symphony-2014.md",
+        "bytes": 1852,
+        "sha256": "7e8f19084443e7cdf2bacbfe2cf52b270c997096f5b1952a1ceb03d59cb9bf12"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levi-strauss-youre-alive-2015.md",
+        "bytes": 1933,
+        "sha256": "dac930fd9d5e6c22227f9ed1460e90c16d41b34b57985afc2daeaceda5d2a806"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-blind-man-1994.md",
+        "bytes": 2298,
+        "sha256": "87c24ed8d5a30984e94466b7b86c5265159a87eedf4e39f4ee8253ebfdb77f11"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-crazy-legs-2014.md",
+        "bytes": 1894,
+        "sha256": "ddcce0f23e74ad19b21895a53ffb192621984f849b8e27f931491e801aea6a87"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-creek-1994.md",
+        "bytes": 2203,
+        "sha256": "31f10b5854d6fbaeb7264bbb6a25dd6cd1745e478f5c2f8511068bcdf9461eb6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-dangerous-liaison-2011.md",
+        "bytes": 1964,
+        "sha256": "3a42a88115669c0416d636b55f04ac2b5860b33c6e0d02bd25565763556f557b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-drugstore-1994.md",
+        "bytes": 2369,
+        "sha256": "d7096d2b5d45654575f64be42085ba227bdb6380a9592341c574789135777c2c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-flat-eric-1999.md",
+        "bytes": 2264,
+        "sha256": "58861c38361d470a2dad41847bf8fdc9ae98a9a50a78e0ccb42b2a75ec7c7938"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-go-forth-2009.md",
+        "bytes": 2414,
+        "sha256": "6a0271c14ef67611ebfccb43e2d3228b6d9320fe01c9e3189dfb6776df3ce819"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-keep-the-world-flawed-2017.md",
+        "bytes": 1970,
+        "sha256": "77bdcffcee5985d432d214c9d761709bab76784005f31ff88d9898401ea1d4c9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-laundrette-1985.md",
+        "bytes": 2568,
+        "sha256": "032af32559f36bba34d59a66f95fc1517dd263523861c9c80144021a10f4f339"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/levis-odyssey-2016.md",
+        "bytes": 1975,
+        "sha256": "1e761166043edfbccc50c8cbe4f6c6f0afc7d5959b22ae4dc9ba6826f97f277a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/liberation-refugee-edition-2015.md",
+        "bytes": 2153,
+        "sha256": "72bcc74ee4fd831376dbec85a02d469557e7cc3da324211017cb017667d2315a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lidl-dill-2022.md",
+        "bytes": 2350,
+        "sha256": "3bab3209d0ad9e13fda63f722a177341208c1b2805e692b947117d62fe0ccbdd"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/little-caesars-big-dreams-2018.md",
+        "bytes": 2025,
+        "sha256": "fbb0c913ff0cbbdca366c3430d512d2465fc3734c614ccd7dc271aaa557cab56"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/little-caesars-hold-music-2019.md",
+        "bytes": 2198,
+        "sha256": "417903004b34747a2a81cd61f375062295b605ef42eada56abf717a353b1f9b0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/little-caesars-log-in-2019.md",
+        "bytes": 2129,
+        "sha256": "e89481b59f60a5dc5f46c6923f641218a5752a37062f68a3ffa039ab5041e61c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lockheed-martin-field-trip-to-mars-2016.md",
+        "bytes": 2665,
+        "sha256": "e50b85095d307802c30c4a3c82df97069d2a366c0ecc6d1d30bd3cd67b029e2b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/logitech-ivan-cobenk-2011.md",
+        "bytes": 2143,
+        "sha256": "3cdb40c87a677c2090a6805acb96d28e7efe59c74fa37f989d5d70c7393a495f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/louis-xiii-100-years-2015.md",
+        "bytes": 2050,
+        "sha256": "be679cdbd230c6dcc28073f04b1d2f2b1f3aea0186d653e5c979f4e2e6d3c203"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lowes-fix-in-six-2013.md",
+        "bytes": 2101,
+        "sha256": "54b185f468a29ce52c80f36dbb279259dd4c3d01c871c6b5d985f9feb04a181e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/lunchables-lunchabuilds-2022.md",
+        "bytes": 1978,
+        "sha256": "7c235bdeed5cd25f1ef6f8c24cb7babf2ee6b955fa1c38078807f94ae8365d5c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/macma-man-boobs-2015.md",
+        "bytes": 2323,
+        "sha256": "e495f6f30e6007352ceac851086864a3fb31b6610da11a1ab2e938dc04851348"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/magnum-find-your-summer-2024.md",
+        "bytes": 2171,
+        "sha256": "a2f6c3b40175a004becc54e70706983f23ce34ae2e780edf36488611a99d214e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mailchimp-did-you-mean-mailchimp-2017.md",
+        "bytes": 2552,
+        "sha256": "082f4e070a33ba2a1bc2881e9cf3addf2f16851ba5d42e94a895ac9d95f12632"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/marmite-gene-project-2018.md",
+        "bytes": 2197,
+        "sha256": "e94c81599d04001d949be9b808ef72020dad541fbbbb9e3acb66bdd4ebf9402b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/marmite-lovers-dont-spread-hate-2020.md",
+        "bytes": 2261,
+        "sha256": "cea07957722d9edd2c2384a8956070eff29370fd525f7962da1a4c4fc04f1742"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/marmite-neglect-2013.md",
+        "bytes": 2147,
+        "sha256": "c60fe07a0d5bfa0c96f8fd37a108476550395e1b9a762916da642e0bdfe7bcac"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/matilda-bay-rejected-ales-2022.md",
+        "bytes": 2073,
+        "sha256": "e30798ae393ad592f95bc06831437950f86f2293e14c2376fbf14ef1d2b760f6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mcdonalds-follow-the-arches-2018.md",
+        "bytes": 2114,
+        "sha256": "5d987d74b2e1524870f1c9082f36844c1ff4163b764c817012f053b31e14fe76"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mcdonalds-follow-the-arches-year-1-2019.md",
+        "bytes": 1919,
+        "sha256": "a8e8204c9a7e72ef12248234be6bff3d5beea22b89528253dc32cdc1f4b372fe"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mcdonalds-follow-the-arches-year-2-2020.md",
+        "bytes": 1935,
+        "sha256": "11054d7dd796a7cea9b1840cc5d5c14a694d49a154e02f0185bc74e809267ff4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mcdonalds-the-showdown-1993.md",
+        "bytes": 2761,
+        "sha256": "0898a24634f3955dcc03e2023cbc20f973cf517fd99f3f291a66efceec1c2dfa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mcdonalds-trumpets-2003.md",
+        "bytes": 2097,
+        "sha256": "1797b1f7819f511a3e6c4f9e722ad863c46cc53991e8b0ebc9f2e907de46c449"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mercedes-benz-chicken-2013.md",
+        "bytes": 2371,
+        "sha256": "eb9f49f578e20c186866639f4cc0458af331a2edd9efb8325f1a4ce8e80d10d7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/meta-project-tokyo-2021.md",
+        "bytes": 2199,
+        "sha256": "1b9ad3aea232467a9666a47bea69ec25b2c66a3f1b55e94c29f57313c248a5de"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/metlife-broadway-poem-2002.md",
+        "bytes": 1982,
+        "sha256": "bf3c962efc4ada3b913fdd9d9ccdb6349c2e2d768276aa6384431f368b38a485"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/metlife-post-9-11-broadway-tribute-2001.md",
+        "bytes": 2076,
+        "sha256": "6a417c29cb0733568ccfc1d32f8aac5f2798aefb61384fc5dce529797162169e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/metro-trains-dumb-ways-to-die-2012.md",
+        "bytes": 2698,
+        "sha256": "84922dce6345914953bdadbcf87efe68bde8165391e1c1234348d5269c731827"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/michelob-ultra-dreamcaster-2024.md",
+        "bytes": 2274,
+        "sha256": "c8717f2c4e20b4e282ba413dccd8c3becff97b3390453ff18304bcfe6f0889e5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/michelob-ultra-mcenroe-vs-mcenroe-2023.md",
+        "bytes": 2343,
+        "sha256": "7c4e4c0780711ae1b6b384313584c63828e0dd72cbcc8603d6723f9d99358190"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-5-oclock-shadow-2000.md",
+        "bytes": 2218,
+        "sha256": "ea602947fc9e1c708b164dcb9d39e82653da705d4f0dc51a88b1cbfa4b755917"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-duct-tape-2000.md",
+        "bytes": 2267,
+        "sha256": "d7a0395997cf5d517499004604b6d61018b77e459faf6309fad7551b4d73d0b9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-errol-morris-series-2000.md",
+        "bytes": 2425,
+        "sha256": "6068db091af1d8694d9e906de4e1a813c653dac9dc98b1e73c7fbe0d173f4169"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-hot-dog-2000.md",
+        "bytes": 2256,
+        "sha256": "6745a82b66f233308ab8827c770c51d700dabf6827f920c9a1abab69837f3f1b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-mayo-2000.md",
+        "bytes": 2212,
+        "sha256": "437ca61f0b0167b352bf4c2eb690d08854e863089395564cab4355e2f65dbe07"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/miller-genuine-draft-noah-2000.md",
+        "bytes": 2285,
+        "sha256": "7a9bb64ef94fc55f1e72cb458f678dfa54b295ce43a4a48458bd2faa8809e264"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mini-lets-motor-2002.md",
+        "bytes": 2620,
+        "sha256": "97e35e2ea70943b5b32955de2919c7d74c8002bc33e74848e4dac4a4c2579005"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/momondo-the-dna-journey-2016.md",
+        "bytes": 2241,
+        "sha256": "ecbb297e980a91a3964130593ed91cb23cb53824a65bbde0297f890f75966ed0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/monster-moose-1999.md",
+        "bytes": 2186,
+        "sha256": "72233d93d1bf9b655d5d94bd72129dab449e1a9a74d83f1112add5282cf0d709"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/monster-when-i-grow-up-1999.md",
+        "bytes": 2737,
+        "sha256": "0386eab20863b4b7f17b054b393888c143f55f433c159d3a2bc2db60407f3857"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/montefiore-corazon-give-your-heart-2018.md",
+        "bytes": 2020,
+        "sha256": "ddc043c7378c681c7a232dfcba7b2b37f73d5b79bd5f1ae30de6ac9b086b4c24"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mountain-dew-puppy-monkey-baby-2016.md",
+        "bytes": 2252,
+        "sha256": "f41d9ee0659a7805739a60d375bb7879a8159c126701b156b6fea568b5619f37"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/mtv-jukka-brothers-2005.md",
+        "bytes": 2031,
+        "sha256": "26f09c3efc94bec069c8abcdab0e96f859615d0c693f3416be3b3023faadffd4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/newcastle-if-we-made-it-2014.md",
+        "bytes": 2512,
+        "sha256": "853a0abe93152cc5a62fb769df5dec201c388efa45b7c85d90fbdb3981c1bdd2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/newcastle-no-bollocks-2014.md",
+        "bytes": 2659,
+        "sha256": "495faf900aa12fdef425d94cc98cc4513dde722bb90f199f6a45ae219271712b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-a-little-less-gravity-2012.md",
+        "bytes": 2065,
+        "sha256": "6ac350ec4c1e7a42bd631cc23af5215eafaf517236b72fce54f7db61d15307c7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-badge-of-honor-2017.md",
+        "bytes": 2343,
+        "sha256": "7b4c7cc047fdd40f1e95bfbd45475a77fe76711ff11f85a7ef79ae9feb747e94"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-breaking2-2017.md",
+        "bytes": 2454,
+        "sha256": "b1b06caae128e2e062a0471f707a602e2489b641c98e7c9b1adb5783f3e4d6f2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-chalkbot-2009.md",
+        "bytes": 2856,
+        "sha256": "452db83588f39c78c31b2212e6bfe7aad40bb1af618f9fc8595875d1eceed016"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-come-out-of-nowhere-2016.md",
+        "bytes": 2288,
+        "sha256": "f9e1b2c0031b1f9c9276c195d9f1a19f16f5e59763defb162f5c092e39044000"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-da-da-ding-2016.md",
+        "bytes": 2426,
+        "sha256": "a4cb80f611b6a816791e1d29f2ccb09e0285b86d2b3b96f998da168d176537ad"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-dream-crazier-2019.md",
+        "bytes": 2460,
+        "sha256": "46aadf843ab88a0b51413b2b945527ac095320cbad4430d6be5881b09bb56df6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-dream-crazy-2018.md",
+        "bytes": 2737,
+        "sha256": "f706a04676d7adde0604a7cc80edfa811bfc75e2c445fb1360225a819b78cfab"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-find-your-greatness-london-2012.md",
+        "bytes": 2358,
+        "sha256": "54c3cdbf22b4abb96900cb439a009d41dd7574ae6c9ffe69d00919563051c728"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-freestyle-2001.md",
+        "bytes": 2162,
+        "sha256": "5f2c2f3e9183d2dafe2126a4ae9e18c9683b24167e3e214d8713081d4c4e2a1c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-fuelband-2012.md",
+        "bytes": 2438,
+        "sha256": "99007d0e81e87d2244852c478f1019d0de6774a853a60cb6e54ac1743c39136a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-golf-hacky-sack-2000.md",
+        "bytes": 2700,
+        "sha256": "be9a6c53e2e2d987dabc6c12ed392eefcacf64a9f2adcc0b4c2b9c7cd4cbcb23"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-guerrilla-tennis-2004.md",
+        "bytes": 2061,
+        "sha256": "38abd959d77aa104228a7bafe89a1d5ef58dc01698b785907d8e0c6865b6dd0c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-home-2022.md",
+        "bytes": 2377,
+        "sha256": "386522eff1937798186483f74d9aaecc1506d8d271c46d0dbf1504c06044262c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-if-you-let-me-play-1995.md",
+        "bytes": 2726,
+        "sha256": "7aeec185047a59cf8bc866f2690ed7258c4dbfe3baa4d691ef23cc35aaf32202"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-jordan-1-newton-0-1993.md",
+        "bytes": 2505,
+        "sha256": "76444739d8d5efe24f0f71b5c0dd04282d4ccce0ce1828e100b02a30de62242e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-jordan-mars-blackmon-1988.md",
+        "bytes": 2689,
+        "sha256": "031d1c19dc9e64f56acf19a5570a582f5a4b5807923c824c3cca9def15928b76"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-jordan-maybe-its-my-fault-2009.md",
+        "bytes": 2479,
+        "sha256": "feaa64655b23fc8fc43476e7e602a09745cfc27d53603d4c69f31949bc6b0507"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-just-do-it-1988.md",
+        "bytes": 2867,
+        "sha256": "cfe62d0f6a79d2d3bb2eb831e29423a017ed932ec253164e405656441100b425"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-mexico-juntas-imparables-2018.md",
+        "bytes": 2412,
+        "sha256": "91a96ed304bd0b24d32e35d810ecee532f2e7f602f9100127268025e76953b96"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-nothing-beats-a-londoner-2018.md",
+        "bytes": 2533,
+        "sha256": "6f2368663f2d7a1f81b40dfe1b7819b27caf501afeaba273d9c0defa3bdc5266"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-parklife-2002.md",
+        "bytes": 2475,
+        "sha256": "645bf6c0a4ea4c15b6a0f844b7e4f3527fd0ee98c3586454894b4cb8b8b13533"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-possibilities-2013.md",
+        "bytes": 2133,
+        "sha256": "ddffed97f6706bd58d380b4addb65331e84ce3e16b7c50e93c2be77f0d2982b7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-ripple-2013.md",
+        "bytes": 2036,
+        "sha256": "ab1147f8aa407d2ba07e1c96de51face146fd974e83f33d47a10fc76055d4c2c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-shade-running-2012.md",
+        "bytes": 2016,
+        "sha256": "7b4574eb1adc21961357b2225986de7849e26df050c1274769dda42eb056c869"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-swoosh-vote-2018.md",
+        "bytes": 2253,
+        "sha256": "8860f2ae00c2f160abf845c3244e53fc89e80edd18f3b9f0a39c6b03fb4567f9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-tag-2001.md",
+        "bytes": 2542,
+        "sha256": "e4ebfa7bff1491b8dfe268a1a48c3b4da7d366b6e4c09be8c72d0ef22e48c1d7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-the-cage-2002.md",
+        "bytes": 2122,
+        "sha256": "134cbc35eea7e0597cec453328f97e6a3b5b82633c839c8fd68c8ec85558d1cf"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-the-jogger-2012.md",
+        "bytes": 2276,
+        "sha256": "a0c058e2117d78af04c09c2e9499d0542e259e362bd448028eb03968f525b637"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-the-last-game-2014.md",
+        "bytes": 2256,
+        "sha256": "eabf387eb25f82cc821ce63d1b679529c456afe44fe0af124858af73ecafe12c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-unlimited-future-2016.md",
+        "bytes": 2189,
+        "sha256": "53de0bfe19bb703ba66998833f35c6430b509f31669d8f29c13d67a262aa3ea2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-unlimited-stadium-2016.md",
+        "bytes": 1938,
+        "sha256": "7e9de5c01415647b484d535cff6be5c8b9e9d0adfae6c7879d1de2c05f3dbb64"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-unlimited-you-2016.md",
+        "bytes": 2210,
+        "sha256": "5b8af4ea5048c45ea266ee123382085fad92eea681d0a6751273c6ddc297e90b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-unlimited-youth-2016.md",
+        "bytes": 2261,
+        "sha256": "1c0de1786850f153f37746dd3698cdc8fc17b3f5b15fbb49e65797c7ce4ce419"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-what-are-girls-made-of-2017.md",
+        "bytes": 2317,
+        "sha256": "6433d675b5f0b8453c114b3485fe0ba7ac49eaa3edde0f3867aa8f4f369ae5ef"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-wings-1987.md",
+        "bytes": 2526,
+        "sha256": "7498c20a2d7082a9ed2c2f09d1d6a206d66bbc237cdef4f4572ed0233b2e712c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nike-write-the-future-2010.md",
+        "bytes": 2393,
+        "sha256": "f04b4a32ce76d6347b9fe898bdaea86342220a3eb1c8b7989e55f4e4dface24b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nsc-prescribed-to-death-2018.md",
+        "bytes": 2456,
+        "sha256": "1373ac6b76e75469a385f637b76b995feea9612a1351e869a92707cebd14acc2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ny-public-library-instanovels-2018.md",
+        "bytes": 2656,
+        "sha256": "dcd7c7f19a96a86c91b94f1b4cb3772bfa15fc95c6299e4b26c466ca77a140c1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ny-times-he-said-she-said-2018.md",
+        "bytes": 2151,
+        "sha256": "af6b0f64b8975e4c0021d87e61b2d9e4f12facd5d62c50947475d4793f1d22c5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ny-times-life-needs-truth-2018.md",
+        "bytes": 2199,
+        "sha256": "a9abe426f12d69d9e55b609247166ed2dda8e32a57dab9ad192596be4a0dae7a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ny-times-truth-2017.md",
+        "bytes": 2370,
+        "sha256": "4fb4f252f762c9133aaf4464feb849e2951d47b1fdebc1d9b7a818a2036ae9e3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ny-times-truth-part2-2019.md",
+        "bytes": 2163,
+        "sha256": "0bc3797a38adc217efa9462136f0567e5c6ff100c40e6cb8750776b05b08a0a8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nz-police-breaking-news-2018.md",
+        "bytes": 2204,
+        "sha256": "2662bdd288e0775a0cc4f2cad553850e29eb503409e985dc4c8cf09a56ee12c8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/nz-police-freeze-2017.md",
+        "bytes": 2359,
+        "sha256": "e92dd238d05c79c176ba79f3db697410dc3503e95c1e25026495f51ec1d5b109"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/oatly-smoooth-2018.md",
+        "bytes": 2205,
+        "sha256": "93ea76cb53a4ac1d657d409179205fc93e6b91b56f4e118d067bbb47d5d27e2a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/oatly-where-there-are-cooks-2019.md",
+        "bytes": 2137,
+        "sha256": "db4e9ee2d742f52c5683fc3b99811e67763fd806328490dc68bce3227f28c616"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/old-spice-dad-song-2014.md",
+        "bytes": 2361,
+        "sha256": "76bd0eace4f70872ceea346b25f771a4b4338ed322e8ad41d8152bfdea9e1019"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/old-spice-legendary-man-2015.md",
+        "bytes": 2439,
+        "sha256": "503544a3988f21c89b1954e59a57c961239aae661bdb3a07340ce9a608284cdb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/old-spice-man-your-man-could-smell-like-2010.md",
+        "bytes": 2751,
+        "sha256": "b0cf8f7839939529985d3cb07ed12c9faffd4ebae2d8396e9bbfafabd1324e8e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/old-spice-mom-song-2012.md",
+        "bytes": 2495,
+        "sha256": "3074dbdd28f6ab21a1d357728238114f987733292e2b474e7d620861eaa19881"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/orange-womens-football-2024.md",
+        "bytes": 2184,
+        "sha256": "491313d2f1b2e8fe803c104f8b8140c9ba450800985c6e3192c65d87e558a7a3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/oreo-dunk-in-the-dark-2013.md",
+        "bytes": 2663,
+        "sha256": "29210d073a367050452223bf0563b94c70898cb11dd77a7dcdb95f5d72170f94"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/oreo-oreocodes-2024.md",
+        "bytes": 1812,
+        "sha256": "f9e394aa5632d9c7e0646b8dfa126ca45fe9b6047e774b0f23ee51ef3923a69f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/organ-donation-help-i-want-to-save-a-life-2012.md",
+        "bytes": 2126,
+        "sha256": "772b9a17a13dc9d0508b5d967cff79faa32e7ec8c2c76d28e93635dbdfd56988"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pae-morning-after-island-2023.md",
+        "bytes": 2216,
+        "sha256": "83023cdc047fc4d620d7bbd7623d6ab50b3a70ed53fd3afcadd60dfae44bffd9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/palau-legacy-project-the-palau-pledge-2017.md",
+        "bytes": 2249,
+        "sha256": "c59b465b5e9d2d9f81252426dfce2e4673439b68d23456c7adf904e9bdb380e2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/panda-cheese-never-say-no-to-panda-2010.md",
+        "bytes": 2633,
+        "sha256": "5984de12bc183651f00b852a0388bf63adeb48b1aecdb7cabec37bd72806445e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pedidosya-world-cup-delivery-2022.md",
+        "bytes": 2158,
+        "sha256": "3ef6028920c4c4ab6d5c9a4dc19380b02d88be1aeba5e31251d7fb8972466137"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pedigree-adoptable-2020.md",
+        "bytes": 2264,
+        "sha256": "2d79bf585d50105f9d624d95f193625a06fc75701dd63a75ae8ef15fff7961d7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pedigree-child-replacement-programme-2016.md",
+        "bytes": 2482,
+        "sha256": "60e4914158116b59ee570b39a36ff6b93761a07193d092a5d72fcdf56eb0ca2d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pedigree-k9fm-2012.md",
+        "bytes": 2344,
+        "sha256": "ccf3cd82820c2098c329e069d727fbd85aa7d3afef5dd1a58962b3245330f5df"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/penny-price-packs-2025.md",
+        "bytes": 2036,
+        "sha256": "9e8c1831d84c7e9141281426efe902f21b3fc6b01389900c67b25ed631d37924"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pepsi-cindy-crawford-1992.md",
+        "bytes": 2697,
+        "sha256": "2bbbfd47f5e3f66e7e04e7878f7a377c7b69d304b8781d710c2d339f5febc6f7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pepsi-michael-jackson-1984.md",
+        "bytes": 2657,
+        "sha256": "915460a36b04d5375c5b88956dbca236235772b8adfc5d787a7ead49b9756d84"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pepsi-pepsi-generation-1984.md",
+        "bytes": 2723,
+        "sha256": "e340e3e61bd939e5f3f9f6f36462c58f38eaee9c2591af4c158fa955baa6f691"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pepsi-your-cheatin-heart-1995.md",
+        "bytes": 2434,
+        "sha256": "c0133da7112be8c311c8fcd16705aa0fcbbf8e5eaa6fa07e9405ef93f910a692"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pg-thank-you-mom-2012.md",
+        "bytes": 2501,
+        "sha256": "24c1e74ceebf45472aa775ef1ec0b86e630db454abc922dc914a49ae77c92251"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pg-the-look-2019.md",
+        "bytes": 2656,
+        "sha256": "eaa1837d3bf908dcfec5390d6e27800e0de4b36364b5de3d6c9397b0625bb558"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pg-the-talk-2017.md",
+        "bytes": 2533,
+        "sha256": "34a383cadb45e79ac664cb6df8efdc42a9eaf1cdfb232cad99617325d617dd91"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/philips-carousel-2009.md",
+        "bytes": 2622,
+        "sha256": "c43e8cfb4835412e4b981acabccf53413c96d2588b4b80e951daad4a50369000"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/play-doh-gallery-of-emerging-species-2018.md",
+        "bytes": 2170,
+        "sha256": "d38fc438a2b92028f680aeb1caf37b5e8755b5ca35cdcf246f14e56532a362e0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/playstation-double-life-1999.md",
+        "bytes": 2812,
+        "sha256": "da0b143ab41f60f9f54dc48c8d06764a88453b67ce97cff490cf8c48b94e6253"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/playstation-gravity-cat-2015.md",
+        "bytes": 2064,
+        "sha256": "1e98a60bbe3762df41a871356822cf4552e7932b427de4d6cba37c3e126ec36d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/playstation-mountain-2003.md",
+        "bytes": 2203,
+        "sha256": "188a078702d20fc729121faa19e90cca9fbd7a76bad1bb5045d97449fda462db"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/pop-tarts-first-edible-mascot-2023.md",
+        "bytes": 2531,
+        "sha256": "ce21db8b3dcb5b0e57b4c8f6eea262934ee5a4600c84ab39d4262c87b8f6e157"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/powerade-rose-that-grew-from-concrete-2014.md",
+        "bytes": 2245,
+        "sha256": "e735b9f3f73bbea4fcb1bac4da68641f28a77ef56dafc43ced186ca17181e8e4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/progressive-dr-rick-2021.md",
+        "bytes": 2200,
+        "sha256": "b2c51fdbab705fee925881bb4a19e3b5714172ff89537b8bf3a85c9206e9ebc4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/progressive-pinocchio-2010.md",
+        "bytes": 2208,
+        "sha256": "f2fb370cd53b1eeda82d2e21938dd5b8fcb7b5e7e0caadade72e3f8270e7bd1c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/progressive-words-hurt-2012.md",
+        "bytes": 2234,
+        "sha256": "3128ae63cbdce14aff994fca6ff15b790454a02738860ba15bb908dc4de9c4aa"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/red-bull-stratos-2012.md",
+        "bytes": 2380,
+        "sha256": "040ca78ad5825d5cab632e7c1813f3690a64d3aeff62f7cafa9a34dadb8d3183"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/reebok-escape-the-sofa-2004.md",
+        "bytes": 2280,
+        "sha256": "b2e60fb4d9b1cce9f9019cd19bc8d251b92fbbf148d59901588cf5f0935d9bb3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/reebok-terry-tate-office-linebacker-2003.md",
+        "bytes": 2723,
+        "sha256": "e9f14449bf984493b4e342201b14ac5d69c60ba15b91180741ceb089ddcdd423"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/refugee-nation-2016.md",
+        "bytes": 2240,
+        "sha256": "b2c00d526cb15680850f46a327b2a80ed2b68f07ed7be94b0bf0affbf947b6fb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/rei-optoutside-2015.md",
+        "bytes": 2047,
+        "sha256": "4d15ac303a2e381f616186981a18a3a6733506f3e77626490fd111036ac20c3a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sagawa-shoyu-soy-sauce-posters-2019.md",
+        "bytes": 2050,
+        "sha256": "2b9e26da0b78355b54dfcc41958fbe5d7e8ddcf7f9e3712a43a5b03dcf37da33"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sainsburys-christmas-is-for-sharing-2014.md",
+        "bytes": 2651,
+        "sha256": "70d38d1cce35841a5efc612fdb5b92f8e733e99c1b7c58ec42c0ceb08f491f99"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/salta-beer-tooth-2019.md",
+        "bytes": 1913,
+        "sha256": "f9491cc665d95a7d5d1dc983bc558a067e37fd8eb2209c12f3afe46a51191f56"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/samsung-busy-busy-busy-2016.md",
+        "bytes": 2204,
+        "sha256": "38b115e8c1306dcaf790bf1d3acc9716a74e7b095ba0a1f6188c5d482b133fd5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/samsung-charge-2011.md",
+        "bytes": 2110,
+        "sha256": "038a77aa7a6ceb9544e3327dd6ea6a089929927d037cf272a83d6dd51999825a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/samsung-flipvertising-2023.md",
+        "bytes": 2107,
+        "sha256": "1cbf202cf481036b95542fe1b524c06b9fb766d4a487c8c7a2c5e27596d64495"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/samsung-galaxy-the-next-big-thing-2012.md",
+        "bytes": 2756,
+        "sha256": "5aed5096e1be17734affe27ecce8d19ab203cdd373d7678691af5eaa252410e7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/samsung-ostrich-2017.md",
+        "bytes": 2183,
+        "sha256": "bae1c0dda2c67cf33c517d265b121f047c33bf1dd3bde483537a4946bfc79c4e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sandy-hook-promise-back-to-school-essentials-2019.md",
+        "bytes": 2662,
+        "sha256": "6a15b91e4eaf14987b96cc68564531a4a7ad28e6364a7bd03cdbd9647c21490e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sandy-hook-promise-evan-2016.md",
+        "bytes": 2714,
+        "sha256": "a329efdafbef493b3f2d14e610a8fa77ecd0621e062e09318a9e41b8cfbed261"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sandy-hook-promise-teenage-dream-2024.md",
+        "bytes": 2589,
+        "sha256": "42269d195b5394b693e7894a97f8b05f57bf02a2d7c47527f654d454d09196cc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/save-the-children-most-shocking-second-a-day-2014.md",
+        "bytes": 2253,
+        "sha256": "d32e60acf8d5469e943bdc1a3508dabaf65e635745b55695c42dc016a4501a47"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/school-strike-4-climate-climate-doctors-certificate-2024.md",
+        "bytes": 1956,
+        "sha256": "aa9bb912a2c0b5449a3bd53c9c0f95c18548e45ed7007f2299dc0b738acc294f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/shiseido-high-school-girl-2016.md",
+        "bytes": 2229,
+        "sha256": "4d829f95a2668895ad48d739ed4dd56619e7085707bfe13644ace87d34dea329"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sickkids-vs-undeniable-2020.md",
+        "bytes": 2221,
+        "sha256": "6cc18a174f9f580136387a8ee3d000360247f0274fe13ae91f868e61b9c5e0d4"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skinny-phone-it-in-2018.md",
+        "bytes": 2563,
+        "sha256": "b659691bc81be1d08b9a55b08d5765c830cf0fcc63dd178db63b69fd0d57b86e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-broadway-rainbow-2019.md",
+        "bytes": 2180,
+        "sha256": "c8f47b08488985eeffa91ab5a7a23dd3006a815fa9f01932bc1935dde2a73d5f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-cat-lick-2013.md",
+        "bytes": 2164,
+        "sha256": "4999622e23b0ea87c7819b58386818b294ca1c574ee77096c67ed1c7d9363e44"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-exclusive-rainbow-2019.md",
+        "bytes": 2022,
+        "sha256": "5ec3da7199c23699b6ae269413cf9f740d35dcc6a6e05d448f5373af2b123864"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-factory-2009.md",
+        "bytes": 1949,
+        "sha256": "dd4822db9510f5f1f743705528ab669ce2c7e576b35c00fc0af542a8e387e038"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-hide-and-seek-2008.md",
+        "bytes": 2068,
+        "sha256": "c9127806067987de04dbcd2cddb9e07d0b8cf6da52925dcb0ce30c56d5869ebb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-magic-2009.md",
+        "bytes": 2129,
+        "sha256": "260e684861a5e7398281c9ac378f343a71edf26c323be1647f0d136676b77b9a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-pinata-2010.md",
+        "bytes": 2013,
+        "sha256": "30b1c5b3b726d5709e3f54288c3f3e2e71b7e36558cd8cc6d8da6d32bbdca2e3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-pineapple-2010.md",
+        "bytes": 2092,
+        "sha256": "65d3d1c686db235bd5923e3394af0598bd5407608bccfacba1a19e4893ac9d37"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-rabbit-2010.md",
+        "bytes": 1932,
+        "sha256": "fcbece22eba39b809a3816f9f23e01ec9450d4ed2c5aad56f0fd111f659f78a3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-telephone-2011.md",
+        "bytes": 2174,
+        "sha256": "07e961c57cb5933f6095156fc2296cb3106f287654095516e884cf20891c6561"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-touch-2012.md",
+        "bytes": 1981,
+        "sha256": "42f9595c066e80a59d28713fcbbe4066eecce3fb62b6033e02687cf2baa9ff7c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skittles-tube-sock-2009.md",
+        "bytes": 1894,
+        "sha256": "53068a35a4ba63607da516fd058cce044843e585c862adfa2bf58e8d9eb24371"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skoda-blueberries-2009.md",
+        "bytes": 2082,
+        "sha256": "c805eb5841745d0cfe2eecc51744a39f8bd7515a503e524eed18cc3f51c2732f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skoda-inheritance-2008.md",
+        "bytes": 2145,
+        "sha256": "9d3f018611053cc6d323a7b3d4c002c411f9dc78ca519de2d1051030b97058e7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skoda-love-story-2010.md",
+        "bytes": 2184,
+        "sha256": "ce418e07fce4b5d97bf6f5232f4c09a7f0fa8ec83c4cf021d34ddfc97a91bf3b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skyscanner-best-planet-2020.md",
+        "bytes": 2322,
+        "sha256": "67bef92ce179e5151b6a51f6d0ba165cd2c794ab412c784d284c8e43fe505698"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/skyscanner-visit-earth-2020.md",
+        "bytes": 2182,
+        "sha256": "51a7cc1e6eb4d2e23fef962ffc9d194531ffc2ddf4d3844e9d3954a5dbef0d30"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/smart-txtbks-2012.md",
+        "bytes": 2720,
+        "sha256": "2eeaf39a78bc61ae5eee4d390fe801f0e760af448646cef1a075ff70f67529cf"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/snickers-betty-white-2010.md",
+        "bytes": 2371,
+        "sha256": "d16660dabd7421bad8b32a89b439a6431fc8bbc92af525df5858ed0c2c5e0089"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/snickers-hungerithm-2016.md",
+        "bytes": 2372,
+        "sha256": "369abbaeb449e0dab93b73842ffc3afcc362703dc665bd5aa65e41925ac97786"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/snickers-youre-not-you-when-hungry-campaign-2010.md",
+        "bytes": 2617,
+        "sha256": "7a954361b1826c0c0b9512e8ee6931239f89f76793683135b2172e996f6f7629"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sony-bravia-bouncy-balls-2005.md",
+        "bytes": 2883,
+        "sha256": "941658fa4639f5cb07b385cc7755e0588edd2cb082a1597ef6133efa705c1c81"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sony-bravia-paint-2006.md",
+        "bytes": 2726,
+        "sha256": "a246e403a632cebe4ab515e73851c8e371e0482e040dd4016ed47c0840423ea3"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/spanish-lottery-justino-2015.md",
+        "bytes": 2217,
+        "sha256": "b378c6505579b7725704f34ea9f9bdccdf5c1f26276911217f09855ea93e47a8"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sports-illustrated-you-may-not-get-it-2005.md",
+        "bytes": 2533,
+        "sha256": "a032f9ae8eb26c450264ee2888e5230ef83962992b2cf30d9cde6df69bc030b5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/spotify-spreadbeats-2025.md",
+        "bytes": 2249,
+        "sha256": "7bc7a3c61e87b73bf3a5995737ce1aecb710a8084b20ca7b0875647dcf08fdca"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/squarespace-calling-johnmalkovich-2015.md",
+        "bytes": 2101,
+        "sha256": "87db84537bf889194478b0ab991caa08855915205a18b53783f6c2c0d6ee1ddc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/starburst-little-lad-2007.md",
+        "bytes": 2298,
+        "sha256": "8e21d7daf41bd1532fc3d8bc952464f0e6fc05286989e3c98aa99545f0f4aa1a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/state-farm-state-of-unrest-2021.md",
+        "bytes": 2316,
+        "sha256": "72c9f361aa66d03b1aee3e5ff7808252a18a12162632a6ea8fd07d842718fd70"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/state-farm-the-last-dance-2020.md",
+        "bytes": 2378,
+        "sha256": "dce29781b88ae7a84b1d1269601ae8d598a723583d8a867fe138ae50a6a31987"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/state-street-fearless-girl-2017.md",
+        "bytes": 2738,
+        "sha256": "6473235f99a6bfed72775ae3236b60ad38fc5ac6d70762c3e619c796feeb6626"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/stella-artois-artois-probability-2024.md",
+        "bytes": 2248,
+        "sha256": "b5bb554ddab2471a897e3a899e8af21cacb69fd1d02edcbe1987ef20b18aad5b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/stella-artois-ice-skating-priests-1994.md",
+        "bytes": 2409,
+        "sha256": "029f6cd1559d5e88703f842cf2894deedbcea1804f19dca1081719e75416a758"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/stella-artois-last-orders-2000.md",
+        "bytes": 2261,
+        "sha256": "29a36ae60eb14f53c4a90b6f232c835b25de7ddc40dd4b1f50f79c26dcfcd0a7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/stubhub-hardchorus-2014.md",
+        "bytes": 2051,
+        "sha256": "6b31314298eacfb8c364300be97fe2facf9d92cdd5ff68831ce83917798cb585"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sunday-times-icons-2014.md",
+        "bytes": 1984,
+        "sha256": "c4c06f21086206d0d30390271218975c8639f9cc5ef948047742c626e515406f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/swedish-tourist-association-swedish-number-2016.md",
+        "bytes": 2449,
+        "sha256": "d75abe6c147749a2630394758b452a8aeb0848734be886d35cb1e80888225ad7"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/sydney-opera-house-play-it-safe-2023.md",
+        "bytes": 2423,
+        "sha256": "34a9ddb84668113691bc77c5d8cc23140be42abb7a67b822fb025820d685924f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tac-meet-graham-2016.md",
+        "bytes": 2653,
+        "sha256": "93ddf63689e201e436b263666c8ab963f02e6380172d1bc1dc4d7b744601e5e6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/talens-rubber-cement-nuns-1974.md",
+        "bytes": 2487,
+        "sha256": "b09ce3a06848aa0199e0237b88f0de5138afee1c5df2bf700d6fdd0472a0b118"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/target-color-changes-everything-2010.md",
+        "bytes": 1888,
+        "sha256": "d955caf644397baafbac48f6eb4f0acf6b42ec7be39e741e8ab3267b05cc519f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-atlantic-am-i-typecast-2016.md",
+        "bytes": 2318,
+        "sha256": "574a580c190ed30abface003b0afa06b02e40995fa51f46d1f952fbbd7fa1b3d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-economist-print-ads-1988.md",
+        "bytes": 2968,
+        "sha256": "07f2aba67bd7c07f0f432a56f016fd3876e71ea5b552189d26651a3c90572388"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-guardian-skinhead-1986.md",
+        "bytes": 2716,
+        "sha256": "9e9bbe2e14eaa56421ed1fd238db6fa558deff1fc7d54afbaa7da0fb515cd6b6"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-guardian-three-little-pigs-2012.md",
+        "bytes": 2725,
+        "sha256": "54fc76909b01f0da67cc5e56afde2cfa95e926315411cb749f7e36c29b901738"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-independent-litany-1999.md",
+        "bytes": 1900,
+        "sha256": "948342313bad9bdc15db04c7b0e245ce5ee71f53c23a1185425172869d7f03d5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-times-jfk-unsilenced-2019.md",
+        "bytes": 2381,
+        "sha256": "05185440a5c67c92a63b1004ee4506407f8904996b9bd6de2af01895fa04a83b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/the-zimbabwean-trillion-dollar-campaign-2008.md",
+        "bytes": 3055,
+        "sha256": "2338a38edfd7dfdf46cf498368a17eb10d5774a8bf281d7c79a287807da2c619"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/thorntons-stuck-2009.md",
+        "bytes": 2498,
+        "sha256": "e8a97caecb5e8211e3afc032f2e56cf615b60368c675dc1f0dc47edf23f124da"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/three-dance-pony-2013.md",
+        "bytes": 2185,
+        "sha256": "1d7ef848855e56edd5b9e17884f2c81859d260f54a4a985dd7b3b69bf691edcb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/three-phones-are-good-2018.md",
+        "bytes": 2458,
+        "sha256": "f85e6b0ea52f73f2c2901788a97a651cc238126c9ca54c456591d9eeee017ce1"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tide-its-a-tide-ad-2018.md",
+        "bytes": 2223,
+        "sha256": "ac7e69684413baba2adce7d5f58fca47ede110ef8f0b1f754f9fdda353939ccb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tide-talking-stain-2008.md",
+        "bytes": 2220,
+        "sha256": "455645796c4d7ef46b54c93a842e1d55617b605a02bb23f954a34643fcf18f63"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tmb-bank-panyee-fc-2011.md",
+        "bytes": 2308,
+        "sha256": "07e5ed6c56430969224ad9ef67de0b5d95cf365b2cf63a44496017f5e5713875"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tnt-push-to-add-drama-2012.md",
+        "bytes": 2347,
+        "sha256": "a1d70c30857ad2c7ee356f18f9367ce39d7cfec06d04843ff90604939297c829"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tonal-stop-working-out-in-the-past-2025.md",
+        "bytes": 2102,
+        "sha256": "5da569bb8c4f25cba280f272885d6a5b118d7b86bdffd49e973aa5bc45155f1b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/toshiba-with-10-years-of-life-2012.md",
+        "bytes": 2590,
+        "sha256": "1bc97b7bdabe5e6c55be0cac4deced6506d5d2ce6533579d346523f414304138"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tourism-australia-dundee-returns-2018.md",
+        "bytes": 2499,
+        "sha256": "ae01d0dcb058895ed935b7203d604476d0bad17918be1afc9223301175390268"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tourism-queensland-best-job-in-world-2009.md",
+        "bytes": 2949,
+        "sha256": "d11bc58d646c48fe3c7e9654d1263560edbba91470deebf7056d29dce88dbf4b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/truth-body-bags-1998.md",
+        "bytes": 2383,
+        "sha256": "12ee9de539af91d6eba45b8359ca3a2a272c327114f677f0e4fa60d0064e757e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tubi-interface-interruption-2023.md",
+        "bytes": 2434,
+        "sha256": "9dee97405bc4ca75d8f394acb8b13dbc4c282745bae2a2878580868809d65645"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/tuvalu-the-first-digital-nation-2022.md",
+        "bytes": 2722,
+        "sha256": "71a686abc035ee46d83b79153340edf3593c64472846da78f6eadd335351c06c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/twitter-whats-happening-2015.md",
+        "bytes": 2038,
+        "sha256": "b6d7643928efc95bc78de8f45e1a7011f0e4869899f2d12b40245e5d62f985cc"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/ubisoft-green-dawn-2020.md",
+        "bytes": 1977,
+        "sha256": "eb3f2791a6e293199d94cb9b2459ac774493872335b450f62f8c972ab8eb9560"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/under-armour-i-will-what-i-want-2014.md",
+        "bytes": 2549,
+        "sha256": "e9f1d6814d44bbd22f453a6266e09f86537692700e8320750daf95f7f1a9ed1e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/under-armour-rule-yourself-2016.md",
+        "bytes": 2355,
+        "sha256": "08ef732054840ccd0861bb54c866c0ad0aca8563d2d9d58b518c3798448e8b3b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unicef-tap-project-2007.md",
+        "bytes": 2216,
+        "sha256": "65b66a6cf042d8d0ef087b94466f4e67f239b304bd584f079665fc6471f7784d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-automotive-big-day-2020.md",
+        "bytes": 1592,
+        "sha256": "fb0276a9e02d32b9e9c64f40b789ce958baac41cb55aede2b8138bb49f457896"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-automotive-part1-2018.md",
+        "bytes": 1970,
+        "sha256": "85f903ca89c5b9639cc8f9b2b753e56d6857aece21b56f613a8140d295032637"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-automotive-part2-2018.md",
+        "bytes": 1943,
+        "sha256": "11b9686a597b8d4f6c7343ef4d7c29f073dc5825c77e8c5e5df91db6f74821b9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-background-finance-2020.md",
+        "bytes": 1615,
+        "sha256": "b23fec49eeefe8aba514fc32868e54a9d9bac6932b7fec077877e9e083f76149"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-cast-2020.md",
+        "bytes": 1583,
+        "sha256": "6b28f40826d0173fe6f16c2bf1f1420eec903e2506a2c373aec93c275cca641f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-dead-mouse-theater-2016.md",
+        "bytes": 1953,
+        "sha256": "ea06a4599edafc0e49f0d4434323b48181f8a7f92177cc99129ef65e300cff27"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-facebook-not-live-2017.md",
+        "bytes": 2007,
+        "sha256": "1b249b4d142a7b24e80e505f67cdf09059970f91581c60247bbeb7197b5fe38f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-man-who-couldnt-slow-down-2013.md",
+        "bytes": 2232,
+        "sha256": "c4224f7266c20ee4eb7fe75bd057ae5122d6bf3709a74b8167a1fa5eff3dadc5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-no-rules-2020.md",
+        "bytes": 1760,
+        "sha256": "430b129be113f60f046d26608b06c4d745649a01ac5af9f805ee95724c414482"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-piccards-2018.md",
+        "bytes": 1924,
+        "sha256": "6c534d346d4e902858217dc69d872654172d86d676989bb3ba74c428357ebe0a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-pupils-2020.md",
+        "bytes": 1606,
+        "sha256": "d6bb7f8234ed2221c380b25c0d16b734f0d7cf9439c96d738ae81b8fc8517403"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-spots-finance-2020.md",
+        "bytes": 1567,
+        "sha256": "acfd43e3df88a0182ff67563e6883f397eed758abf066a2fa6b00779bc1de784"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/unknown-the-ride-2018.md",
+        "bytes": 2184,
+        "sha256": "5d3cf85c4211aef1cf80840de050f84ce1de09c911ed323a33ac75a445c75a7e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/upwork-this-is-how-we-work-now-2021.md",
+        "bytes": 2105,
+        "sha256": "d19de90474b4d231a85f8f255b45cbfed1531f6f006a20b398bbe0c122215c27"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/va-museum-if-youre-into-it-2024.md",
+        "bytes": 2214,
+        "sha256": "a5f7024f2539b6129b7eff19834afb394265c70c2d371e3fba52be5d3617a70a"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/verizon-droid-48-hours-2010.md",
+        "bytes": 1982,
+        "sha256": "8151d75ceda010da7c88bae377606e6f0a4c11b9619fe54c4bad7dd321390b99"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vice-unfiltered-history-tour-2022.md",
+        "bytes": 2396,
+        "sha256": "50c65b320c9b555c36512506474b97539212d2c65fd539fb7952b98db3fa8598"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/virgin-mobile-blinkwashing-2014.md",
+        "bytes": 1974,
+        "sha256": "cfd7b2d6a07f0b3f7ce6c4692a92f608014737c0766e3a07c676502dbb59deca"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volkswagen-pink-moon-1999.md",
+        "bytes": 2610,
+        "sha256": "0a0953fd8e3c729d50b4e5b0f915e30d46c4f8b99a2084f5da1b806e57a441eb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volkswagen-sunday-afternoon-2003.md",
+        "bytes": 2156,
+        "sha256": "66acb441fbac98d280b4c60749b0563db381071644226190af7998364d7369ef"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volvo-trucks-epic-split-2013.md",
+        "bytes": 2257,
+        "sha256": "a765d81b76530f98108114b76541a6ed3cdf432a0765db2b745f2211bf718aad"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volvo-trucks-hamster-2014.md",
+        "bytes": 2149,
+        "sha256": "85c24277d5672a455072e753a2a203a9f1cdb7f15ec25d766ccae407c86d8a45"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volvo-trucks-hook-2014.md",
+        "bytes": 2066,
+        "sha256": "5c9366f854e8f9ed0366cbb49755d98a66539254287914a26a59d1bb6dfc84df"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/volvo-trucks-look-whos-driving-2014.md",
+        "bytes": 2142,
+        "sha256": "0f3e0028954fd01a81c0cdf32da634203fc98b19aaf0c41c5a21c3a38f91d71c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-funeral-1969.md",
+        "bytes": 2719,
+        "sha256": "9ed283da8f431e325b50286b9b96d66462ac51dc5636405847eef1466e56f3f2"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-heaven-2010.md",
+        "bytes": 2304,
+        "sha256": "2890e0c5fa86b6f208b6bf36627d9978bc578e46931255b94fa8480ae0aab09e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-protection-2012.md",
+        "bytes": 2194,
+        "sha256": "f10a2b5e9e480d58894ac7c939f3a46f2cf2a17936f4ec2f9cf5710a83522beb"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-snow-plow-1964.md",
+        "bytes": 2612,
+        "sha256": "e1445663fba814b5604d9db35cd7e0d05c26bad4574fa8ac77cb69762fab96a0"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-sunday-afternoon-2000.md",
+        "bytes": 1998,
+        "sha256": "da183f250589d947bad62dc7ca5b94baf60c4ef8410490ec8546d842eca8ab2e"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-the-force-2011.md",
+        "bytes": 2797,
+        "sha256": "c98e885f7cb2247cea533b1db7419853edb93725ecc1c4b729bce9cba5956f98"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-the-fun-theory-2009.md",
+        "bytes": 2979,
+        "sha256": "b20e487488ca7a6ccf9baefc785863494ba10810eeac2e847f8df32bf1fb5f97"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/vw-think-small-1959.md",
+        "bytes": 2992,
+        "sha256": "357e5ad4fef463409fc05a595e31da7e39b0ab75428a9b2a58fc7a4c1f6e724b"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/waitrose-adventure-awaits-2013.md",
+        "bytes": 1888,
+        "sha256": "b08b0660dbf055b5270c0449fe0164d49997c21b8eba2825668a41d3d3250dba"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/waitrose-good-proper-food-2012.md",
+        "bytes": 1810,
+        "sha256": "5a1dbb2300956e33bd6e72a9faa69ed2bc13a8c4769a82e76ea25ac38fbd8a74"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/waitrose-rainbow-2011.md",
+        "bytes": 1841,
+        "sha256": "356b3f03fa8d3b3c3f1b11af01f561c1a8de5cd39ef6d6b67ac78b7e1e6b8d3c"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/waitrose-the-cook-2010.md",
+        "bytes": 1800,
+        "sha256": "25acfd1a2be23d68a805e0862217edcc8e08703b26b9e425a8ac963708a95e3d"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/washington-lottery-flightless-birds-2011.md",
+        "bytes": 2246,
+        "sha256": "65c417128ecaa0ebf087bed54cb2c30aa5aca16345b2c13f34cd2d82818e0587"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/water-is-life-hashtag-killer-2012.md",
+        "bytes": 2695,
+        "sha256": "56c4d213952466c743a233f1e36371fce2f2a692275d91f7396a1f186467fc34"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/weetabix-steeplechase-2021.md",
+        "bytes": 2416,
+        "sha256": "0b106f9eecf1c634b377943b0bc984b3fd6f04da63b3bc3e21ea79ba7e376091"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/wendys-wheres-the-beef-1984.md",
+        "bytes": 2923,
+        "sha256": "69e7cbd3a24e6a2837df2d4a413932754e867445ca27d9093299d53054288ef5"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/wrangler-we-are-animals-2010.md",
+        "bytes": 2262,
+        "sha256": "5e4c9d33fcece8ec6b17de2f184c80d48d1d6198db0e43a7b02007ec84ebe14f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xbox-champagne-2001.md",
+        "bytes": 2634,
+        "sha256": "5bfd48986a12b6e14a5280c2bcc60df51496246dc8ec2615c8500b6e00273a36"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xbox-everyday-tactician-2024.md",
+        "bytes": 2618,
+        "sha256": "75b058d9797e202cb2777d5c988cda2f57ab021252afeec57b6fef300396b164"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xbox-fanchise-model-2019.md",
+        "bytes": 2244,
+        "sha256": "a1f8467ac078adaf7e5b260424e02360a7999a618b6b61a63903338b6e5ee297"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xbox-football-decoded-2018.md",
+        "bytes": 2092,
+        "sha256": "f8e5f567081012c18960babb5aaf3bebe002c53f9f922f9d1895861482fefd7f"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xbox-survival-billboard-2012.md",
+        "bytes": 2214,
+        "sha256": "478703d19abd3ad6ea2d77b66dc3e8b2bc0f29c25ca1efaad8f4d5c0127452d9"
+      },
+      {
+        "path": "creative-director/references/legendary-campaigns/cards/xfinity-emilys-oz-2020.md",
+        "bytes": 2145,
+        "sha256": "18fa2539c5eb118e0c21a7cc0fb10016a4a92820444d30ce02041b943525d719"
+      },
+      {
+        "path": "creative-director/references/legendary-patterns.md",
+        "bytes": 24134,
+        "sha256": "333c0abd69a066bd440ef3560e195e2993b816508515841cce7531681d388e08"
+      },
+      {
+        "path": "creative-director/references/method-selection-matrix.md",
+        "bytes": 8292,
+        "sha256": "faa2fa156c4adf65e4ed67c44e76df43325bca7e567715ca44e807e342f43a00"
+      },
+      {
+        "path": "creative-director/references/methods-catalog.md",
+        "bytes": 26352,
+        "sha256": "802fafe8215116549f7b8feeec14320a38b70fcc029592374b6a5c76ede81d4a"
+      },
+      {
+        "path": "creative-director/references/scoring-calibration.md",
+        "bytes": 17078,
+        "sha256": "3b92369582c2618f3385b8ffcdf22223ad136cf1d7b1c91aba4b0942f17708c8"
+      },
+      {
+        "path": "creative-director/references/storytelling-frameworks.md",
+        "bytes": 9996,
+        "sha256": "3ecc3ac8fd15651179de556f7d61cbd834a7d5bf1831adfca928217b15b49b7f"
+      },
+      {
+        "path": "creative-director/references/tag-schema.md",
+        "bytes": 6976,
+        "sha256": "f6ed95af9791e20cda0378795b9a96467b55a660445d91a458834c767b3357e5"
+      },
+      {
+        "path": "creative-director/scripts/generate_links.py",
+        "bytes": 4201,
+        "sha256": "2b09eb805fbb72de19aa6bfbad58f4c3523da12883e7f7a10b6af9f3fe1c1814"
+      },
+      {
+        "path": "creative-director/scripts/generate_mocs.py",
+        "bytes": 7812,
+        "sha256": "ebede99cce9b4bbfec4b0e8b6be5105c99400fb973d1e19a67e1a49002286a37"
+      },
+      {
+        "path": "creative-director/scripts/validate_schema.py",
+        "bytes": 9056,
+        "sha256": "f982e042af29b7ee55d0ea904751f7ec6a91af8759e6f773e815b75fa2e95ecb"
+      }
+    ]
+  },
+  {
+    "repository": "marketingagentskills",
+    "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
+    "files": [
+      {
+        "path": ".github/workflows/release-skills.yml",
+        "bytes": 1256,
+        "sha256": "c73de8eaed298eec748bee3dac96561a11307a2ab84c7f508b859a093d97c991"
+      },
+      {
+        "path": ".gitignore",
+        "bytes": 48,
+        "sha256": "ca1f4647bcd0891a269e4acf2cca270f07e0c99be8b65282c558c1bc786dcf59"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 1069,
+        "sha256": "381cfc3711150540d4ba38de8cd576709fd5d26b38d9b059f247602c74bd9e3a"
+      },
+      {
+        "path": "README.md",
+        "bytes": 12526,
+        "sha256": "fc9068af8f811406e169416d1814cace5eff3cbe3124aa411a0cb31d6fba7d88"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 6708,
+        "sha256": "a4918abb9f4fa4ab1659fc3ff58b56ed62621d35108c1fcf6fe0c46454ab6211"
+      },
+      {
+        "path": "package.json",
+        "bytes": 54,
+        "sha256": "b4ad80d16bbb3cc48e2e95e66473ea6b7d04d1eeb9c70f5ed473b6b4dc237ca2"
+      },
+      {
+        "path": "skills/ad-creative/SKILL.md",
+        "bytes": 40997,
+        "sha256": "d520011e5d5cc5ebc3b134f594931b497c37b0d8f07e4823cc0dee1ff6f69be3"
+      },
+      {
+        "path": "skills/ad-creative/references/ad-playbook.md",
+        "bytes": 9116,
+        "sha256": "fac568e295ede76b9bfd040ed73c98e8731378e7eba9b35f54541eb1df3b3c0b"
+      },
+      {
+        "path": "skills/ad-creative/references/aggressive-creative-templates.md",
+        "bytes": 21225,
+        "sha256": "42a55ce9211ccc50090a040ac0b4aad66702a34712108315f43871362c18dc09"
+      },
+      {
+        "path": "skills/ad-creative/references/generative-tools.md",
+        "bytes": 24084,
+        "sha256": "4f33f5eb65c4b8f11360492de50b504053990c41abba1d480b535976cded389d"
+      },
+      {
+        "path": "skills/ad-creative/references/image-creative-templates.md",
+        "bytes": 67533,
+        "sha256": "62270a0447648484a530a77515c2e598804aa2cc169c825458c765ff08ec40fd"
+      },
+      {
+        "path": "skills/ad-creative/references/marketing-principles.md",
+        "bytes": 12663,
+        "sha256": "d2a5bff95f4f6ada2fc391be15296b874b8c854006caf11fdb7272b1a81c7518"
+      },
+      {
+        "path": "skills/ad-creative/references/platform-specs.md",
+        "bytes": 9142,
+        "sha256": "26db50c31411dc96e198c18d1d8eb63b5f89ca3934bf5eab14ea302850e93a31"
+      },
+      {
+        "path": "skills/ad-creative/references/video-script-templates.md",
+        "bytes": 72227,
+        "sha256": "d2172322da2887c80530e590e2146e670bc2a86a15a70b8d488e82855ae42e7f"
+      },
+      {
+        "path": "skills/agent-skill-builder/SKILL.md",
+        "bytes": 7761,
+        "sha256": "a4ba5627c30a9210c3df3c012654de61516de538415a6057a6956d0088229d7b"
+      },
+      {
+        "path": "skills/agent-skill-builder/references/frontmatter-reference.md",
+        "bytes": 5804,
+        "sha256": "7a36cca59a1e8c71e2cd0713542acf8e8ff8a97fbcf11854e5ec887ce3596ddb"
+      },
+      {
+        "path": "skills/agent-skill-builder/references/gpt-migration-checklist.md",
+        "bytes": 5123,
+        "sha256": "07ca16f3a122c3da2a23a36abb462ee7d38df9f26fc8a3fa497b74e9f07cccf0"
+      },
+      {
+        "path": "skills/agent-skill-builder/references/skill-template.md",
+        "bytes": 2586,
+        "sha256": "e2b490a542a873f36a1a34613a041f666e4594d5daa71130f678d761e05c1017"
+      },
+      {
+        "path": "skills/ai-content-generation/SKILL.md",
+        "bytes": 10812,
+        "sha256": "a910950190c1112c68407c57ac9b6b3730d633d3a5f0ad0fc519d33f4664746e"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/knowledge/00-overview.md",
+        "bytes": 10967,
+        "sha256": "e80fe504153c7ec9beeef47e7e2c018c7e1a01bb7dc53d963cfacd61873c9d5e"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/knowledge/01-faceless-influencer.md",
+        "bytes": 11070,
+        "sha256": "17108d74ff87fc4d94013c142bb87292c16a20f81ca95f28f91ee14ab91fb198"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/knowledge/02-ai-clone-talking-head.md",
+        "bytes": 20928,
+        "sha256": "d12ee353d042f298ed0b912d86790feb3f4d6560f966ee4d37d51254e588e8c4"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/knowledge/03-ai-ad-creative.md",
+        "bytes": 23828,
+        "sha256": "f8ec3b9b717c4871cccc84f297fd3cb7c4056dcced75d3ce8b02c156f9bd6342"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/knowledge/04-faceless-youtube.md",
+        "bytes": 20864,
+        "sha256": "5c042a6966068092a127a804288fe291e79fea2e3415d2780c65c959a8a8932d"
+      },
+      {
+        "path": "skills/ai-content-generation/assets/chatgpt-project/project-instructions.md",
+        "bytes": 4618,
+        "sha256": "4336d9b5f30274c77d3a28ee2bfd6b1334728505aa168b34bb1d0aa27224cb03"
+      },
+      {
+        "path": "skills/ai-content-generation/references/ai-ad-creative.md",
+        "bytes": 23828,
+        "sha256": "f8ec3b9b717c4871cccc84f297fd3cb7c4056dcced75d3ce8b02c156f9bd6342"
+      },
+      {
+        "path": "skills/ai-content-generation/references/ai-clone-talking-head.md",
+        "bytes": 20928,
+        "sha256": "d12ee353d042f298ed0b912d86790feb3f4d6560f966ee4d37d51254e588e8c4"
+      },
+      {
+        "path": "skills/ai-content-generation/references/faceless-influencer.md",
+        "bytes": 11070,
+        "sha256": "17108d74ff87fc4d94013c142bb87292c16a20f81ca95f28f91ee14ab91fb198"
+      },
+      {
+        "path": "skills/ai-content-generation/references/faceless-youtube.md",
+        "bytes": 20864,
+        "sha256": "5c042a6966068092a127a804288fe291e79fea2e3415d2780c65c959a8a8932d"
+      },
+      {
+        "path": "skills/ai-humanizer/SKILL.md",
+        "bytes": 14461,
+        "sha256": "199410a8a8b6b98a2c20a2af180a5ddcc6f6e3d2bb3d5a256565fbe485affa66"
+      },
+      {
+        "path": "skills/ai-humanizer/references/style-guide.md",
+        "bytes": 12698,
+        "sha256": "d863604df06b404766b27556cc887dd240329155289509104820f54ab864d77f"
+      },
+      {
+        "path": "skills/case-study-builder/SKILL.md",
+        "bytes": 3557,
+        "sha256": "8c6b83eed69db94e48100dcc311db8d0d19e41fd2ceaca3e8b05dbb7606cd11a"
+      },
+      {
+        "path": "skills/case-study-builder/references/case-study-examples.md",
+        "bytes": 3967,
+        "sha256": "47da1f79e7e2efd515b72faf09df0b17791bd47c6e0c70c4f79bc77e9b3e4038"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/SKILL.md",
+        "bytes": 8441,
+        "sha256": "c470ab7aa877d81b9d8cc548438f82e64974bd3770746c4a3e593e0bba7bcb98"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Clay Automated Outbound Certification.md",
+        "bytes": 9091,
+        "sha256": "0759ec3c08c6cfc3fbb36978eb22efd50eb904d8cb5fe352d606f5e38a082e01"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Clay Outbound Email Prompt (3 Email Sequence).md",
+        "bytes": 23628,
+        "sha256": "1415dd01404ed578ad33e716b8593cc5e95b500acef19763131ff81da1b10d42"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Clay Outbound Email Prompt (4 Email Sequence).md",
+        "bytes": 28488,
+        "sha256": "e3251cb176db47f1fff5bc0aff8ca2310a10040da3457353d17714916e77e999"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Clay Personalization & Sequencing on Lemlist.md",
+        "bytes": 15366,
+        "sha256": "8621d31a819a9aca51fa799581ce52512e34e702ab90508da241bf67ee0b8589"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Clay Signals.md",
+        "bytes": 58043,
+        "sha256": "8fbaf49a322e92e479de085968c04f93ae5b6fea14756bb4fb5f32222be73b8d"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Outbound Email Frameworks & Templates.md",
+        "bytes": 24186,
+        "sha256": "e114757ecdee9dfa848ed96a802bbc5df8e56ac668f7126edf91d8aa3a3d8ef3"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Prospecting with Clay.md",
+        "bytes": 10200,
+        "sha256": "4b3762a68f67b18d0554217eea9f60251f94ef66eabd0525f7e6813dbd79ba39"
+      },
+      {
+        "path": "skills/clay-gtm-outbound/references/Saving Clay Credits.md",
+        "bytes": 7453,
+        "sha256": "792f06d3d8a73169ea8e504e90518b52e3a54d4cbcf7716b69ad71c6cc6ae953"
+      },
+      {
+        "path": "skills/competitive-intelligence/SKILL.md",
+        "bytes": 10831,
+        "sha256": "0ea5ad4768ad062ba476416cdb0893a93f02da99e33724a13a7ef594ae5133dd"
+      },
+      {
+        "path": "skills/competitive-intelligence/references/example-fireflies.md",
+        "bytes": 3467,
+        "sha256": "ff5ecda5a56f9d21dc5c16e3647c2cf82e6a691eec2c30a9deb6a466da116f8d"
+      },
+      {
+        "path": "skills/competitive-intelligence/references/example-notion.md",
+        "bytes": 3339,
+        "sha256": "5a56eb758f20aadfe6bf2189677a91d4e6778d6cde24aac71e909ebb473a4ab3"
+      },
+      {
+        "path": "skills/competitive-intelligence/references/example-posthog.md",
+        "bytes": 3303,
+        "sha256": "e22f84d1ca90019fc6ce301713dffc5f161f3078098a5c3ea40b9e1f32087ed7"
+      },
+      {
+        "path": "skills/copy-anatomy/SKILL.md",
+        "bytes": 4641,
+        "sha256": "1b527e83a68c10a33fce850a91996ee6dd0d22cdd65de523c3c4bf320d301f80"
+      },
+      {
+        "path": "skills/customer-segments/SKILL.md",
+        "bytes": 4514,
+        "sha256": "aba9d586037b6d6cc15a705baefce46ec4d0ff6b520cb7a418afdf5adadbadc6"
+      },
+      {
+        "path": "skills/experimentation/SKILL.md",
+        "bytes": 6341,
+        "sha256": "243a1aadc94a57cd5b865ce7b33213f6659bb70cf1018e5b13884ab5c62f87b9"
+      },
+      {
+        "path": "skills/experimentation/references/experiment-framework.md",
+        "bytes": 7692,
+        "sha256": "2c862adc287e5967d7dcf6129c3f5abbb290038700ded5c976e53c7254eefceb"
+      },
+      {
+        "path": "skills/experimentation/references/experiment-tracking-template.md",
+        "bytes": 5990,
+        "sha256": "cfa262eec29bcb2c8512b93c19af50e78af9b969ac4495eb4bf9ff5eeaf8dc0f"
+      },
+      {
+        "path": "skills/icp-persona/SKILL.md",
+        "bytes": 6528,
+        "sha256": "85c0d90d47f3b0bc207739fb983590b74b962321f9f9690ba7993b855696ae5b"
+      },
+      {
+        "path": "skills/icp-persona/references/b2b-buyer-persona-template.md",
+        "bytes": 3185,
+        "sha256": "9f160b8577d3ad15f7b798f86b75962e702fca7ad8a3e74788247ba37633710b"
+      },
+      {
+        "path": "skills/icp-persona/references/b2b-icp-template.md",
+        "bytes": 4531,
+        "sha256": "bb0068181edc3fecf31b789ab66fce80cfd8688416ea9b2b4b2d0ed00e394201"
+      },
+      {
+        "path": "skills/icp-persona/references/b2b-user-persona-template.md",
+        "bytes": 2916,
+        "sha256": "575d9455aee408e036f4e8397ea12b087c4c3753d4b80d06e6ee2bbb53b5214c"
+      },
+      {
+        "path": "skills/icp-persona/references/b2c-user-persona-template.md",
+        "bytes": 2401,
+        "sha256": "e9a3b01ae4e88ae0e2461691b00728e48f3ab85b9772310f5a63ca5bb815b5d1"
+      },
+      {
+        "path": "skills/landing-page/SKILL.md",
+        "bytes": 3417,
+        "sha256": "73bfa3958b780345923024e805ea27798c35ba01e9ee68a507ebb595eae3823c"
+      },
+      {
+        "path": "skills/landing-page/references/landing-page-framework.md",
+        "bytes": 2767,
+        "sha256": "113c03362906ddddba229761872a718c54d98d9f32c349773e054e541f105bdb"
+      },
+      {
+        "path": "skills/lifecycle-marketing-campaigns/SKILL.md",
+        "bytes": 3754,
+        "sha256": "c8e208f824e90b89d35035b1288f5385806cc97f08ddad35175807d887ab57bd"
+      },
+      {
+        "path": "skills/lifecycle-marketing-campaigns/references/campaign-examples.md",
+        "bytes": 5155,
+        "sha256": "443491acaa8e30d1d4b81b5f53d6affa55b84f772d1efa407e7b74721d6b8a6f"
+      },
+      {
+        "path": "skills/marketing-advantages/SKILL.md",
+        "bytes": 10807,
+        "sha256": "ed9d7a46506545de9ae3ec01c3a54762aef2693c2cddfe843d06de775a448454"
+      },
+      {
+        "path": "skills/marketing-product-ideas/SKILL.md",
+        "bytes": 9267,
+        "sha256": "c811896d195d76ef001d720298979fbcd5c4b6d95ac478756427d71b9db8f86d"
+      },
+      {
+        "path": "skills/marketing-product-ideas/references/Marketing Laws, Principles & Mental Models.md",
+        "bytes": 10052,
+        "sha256": "4610c87af23ca6e40750e459b49e76442454be4e7b4e3738772272c8eb1bc089"
+      },
+      {
+        "path": "skills/marketing-product-ideas/references/Top of Funnel Awareness Experiments.md",
+        "bytes": 6569,
+        "sha256": "e5568d8ebb80311b7112fb3088cae201eff69fda8e4a555470b26bf526d865d7"
+      },
+      {
+        "path": "skills/marketing-product-ideas/references/Trial to Paid Conversion Experiments.md",
+        "bytes": 6410,
+        "sha256": "70cc0a574a94c536c979cbbd45e6a7dfde3d90f59e8ac29a62b1e8359619197b"
+      },
+      {
+        "path": "skills/n8n-automation/SKILL.md",
+        "bytes": 4571,
+        "sha256": "864aba31d6d319c9908f9cb07e450460b5af948ab8b3ecec42b50eda66ae235f"
+      },
+      {
+        "path": "skills/n8n-automation/references/n8n-ai-agent-prompt-formula.md",
+        "bytes": 3448,
+        "sha256": "5513299ce5b4b25f97b87939d97d0232d127f48fddb68797d1b07b1112dcfdca"
+      },
+      {
+        "path": "skills/n8n-automation/references/n8n-build-example-joke-email.md",
+        "bytes": 5964,
+        "sha256": "09f9ffaa51783cef043a78342ba373ac84596a30cc92d557e0163d43dd109109"
+      },
+      {
+        "path": "skills/n8n-automation/references/n8n-build-example-weather-alert.md",
+        "bytes": 4797,
+        "sha256": "83d0bab42c6375e01edf363e8bbd90cb33a19cb03b58842d9b1bdf0cb03c8962"
+      },
+      {
+        "path": "skills/n8n-automation/references/n8n-nodes-masterlist.md",
+        "bytes": 24758,
+        "sha256": "9aad6c5dc6e465d04521de42674dcf17e5bd6cba8668a46554d10af08dc7a751"
+      },
+      {
+        "path": "skills/n8n-automation/references/n8n-workflow-automation-guide.md",
+        "bytes": 19133,
+        "sha256": "e27c88867692c6bff6d17e7f272831b69a151384acfbeea20d6523035b440eba"
+      },
+      {
+        "path": "skills/openclaw/SKILL.md",
+        "bytes": 4569,
+        "sha256": "4609a217081698c3402c430c7cf8d2d1781a4b93343d689dd11d06a8826bffc0"
+      },
+      {
+        "path": "skills/openclaw/references/openclaw-overview.md",
+        "bytes": 2807,
+        "sha256": "80530bb06aff3e821cd527e2cdd7566964a6181626811f0d363869b0221aec90"
+      },
+      {
+        "path": "skills/openclaw/references/workflow-engineering.md",
+        "bytes": 2488,
+        "sha256": "d9d3e258005733e46e120d861fdbf55978127f19a38a6e99bb315bc01a231828"
+      },
+      {
+        "path": "skills/performance-marketing/SKILL.md",
+        "bytes": 10234,
+        "sha256": "827900b574c6a536453d51d080a47f007434c443609f7d87de9488813c0931cb"
+      },
+      {
+        "path": "skills/performance-marketing/references/account-safety-and-ban-recovery.md",
+        "bytes": 4894,
+        "sha256": "b232d0023a1b8d7097bceec1c9fab099f992ff6e5184781940e46c215135dac8"
+      },
+      {
+        "path": "skills/performance-marketing/references/client-engagement-playbook.md",
+        "bytes": 52638,
+        "sha256": "24869c4d4294a4341237e078378bec195c8ac1e4e31c6b45dcce9d48e0eb34d4"
+      },
+      {
+        "path": "skills/performance-marketing/references/funnel-layer-diagnostic.md",
+        "bytes": 9863,
+        "sha256": "74f84c7facf22585a8e87904253cf5337274acdd5c23667a6ebba49c8a1ae8f2"
+      },
+      {
+        "path": "skills/performance-marketing/references/operating-checklist.md",
+        "bytes": 10286,
+        "sha256": "6422896569b1bf854fb0703b2fb6f24f58992565a42eb548d1cbfb6636967ee1"
+      },
+      {
+        "path": "skills/performance-marketing/references/performance-marketing-playbook.md",
+        "bytes": 49968,
+        "sha256": "ba5448876d0c694cb279d0c5579f472b359551c6bca20bddb85ed5b9a92222ac"
+      },
+      {
+        "path": "skills/performance-marketing/references/platform-specs-benchmarks.md",
+        "bytes": 14589,
+        "sha256": "4d72a48a6292071d83e306b30fbfe372ffeb8f3da51460a26cc465ef5c0080e1"
+      },
+      {
+        "path": "skills/portfolio-positioning/SKILL.md",
+        "bytes": 18594,
+        "sha256": "5cebe31228d0a127eedc58148a9fa0646ccfb53bb09a8c70494cebdd7c618f8d"
+      },
+      {
+        "path": "skills/portfolio-positioning/references/framework-template-mia.md",
+        "bytes": 39629,
+        "sha256": "a1d757e946df34e3400672883bc3b9500e7b27ac358bba05b53eee29bbbbdfd4"
+      },
+      {
+        "path": "skills/press-release/SKILL.md",
+        "bytes": 3450,
+        "sha256": "f374ce9d699ae1feeaea15af34fbbb97c029e7fc49afdd0e0e8293f457eb8891"
+      },
+      {
+        "path": "skills/press-release/references/press-release-templates.md",
+        "bytes": 3087,
+        "sha256": "ea67d200ecb57cf2c849da49c7580d1c303b0e68c330d1969f691025e7e79b50"
+      },
+      {
+        "path": "skills/product-launch-gtm/SKILL.md",
+        "bytes": 4875,
+        "sha256": "9c67de5e665421ccb9835305922dc18ccc15f1ef97e0da669cb07b62873085c6"
+      },
+      {
+        "path": "skills/product-launch-gtm/references/Product Launch & GTM Assistant.md",
+        "bytes": 1721,
+        "sha256": "f26e59a75a54c055560654b1024cc190c8dbf4362ac9e2e856b10365f46fda0c"
+      },
+      {
+        "path": "skills/product-launch-gtm/references/Product Launch Plan & GTM Channel Template _ James Praise x MIA - Product Launch Plan & Channels.md",
+        "bytes": 618,
+        "sha256": "633039bdc78222f643262ed2b5f50050322f28b6de65aea60184dd3f2da90292"
+      },
+      {
+        "path": "skills/product-launch-gtm/references/Product Launch Plan & GTM Channel Template _ James Praise x MIA - Product Launch Tasks.md",
+        "bytes": 459,
+        "sha256": "2444576b20f0e42d565f7e14c7d3564100cc0516a1ceaeeb282fb705e61ae21f"
+      },
+      {
+        "path": "skills/product-marketing-metrics/SKILL.md",
+        "bytes": 7470,
+        "sha256": "6ed3762d657b6202925698f8b9d9b03b82db5880be2fdd983dcfa667ad9ecccc"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-fireflies.md",
+        "bytes": 15406,
+        "sha256": "77d0b1e11cb229c22e23c7d84566e01b8c731b015dc3ff7c8fdc7dbec87090aa"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-moniepoint.md",
+        "bytes": 16642,
+        "sha256": "9fbd6e3e8a0b5b955288d160e6260ba40af7d57a9bf2e72c585ebddcd0816787"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-notion.md",
+        "bytes": 14888,
+        "sha256": "4113276c2e2ec7afecf9747acd81f825cf8daed11bd97db00ecae91905181c64"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-piggyvest.md",
+        "bytes": 15625,
+        "sha256": "7b9c61a31ce5d11db057575b837dffb643911d133d6d20aea4604eeb3e6dbd37"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-posthog.md",
+        "bytes": 14568,
+        "sha256": "8aad0dff7e37d80d12e1cd62c91f30dee69ad1ea1f2ae51bc8f2674c82279233"
+      },
+      {
+        "path": "skills/product-marketing-metrics/references/metrics-example-zapier.md",
+        "bytes": 15060,
+        "sha256": "4b67116d7cd879b28cca9651c41fad5f50d936f84b1c6d218b407bb14fe02e17"
+      },
+      {
+        "path": "skills/product-messaging/SKILL.md",
+        "bytes": 5412,
+        "sha256": "b3376e7af3b87e32c4eb8e692cb102e587d5f5101f29a32047a86c73ecf853af"
+      },
+      {
+        "path": "skills/product-messaging/references/messaging-example-mia.md",
+        "bytes": 10007,
+        "sha256": "0fb977e1cc6872ead53b42dff7a6691067cbe93063043be5d06978b1cf03b497"
+      },
+      {
+        "path": "skills/product-onboarding-activation/SKILL.md",
+        "bytes": 10974,
+        "sha256": "5c7ec6ada3772465e1f3522b39bf4c5310c27d11a291973c205cb776f5f3a4a2"
+      },
+      {
+        "path": "skills/product-positioning/SKILL.md",
+        "bytes": 5499,
+        "sha256": "5a1fa87ca5fd9d7a15cc8a893e8f434101a30ae11fa97556bf23e1da10e0b0ff"
+      },
+      {
+        "path": "skills/product-positioning/references/positioning-example-mia.md",
+        "bytes": 11346,
+        "sha256": "777f680b920e0c905aa8d20e9bce4bbd6b7dc7c76ec044949de4c710fa265453"
+      },
+      {
+        "path": "skills/remotion/SKILL.md",
+        "bytes": 13404,
+        "sha256": "351ebb2ec3bb79d776b53fd9f668306f80c24f10a5f172051912e50fa7208e95"
+      },
+      {
+        "path": "skills/remotion/references/concept-catalog.md",
+        "bytes": 38491,
+        "sha256": "4b56420f0a92f3e291c445894c3b8a25b24208f62391a99d49d923d1375fb100"
+      },
+      {
+        "path": "skills/remotion/references/video-creation-process.md",
+        "bytes": 18387,
+        "sha256": "487a11c03355653c049f6072778d2e591558679150a4318b6633495f055f7e9a"
+      },
+      {
+        "path": "skills/remotion/rules/3d.md",
+        "bytes": 2290,
+        "sha256": "2a5b1a72de35168bba08c7e78153fccd408ec7882fdd1778f2751162e1661378"
+      },
+      {
+        "path": "skills/remotion/rules/animations.md",
+        "bytes": 790,
+        "sha256": "99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a"
+      },
+      {
+        "path": "skills/remotion/rules/assets/charts-bar-chart.tsx",
+        "bytes": 3429,
+        "sha256": "6e5e219c596c8515336570a5bc89c233e32e695d5816dec88eb929e798eeea61"
+      },
+      {
+        "path": "skills/remotion/rules/assets/text-animations-typewriter.tsx",
+        "bytes": 2183,
+        "sha256": "92b5f47d6d18387a0aa008ce9dceefd30f673ae5879e16892bd4b4ea97f5dddb"
+      },
+      {
+        "path": "skills/remotion/rules/assets/text-animations-word-highlight.tsx",
+        "bytes": 2387,
+        "sha256": "5dbba688b875baaa62555c7a243f54739e81edbf34148c87048594a210c3ec2c"
+      },
+      {
+        "path": "skills/remotion/rules/assets.md",
+        "bytes": 1590,
+        "sha256": "664160a48fe6ef76c9b25ea51b3796d39d371cb3632f380b014492412902ad42"
+      },
+      {
+        "path": "skills/remotion/rules/audio.md",
+        "bytes": 3822,
+        "sha256": "06d859b2f463d0e0e823655548e314b59a1d6321377857fca52a09c629170b12"
+      },
+      {
+        "path": "skills/remotion/rules/calculate-metadata.md",
+        "bytes": 2920,
+        "sha256": "b258c788fb3337187245c814f2fd4ddf10f7330ec97cb8117202a0145d4d27a6"
+      },
+      {
+        "path": "skills/remotion/rules/can-decode.md",
+        "bytes": 1587,
+        "sha256": "fb3f9933e45103d72530915b72a844b3454c6acc03289db5efe8f4541b088fad"
+      },
+      {
+        "path": "skills/remotion/rules/charts.md",
+        "bytes": 1751,
+        "sha256": "2430705a627c468e0922e2f78ca1a2379537d378b5fe76292b69f44659a5d66e"
+      },
+      {
+        "path": "skills/remotion/rules/compositions.md",
+        "bytes": 3708,
+        "sha256": "82965d19cca323a0455f02080b9743b0f3a074783b9363b0425d8ffc415b1fe6"
+      },
+      {
+        "path": "skills/remotion/rules/display-captions.md",
+        "bytes": 3698,
+        "sha256": "96abde72e0bcb88cdc5871b80b5d6eb0c6aedf0ea9611e6c5157cb0ee980ba99"
+      },
+      {
+        "path": "skills/remotion/rules/extract-frames.md",
+        "bytes": 5496,
+        "sha256": "b7a63f6509a1a33d624f36d3f6772abbc364b0c883520803f3701c26541e7cd7"
+      },
+      {
+        "path": "skills/remotion/rules/fonts.md",
+        "bytes": 3484,
+        "sha256": "1749e4cf82e8b157d4b0a26f46721152d3ef9e5e9a1686753b8bb6a1be83ddbc"
+      },
+      {
+        "path": "skills/remotion/rules/get-audio-duration.md",
+        "bytes": 1354,
+        "sha256": "d5098e8d20b227464e3519c761cba1e03396c77da636d1893c7be3061a0a8e40"
+      },
+      {
+        "path": "skills/remotion/rules/get-video-dimensions.md",
+        "bytes": 1627,
+        "sha256": "839867aa115e09a719096a902a6ad5e304135f2053cce9928776fb4fcb5bf3e1"
+      },
+      {
+        "path": "skills/remotion/rules/get-video-duration.md",
+        "bytes": 1341,
+        "sha256": "7b31fab3cbf9b0771bae41e2c41c9abed2b59d495ffac7160e562fdf86848726"
+      },
+      {
+        "path": "skills/remotion/rules/gifs.md",
+        "bytes": 3868,
+        "sha256": "53d9d658e3093dba4a798945d5c1b7004688ed96a09521cfb22b4cec418a8ae7"
+      },
+      {
+        "path": "skills/remotion/rules/images.md",
+        "bytes": 2783,
+        "sha256": "91d32f6e528b1f1cddc9a0cf70d0faa74491e3a2fe4a32933da0e21010e9aa74"
+      },
+      {
+        "path": "skills/remotion/rules/import-srt-captions.md",
+        "bytes": 2113,
+        "sha256": "38d33be5439714a2ddb577d8c8a6b7bf09bd10f66c0540415fb70536d4374e87"
+      },
+      {
+        "path": "skills/remotion/rules/lottie.md",
+        "bytes": 1779,
+        "sha256": "6c0cb4babcff94e35ecc22ac63a44d2131db26e7e30b53bbae0a1eb0828c74a0"
+      },
+      {
+        "path": "skills/remotion/rules/measuring-dom-nodes.md",
+        "bytes": 974,
+        "sha256": "5270db465cb9eed1942b9970de101211f954b7802dfd92e957bdc7e3eebe6c5c"
+      },
+      {
+        "path": "skills/remotion/rules/measuring-text.md",
+        "bytes": 3000,
+        "sha256": "88905cbd701e247306645c19f18e01aebe27c4eb0178a4e5d0377687f5ac1478"
+      },
+      {
+        "path": "skills/remotion/rules/sequencing.md",
+        "bytes": 2744,
+        "sha256": "10930df6d2a1baa2ac2ffc4598137e0e25e3924d17ce1bbb86a4321e5be897b6"
+      },
+      {
+        "path": "skills/remotion/rules/tailwind.md",
+        "bytes": 422,
+        "sha256": "bdd5162400cd20c6faebdc9d6d2ff9380f4f213f791b38eeb536c5231be34586"
+      },
+      {
+        "path": "skills/remotion/rules/text-animations.md",
+        "bytes": 700,
+        "sha256": "40ac6b1bccf1c57d9edd46c74e847ec6e86fe775d3ef4fd14e1338f4a2606171"
+      },
+      {
+        "path": "skills/remotion/rules/timing.md",
+        "bytes": 3939,
+        "sha256": "f639ed8452767a7458a480c7d33b7126b57c70c3b5e061aeaaba382420fd8ad2"
+      },
+      {
+        "path": "skills/remotion/rules/transcribe-captions.md",
+        "bytes": 850,
+        "sha256": "e7d3edf667e3b1f3c3ed93431cc7caf5e28786c7d1e547f33ee926480a01c0d0"
+      },
+      {
+        "path": "skills/remotion/rules/transitions.md",
+        "bytes": 3730,
+        "sha256": "a42100803a1e5e679617ae7fb72e91431be2a0ca53e15437fa10bdd651921bfa"
+      },
+      {
+        "path": "skills/remotion/rules/trimming.md",
+        "bytes": 1210,
+        "sha256": "40727aefd5939a42925f1ee1fcdfaf733f7fc098c26d7676f7fb69b418913375"
+      },
+      {
+        "path": "skills/remotion/rules/videos.md",
+        "bytes": 3509,
+        "sha256": "d9d3032a57f92c759daf0bd60b3282f6810ecc9958e9093a6b828de623b05328"
+      },
+      {
+        "path": "skills/saas-landing-pages/SKILL.md",
+        "bytes": 4037,
+        "sha256": "e14e737aa7f2ffe2ccf29cd8534c5340bbf89d6b99221d74fd739b2dcea3d5cd"
+      },
+      {
+        "path": "skills/saas-landing-pages/references/page-frameworks.md",
+        "bytes": 2208,
+        "sha256": "3cf83df85f4a6fdcde184d44c57bfeb5bb28def188b82b7fca35ac7e78ffdaa2"
+      },
+      {
+        "path": "skills/seo-audit/SKILL.md",
+        "bytes": 18857,
+        "sha256": "7a48ad32ac12219de88146ce3e6ed4b2e24d1570ad00ce6e18a6ca5c5c46841f"
+      },
+      {
+        "path": "skills/seo-audit/evals/evals.json",
+        "bytes": 9833,
+        "sha256": "fa7fa4b047a4aceaf0247c366dfca5fe371e2adfde97e32c667c727c3e840861"
+      },
+      {
+        "path": "skills/seo-audit/references/ai-writing-detection.md",
+        "bytes": 6528,
+        "sha256": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4"
+      },
+      {
+        "path": "skills/seo-audit/references/international-seo.md",
+        "bytes": 14258,
+        "sha256": "d2fc76f40eccc422ae0f1d7e5b770095e89a045f38e1d0370811203da57996ff"
+      },
+      {
+        "path": "skills/seo-audit/references/seo-comprehensive-reference.md",
+        "bytes": 140569,
+        "sha256": "42ddd6ab6634d1a5b2ac8d14cebd25cecaf9cb98bb959eb5fc2adc49222bce02"
+      },
+      {
+        "path": "skills/skill-to-prompt/SKILL.md",
+        "bytes": 13596,
+        "sha256": "4631cd1eef09f5ce0729055bf5a70b93d7da738225157b779995fbced9ca0ca1"
+      },
+      {
+        "path": "skills/skill-to-prompt/references/AI Prompting Techniques.pdf",
+        "bytes": 110673,
+        "sha256": "e5a0dc763b701f1759ddccb2f7c089e1df3938acbcc35cb310b7319030a7932e"
+      },
+      {
+        "path": "skills/skill-to-prompt/references/docx-generator.js",
+        "bytes": 13659,
+        "sha256": "ac747febbb0488790ddb16d5178d17939983b0f5617a66cbb1907bf5203e45bf"
+      },
+      {
+        "path": "skills/skill-to-prompt/references/prompt-structure-guide.md",
+        "bytes": 5505,
+        "sha256": "b7508af3aa994530d09b18079042902ee9f988751a1a4d3cf57d9ce6c5071a21"
+      },
+      {
+        "path": "skills/storytelling-framework/SKILL.md",
+        "bytes": 12977,
+        "sha256": "61e98db8ea9bd17e3a597fb6708de7170815f09e2d7c5db7953caf352167f4b1"
+      },
+      {
+        "path": "skills/storytelling-framework/references/story-example-fireflies.md",
+        "bytes": 3809,
+        "sha256": "b0f4716a1cd6b370e4d45803ffebe4f75c00c488e2dff8a87d68e9c46a250a10"
+      },
+      {
+        "path": "skills/storytelling-framework/references/story-example-notion.md",
+        "bytes": 4046,
+        "sha256": "dfeca6f1c5cd7459886e908764e2d8bb1c5d55a2d15cc36b4663d2bb2aebbbb4"
+      },
+      {
+        "path": "skills/storytelling-framework/references/story-example-posthog.md",
+        "bytes": 4745,
+        "sha256": "cedd4990368c8eb096563aacb532230556204c684a6b1ddf5b9bfd655bcf6624"
+      },
+      {
+        "path": "skills/vibe-coding/SKILL.md",
+        "bytes": 4223,
+        "sha256": "80288bc8a030463f2d445f5c53a502dc560b1015a2a3fa0525d482002d3cc221"
+      },
+      {
+        "path": "skills/vibe-coding/references/claude-skills-guide.md",
+        "bytes": 2731,
+        "sha256": "c35c2a502aaaa7712bb14a8e03470958e3f9a70e0c0c947542f9c5cbf20df4e1"
+      },
+      {
+        "path": "skills/vibe-coding/references/web-dev-fundamentals.md",
+        "bytes": 2296,
+        "sha256": "520124595279da0145c00fbbe0ec3481425a3caab5e46806e1c5ea947c26c82c"
+      }
+    ]
+  },
+  {
+    "repository": "visual-skills",
+    "commit": "3c554715b5eb30f54de78fac3c0df4a7105e4955",
+    "files": [
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "bytes": 366,
+        "sha256": "4ff82bab9f692c504ffc2fd9a13a21e64c683f7db137a3ff0a4e6ed0f1ddb397"
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "bytes": 267,
+        "sha256": "e92af0ffe0d92465dd4672a62d8b849adc7c24ddfb3bc980056017618d80110e"
+      },
+      {
+        "path": ".gitignore",
+        "bytes": 65,
+        "sha256": "5aa43cc1097f5bec344d5b0bf23ce3befe0dac6cd01309128dc851f055cdc5ad"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 18657,
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      },
+      {
+        "path": "NOTICE",
+        "bytes": 460,
+        "sha256": "09dfa459fb45dbecc9f695c4fac13867e0c22384171431ddab1a6f49f41d2c3c"
+      },
+      {
+        "path": "README.md",
+        "bytes": 16943,
+        "sha256": "c0ad901113fcb66c1ef3d416b38f0ab65c4637bfd064ea3e7d6383ae2e872b5c"
+      },
+      {
+        "path": "README.ru.md",
+        "bytes": 24086,
+        "sha256": "2c27f32f5d006a3a0c96585e0c4ce9b51a625920339a3e76bb3259fff21014ea"
+      },
+      {
+        "path": "assets/dramaturgy-banner.ru.svg",
+        "bytes": 4744,
+        "sha256": "3829f5c81f9b814a5fcd3ad0ff9c37777b50fde0d679a4c2b019af9b8be94a25"
+      },
+      {
+        "path": "assets/dramaturgy-banner.svg",
+        "bytes": 4504,
+        "sha256": "c0e0ed3445c0886ed6382aa9b7952975385111de48768aac178d7be734358646"
+      },
+      {
+        "path": "assets/hero.webp",
+        "bytes": 42682,
+        "sha256": "5d5bb8cbf8a96b4a5e480c51f0305f5d6a10a8f2d86ee6c2c63ec1d58905c510"
+      },
+      {
+        "path": "assets/logos/bytedance-color.svg",
+        "bytes": 896,
+        "sha256": "540351bd3d0309e65fd89c9aba62f19b7a2566a60b9854e3ac1e72fc577cfa45"
+      },
+      {
+        "path": "assets/logos/deepmind-color.svg",
+        "bytes": 763,
+        "sha256": "d72f6c7bb4f4355e272b5d8e5a46299b78798553fd1d4785bfcc68b80710e5b5"
+      },
+      {
+        "path": "assets/logos/kling-color.svg",
+        "bytes": 2188,
+        "sha256": "74be070ccdf9a18b8f6be0031a4454967dd69c5e34686ab202c48aa7c47d8775"
+      },
+      {
+        "path": "assets/logos/luma-color-dark.svg",
+        "bytes": 1765,
+        "sha256": "39ca6e73bacb5624cd57e5c5c73f3e65f95f2fea700db2f4e1b99ec4f9a45795"
+      },
+      {
+        "path": "assets/logos/luma-color.svg",
+        "bytes": 1762,
+        "sha256": "60a146e1c6d64cace6a8019a84a8ab738dbc6905598515ec1b22ac2064227552"
+      },
+      {
+        "path": "assets/logos/nanobanana-color.svg",
+        "bytes": 1323,
+        "sha256": "3c8df7bb9dc61bcb4fa1b959d71dfe063a332cce6f38d924daab896d4f31f867"
+      },
+      {
+        "path": "assets/logos/openai-dark.svg",
+        "bytes": 1625,
+        "sha256": "af28e55213c9848056209063719bbd4e343beae7d8e671f1d75f843383e9aa5f"
+      },
+      {
+        "path": "assets/logos/openai.svg",
+        "bytes": 1625,
+        "sha256": "84cd4909a72f1f1137fa1175793cffc2dca952038578cca875cac32d08f8d1f0"
+      },
+      {
+        "path": "assets/logos/pika-dark.svg",
+        "bytes": 435,
+        "sha256": "cabcbd8c60a1ddf45eecd16818f8af3aa526fe23b63484f13ae1f8827725d0dc"
+      },
+      {
+        "path": "assets/logos/pika.svg",
+        "bytes": 435,
+        "sha256": "8ec2d1df1a8fa26c37ef69af0e3ea26e060e762505269242d3d0a9f11b1deb8f"
+      },
+      {
+        "path": "assets/logos/runway-dark.svg",
+        "bytes": 690,
+        "sha256": "fd6b173a471edd21d4895984a1d29dd09dcc7564842e39c5006dc0e14dcb35f2"
+      },
+      {
+        "path": "assets/logos/runway.svg",
+        "bytes": 690,
+        "sha256": "8fc8a1de3a32a1f759f6beabd2b89aab81e9fab3bbc17597807438fed814d414"
+      },
+      {
+        "path": "assets/logos/sora-color.svg",
+        "bytes": 4510,
+        "sha256": "950f3cc82c53d8273d39b02e38ff09f2c99cd13a50fbd09de4d223b1c7cf9fab"
+      },
+      {
+        "path": "image/SKILL.md",
+        "bytes": 8045,
+        "sha256": "b6a032de6d7896a18d0562e24f054cbd774cfc8af11b354733275175598928fc"
+      },
+      {
+        "path": "image/references/characters.md",
+        "bytes": 2283,
+        "sha256": "33deed5fffdc35a189f889891d148b00cec73562a8b7261907019e8110b15273"
+      },
+      {
+        "path": "image/references/creative-direction.md",
+        "bytes": 4884,
+        "sha256": "61aabd842ce799140250bcd082b8a9f65f3b0d714581a04bf51454830d15f708"
+      },
+      {
+        "path": "image/references/dimensional.md",
+        "bytes": 2252,
+        "sha256": "35486e3d86c7808a9bae4b67b91c1bd2051dc2daad414d99044b97716484cf5c"
+      },
+      {
+        "path": "image/references/editing.md",
+        "bytes": 2965,
+        "sha256": "e705436272a9281dee84466d8a2d364f595a26806be8d17cf0a787afc0cd608f"
+      },
+      {
+        "path": "image/references/golden-rules.md",
+        "bytes": 9097,
+        "sha256": "1d64a1ecb1dc0d583fd2f8c907fd5b7d2f31dd4b70de4fc26225c1e22636d3bf"
+      },
+      {
+        "path": "image/references/gpt-image.md",
+        "bytes": 8798,
+        "sha256": "52f7808276413178eda7aac649e4bf92e1e0209d6a92e74af344fc58f985e62b"
+      },
+      {
+        "path": "image/references/models.md",
+        "bytes": 6042,
+        "sha256": "97916dd5404685627b7af68c8ac55e16cbc18dd2a8b157e50bc493e204b998b2"
+      },
+      {
+        "path": "image/references/multi-panel.md",
+        "bytes": 16497,
+        "sha256": "ce9f7f21f74993478572106ecff6d450c1b706e654432cf6ead03adc8e3296e4"
+      },
+      {
+        "path": "image/references/nano-banana.md",
+        "bytes": 9018,
+        "sha256": "2288295a583be5d222e5e204ebc8b555b9c1b44de134859811ffdff27ab7e6bd"
+      },
+      {
+        "path": "image/references/patterns/character-design.md",
+        "bytes": 12637,
+        "sha256": "2af8232f099ad121151b8f4ba8f8ca64cb49f17ad5299cbf4c972bb0147b33a8"
+      },
+      {
+        "path": "image/references/patterns/ecommerce.md",
+        "bytes": 10011,
+        "sha256": "4af9d7d52486ddf286f2222c87e17a1ed76b7d563fcbe03b619ea7124ff45155"
+      },
+      {
+        "path": "image/references/patterns/fashion-editorial.md",
+        "bytes": 11213,
+        "sha256": "366039fbe65b7d605b2c771b0f10d6aee140bfd9255ecb7914ceb575f22af29c"
+      },
+      {
+        "path": "image/references/patterns/food-beverage.md",
+        "bytes": 11983,
+        "sha256": "0be4c15074428325e675167689b08d8f9716d7b582f07c04f6b31f68ec9e4b0e"
+      },
+      {
+        "path": "image/references/patterns/portrait-cinema.md",
+        "bytes": 13018,
+        "sha256": "f735fe8474484db4d0aa47d5d17788753ba5da6c538aeadf703bcfca708adb73"
+      },
+      {
+        "path": "image/references/patterns/poster-illustration.md",
+        "bytes": 15619,
+        "sha256": "fa1897a0c494d7f0cc1551c12886b5a4110c8b71c09d7c7ecee3d45ee17c1c15"
+      },
+      {
+        "path": "image/references/patterns/ui-social.md",
+        "bytes": 14444,
+        "sha256": "5fa2e108c943274c12f6b9220acf4140c3a9c6f37d188f54458a96ceb12c8713"
+      },
+      {
+        "path": "image/references/prompt-framework.md",
+        "bytes": 13590,
+        "sha256": "31c66f4a6d4fb88fdcc0c74c986d04ee753e20234914e0e7ce7cb90b365e3eb4"
+      },
+      {
+        "path": "image/references/slides.md",
+        "bytes": 10162,
+        "sha256": "9dd5b11b42a9cd29664ad899340df0c9196c537297fc3e079dc87d911d4a9cb6"
+      },
+      {
+        "path": "image/references/storyboards.md",
+        "bytes": 2383,
+        "sha256": "08525c80f209f73cb934d68c51c80dc59edf93a1f93b8f0b79f9832f9c4d38a3"
+      },
+      {
+        "path": "image/references/structural.md",
+        "bytes": 2267,
+        "sha256": "cf362d002bbcbe28ee438531aaff7ee3af424e03cd4992d31401d8740da15b03"
+      },
+      {
+        "path": "image/references/text-rendering.md",
+        "bytes": 5837,
+        "sha256": "edc02365ea6bf40e3e10a198e54df6e32bddda6f5242336eff06a989358b2cea"
+      },
+      {
+        "path": "image/references/vision-decomposer.md",
+        "bytes": 6823,
+        "sha256": "8baca2001e1cbc300d8f84acc44e96a9b1fcc11a6038a3bd7a2ddd0b0592026f"
+      },
+      {
+        "path": "video/SKILL.md",
+        "bytes": 9463,
+        "sha256": "67e01a68d4f89b148ce726a83da8d172db1af3d0c18c819aa1fd132ae71e5165"
+      },
+      {
+        "path": "video/references/animatic-keyframes.md",
+        "bytes": 28702,
+        "sha256": "006598064bc2866051289c25dfc913218552d9ec035350e58b89abc4b7e4445d"
+      },
+      {
+        "path": "video/references/camera-lighting-vocabulary.md",
+        "bytes": 7038,
+        "sha256": "536d78777e2b65adeb93ce26639e49a05c6b6be8f75533a4ba2eee213226e58a"
+      },
+      {
+        "path": "video/references/dramaturgy.md",
+        "bytes": 15157,
+        "sha256": "63adc8998aa6e1b5cd78b59e36d25510cce5a28ba985c0a3cb97711d7eaf930a"
+      },
+      {
+        "path": "video/references/fixes-and-skeletons.md",
+        "bytes": 9214,
+        "sha256": "47b4f0caaf25d60bca09decbe9ba88f42331c8678ecc798cb080a998087ba33d"
+      },
+      {
+        "path": "video/references/kling.md",
+        "bytes": 17439,
+        "sha256": "2b96e87998e1c5df0485c29f90060174e55c27e8b5175efe203f77353d53a929"
+      },
+      {
+        "path": "video/references/patterns-and-genres.md",
+        "bytes": 6222,
+        "sha256": "332ee23fde9b9d22f9477f7decb0807434bb874238921e4a68c3c4dd6135bc15"
+      },
+      {
+        "path": "video/references/race-and-speed.md",
+        "bytes": 31220,
+        "sha256": "0972b1978098b13eec506e5912b61878e44ce2f1621e5b5f23cf3ea8e06e933e"
+      },
+      {
+        "path": "video/references/role-modes.md",
+        "bytes": 6220,
+        "sha256": "64ca4691c6f89fdb8b1f44adf9b82aec5b865b0fd9e1bd176f028d2ae4270d6b"
+      },
+      {
+        "path": "video/references/seedance-25.md",
+        "bytes": 31537,
+        "sha256": "408fc5fa60b47c98fac00d1aa4f3f84e808c73565696e73134af2540578faa35"
+      },
+      {
+        "path": "video/references/seedance.md",
+        "bytes": 21949,
+        "sha256": "f7837be7be270d6de52f10f4c413191908370e1f7939ac48dc49c6df39865d56"
+      },
+      {
+        "path": "video/references/universal-rules.md",
+        "bytes": 10382,
+        "sha256": "f9d51fc2e456a37d7984a42378f1d072288a83df5bca2d4688c8eccba6f3ce3d"
+      },
+      {
+        "path": "video/references/veo.md",
+        "bytes": 7815,
+        "sha256": "bd737431ab50bd46678951bd403d9c59fd0527fe9ca57d953c8b2ec882d89b78"
+      }
+    ]
+  }
+]

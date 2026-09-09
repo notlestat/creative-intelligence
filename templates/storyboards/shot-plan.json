@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 0,
+  "aspect_ratios": [],
+  "platform_versions": [],
+  "shots": [
+    {
+      "id": "shot-01",
+      "duration_seconds": 0,
+      "objective": "TO_COMPLETE",
+      "visual_description": "TO_COMPLETE",
+      "subject": "TO_COMPLETE",
+      "environment": "TO_COMPLETE",
+      "composition": "TO_COMPLETE",
+      "camera": "TO_COMPLETE",
+      "movement": "TO_COMPLETE",
+      "lighting": "TO_COMPLETE",
+      "colour": "TO_COMPLETE",
+      "texture": "TO_COMPLETE",
+      "action": "TO_COMPLETE",
+      "product_details": "TO_COMPLETE",
+      "continuity": "TO_COMPLETE",
+      "starting_frame": "TO_COMPLETE",
+      "ending_frame": "TO_COMPLETE",
+      "sound_intent": "TO_COMPLETE",
+      "negative_constraints": "TO_COMPLETE",
+      "reference_notes": "TO_COMPLETE",
+      "risk": "high",
+      "risk_reason": "TO_COMPLETE",
+      "validation_check": "TO_COMPLETE",
+      "fallback": "TO_COMPLETE",
+      "variants": 1,
+      "expected_generations": 1
+    }
+  ]
+}
