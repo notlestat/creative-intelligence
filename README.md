@@ -1,14 +1,30 @@
-# Axis creative agency
+# Corey Kavanagh creative intelligence
 
-One Codex-first creative agency for brands, artists and releases. Give Axis a client, the source material and the job. Codex keeps the work in local files, conducts evidence-led research, develops options and stops for your decisions.
+A Codex-first creative workflow for brands, artists and releases. Give Codex a client, the source material and the job. Codex keeps the work in local files, conducts evidence-led research, develops options and stops for your decisions.
 
 There is no website, subscription product or model API to configure. Codex is the working interface.
+
+## Setup
+
+Requires Python 3.9+ for the file tools. Their runtime uses the standard library. Open the checkout in Codex for the research and creative workflow; the CLI creates and validates files rather than doing that work itself.
+
+```sh
+git clone https://github.com/notlestat/creative-intelligence.git
+cd creative-intelligence
+python3 tools/agency.py --help
+```
+
+Read [AGENTS.md](AGENTS.md) and [SKILL.md](SKILL.md) for routing, and [the command reference](references/commands.md) for manual operation.
+
+Corey Kavanagh is the current practice. This checkout still uses `axis-creative-agency` in skill metadata, installer paths and internal operating files. Those are existing implementation identifiers. The separate [axis-creative-agency repository](https://github.com/notlestat/axis-creative-agency) contains the earlier campaign workflow.
+
+An optional `python3 tools/install_skill.py --dest /path/to/skills/axis-creative-agency` copies a self-contained skill. Without `--dest`, it targets `$CODEX_HOME/skills/axis-creative-agency` or `~/.codex/skills/axis-creative-agency`. It preserves an existing destination and exits with code 2; review the target before installing alongside another version.
 
 ## Start an artist project
 
 Open this folder in Codex and say:
 
-> Start a new Axis artist project for [artist]. This is a [single, EP, album or artist platform]. Here are the music, brief, links, assets and deadlines.
+> Start a new artist project for [artist]. This is a [single, EP, album or artist platform]. Here are the music, brief, links, assets and deadlines.
 
 Codex will create the artist and project folders, organise what you supplied, identify the few missing answers that change the work, and begin the correct phase.
 
@@ -35,11 +51,11 @@ python3 tools/agency.py status aster-vale new-single
 11. Production package and controlled generation
 12. Asset review, handoff and saved learning
 
-Axis supports brands, artists, singles, EPs, albums, ongoing artist platforms and label projects through the same evidence and approval system. It chooses only the deliverables the project needs. It does not force every artist into the same rollout checklist.
+The workflow supports brands, artists, singles, EPs, albums, ongoing artist platforms and label projects through the same evidence and approval system. It chooses only the deliverables the project needs. It does not force every artist into the same rollout checklist.
 
 ## Cosmos visual research
 
-Axis can use the optional Cosmos MCP integration to search public visual references, inspect images and expand promising seeds through similar-image discovery. It is a research provider inside the existing workflow, not a replacement for the brief, creative judgment or approval gates.
+Codex can use the optional Cosmos MCP integration to search public visual references, inspect images and expand promising seeds through similar-image discovery. It is a research provider inside the existing workflow, not a replacement for the brief, creative judgment or approval gates.
 
 Use the [Cosmos operating rules](references/cosmos.md) for query privacy, reference records, account writes and credential boundaries.
 
@@ -75,4 +91,6 @@ PYTHONPYCACHEPREFIX=/tmp/axis-agency-pycache python3 -m compileall -q tools test
 python3 tools/validate.py
 ```
 
-The previous web application remains recoverable in Git at commit `8e2e03a`. It is no longer part of the active Axis workflow.
+The previous web application remains recoverable in this repository's Git history at commit `8e2e03a`. It is not part of the current file-based workflow.
+
+The checks above cover local tools and contracts. They do not verify a connected Cosmos account, Melius staging or paid generation.
