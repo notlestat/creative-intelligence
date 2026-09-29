@@ -16,7 +16,7 @@ Never put a Cosmos bearer token, cookie, user ID or credential file in this repo
 4. Search one property or combination at a time with `cosmos_search`, `cosmos_search_clusters`, `cosmos_browse_boards` or `cosmos_spotlights`.
 5. Inspect a small shortlist with `cosmos_view_images`. Captions and rankings do not substitute for looking.
 6. Use `cosmos_similar_elements` only from a seed that genuinely fits. Re-seed when results become repetitive, generic or drift from the brief.
-7. For a public named subject, favour exact search and reject visually similar but factually wrong results. For a mood or aesthetic, similar-image discovery can carry more weight, but still test it against the brief.
+7. For a named subject that can be disclosed under step 3, favour exact search and reject visually similar but factually wrong results. For a mood or aesthetic, similar-image discovery can carry more weight, but still test it against the brief.
 8. Present the reviewed shortlist to the user before developing concepts or finalising art direction.
 
 ## Reference record
@@ -46,7 +46,3 @@ When the user asks for a collection:
 - require explicit confirmation immediately before permanent deletion
 
 Cosmos uses an unofficial private API and can change or stop working. Treat access as current capability, not a permanent guarantee.
-
-## Verified local integration
-
-On 29 September 2026, the registered Cosmos MCP reported an authenticated session with all 36 tools available. The local build is based on [`mrmos/cosmos-mcp`](https://github.com/mrmos/cosmos-mcp) version 0.1.1 at commit `e29141f41e1f5a4f8f6c88170838b75c8d6f6d80`. Credentials are stored outside this repository and are not included in the Axis package.

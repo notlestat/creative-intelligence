@@ -8,14 +8,14 @@ Extract a coherent visual direction from a curated collection without copying in
 ## Inputs
 Emotional target, 8 to 16 references, project identity, constraints and intended output.
 ## Process
-1. If Cosmos is used, call `cosmos_whoami`, follow [the Cosmos operating rules](../../../references/cosmos.md) and inspect candidates as images rather than trusting captions or ranking.
+1. If Cosmos is used, follow [the Cosmos operating rules](../../../references/cosmos.md).
 2. Test every image against the emotional target.
 3. Remove duplicate or decorative references.
 4. Read recurring colour, light, texture, composition, people, space, camera behaviour and tension.
 5. Label inspiration versus execution.
 6. Build an anti-board and derive art-direction principles.
 ## Evidence requirements
-Every claim names the references that support it. Rights and source URLs remain attached. Missing creator or source data stays UNKNOWN.
+Every claim names the references that support it. Rights and source URLs remain attached.
 ## Outputs
 Collection analysis, visual principles, reference roles, anti-board and open questions.
 ## Failure modes

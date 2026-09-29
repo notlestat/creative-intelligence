@@ -6,7 +6,7 @@ Run `prepare <client> <project> art-direction`. Build one coherent creative worl
 
 Use 8 to 16 references only when they each do a job. Separate identity, product, composition, lighting, palette, material and motion references. Record source, rights, what to study and what not to copy. If references are unavailable, retain the gap.
 
-If Cosmos is available, read [the Cosmos operating rules](../../references/cosmos.md) and use it to extend the approved concept rather than to choose a concept for the user. Inspect every candidate used in the board, reject decorative duplicates and preserve source links and UNKNOWN credits. Saving or reorganising a Cosmos collection requires an explicit user request; publishing one requires a separate explicit request.
+If Cosmos is available, use it to extend the approved concept under [the Cosmos operating rules](../../references/cosmos.md).
 
 Choose only the release or campaign outputs the idea earns, such as cover artwork, identity, photography, film, teasers, social, live visuals, merch, collaboration or physical activation. Do not force every channel into the plan.
 

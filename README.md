@@ -41,9 +41,7 @@ Axis supports brands, artists, singles, EPs, albums, ongoing artist platforms an
 
 Axis can use the optional Cosmos MCP integration to search public visual references, inspect images and expand promising seeds through similar-image discovery. It is a research provider inside the existing workflow, not a replacement for the brief, creative judgment or approval gates.
 
-When Cosmos is available, Axis checks its current access first, searches in small batches, looks at the actual images and records source links, visual roles and missing credits. It presents a shortlist before concepts or art direction. Saving to a Cosmos collection requires an explicit request; publishing a collection requires a separate explicit request. Credentials stay outside this repository.
-
-See [Cosmos operating rules](references/cosmos.md) for the complete boundary.
+Use the [Cosmos operating rules](references/cosmos.md) for query privacy, reference records, account writes and credential boundaries.
 
 ## Human decisions
 
