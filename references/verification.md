@@ -9,4 +9,10 @@ Verified on 2026-09-09 after merging Axis Creative Intelligence into the Codex-f
 - A packaged copy installed into a fresh temporary location, passed its own tests and validation, and created a synthetic artist EP project with every approval state pending.
 - The package includes the current stage-only Melius canvas contract and excludes client files, local restricted material and credentials.
 
+Verified on 2026-09-29 after adding Cosmos as an optional visual-discovery provider.
+
+- A live `cosmos_whoami` capability check reported an authenticated session and all 36 Cosmos tools available.
+- The integration rules require image inspection, source-link retention, UNKNOWN credits, a human-reviewed shortlist, private-by-default collections and separate permission before publishing or deleting.
+- No Cosmos credential, account token, client material or bundled Cosmos runtime is stored in this repository or packaged with Axis.
+
 These checks prove workflow mechanics and packaging. They do not prove creative quality, rights clearance, research truth, platform access, campaign results or current Melius prices. Those need project-specific evidence and human review.
