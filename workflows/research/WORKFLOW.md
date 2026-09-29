@@ -6,6 +6,8 @@ For an artist, read `.agents/skills/axis-artist-intelligence/SKILL.md`, `axis-au
 
 Complete entity intelligence, audience research, cultural research, competitor research, creative references, signals, research summary and evidence log. Artist interpretation must remain separate from verified biography or author intent. Analyse lyrics only when the user supplied them. Treat credits and collaborators as unknown until sourced.
 
+For optional Cosmos visual-reference discovery, follow [the Cosmos operating rules](../../references/cosmos.md).
+
 FACT needs a source. OBSERVATION describes inspected material. INFERENCE names the evidence it interprets. HYPOTHESIS states how to test it. UNKNOWN records an unresolved point. Quotes stay short, exact and attributed. Do not turn a handful of fan comments into a broad audience truth.
 
 Use `axis-signal-analysis` only after the source set is visible. A strong signal requires repeated, relevant evidence. Record counterexamples, dates, sample limits and inaccessible platforms. Set each complete research file to `READY_FOR_REVIEW`.

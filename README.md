@@ -37,6 +37,12 @@ python3 tools/agency.py status aster-vale new-single
 
 Axis supports brands, artists, singles, EPs, albums, ongoing artist platforms and label projects through the same evidence and approval system. It chooses only the deliverables the project needs. It does not force every artist into the same rollout checklist.
 
+## Cosmos visual research
+
+Axis can use the optional Cosmos MCP integration to search public visual references, inspect images and expand promising seeds through similar-image discovery. It is a research provider inside the existing workflow, not a replacement for the brief, creative judgment or approval gates.
+
+Use the [Cosmos operating rules](references/cosmos.md) for query privacy, reference records, account writes and credential boundaries.
+
 ## Human decisions
 
 Codex recommends but does not select. The guarded stages require explicit decisions:

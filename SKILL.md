@@ -30,6 +30,8 @@ Read only the workflow and specialist needed for the current phase.
 
 Templates are output contracts, not finished work. `prepare` creates drafts. Codex does the research and creative work, fills the files, cites evidence and changes each complete document to `status: READY_FOR_REVIEW`.
 
+When Cosmos MCP is available, use it as an optional visual-discovery provider during research and art direction under [the Cosmos operating rules](references/cosmos.md).
+
 ## Approval discipline
 
 Opportunities, concepts, art direction, storyboard, shot list and final assets require separate human decisions. A recommendation does not count as approval. Use the exact approval records documented in [commands](references/commands.md).
