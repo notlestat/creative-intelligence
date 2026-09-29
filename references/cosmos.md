@@ -12,11 +12,12 @@ Never put a Cosmos bearer token, cookie, user ID or credential file in this repo
 
 1. Read the intake, supplied assets and existing client knowledge first.
 2. Turn the brief into several concrete visual properties: subject, action, setting, framing, light, material, colour, movement and tension as relevant.
-3. Search one property or combination at a time with `cosmos_search`, `cosmos_search_clusters`, `cosmos_browse_boards` or `cosmos_spotlights`.
-4. Inspect a small shortlist with `cosmos_view_images`. Captions and rankings do not substitute for looking.
-5. Use `cosmos_similar_elements` only from a seed that genuinely fits. Re-seed when results become repetitive, generic or drift from the brief.
-6. For a named subject, favour exact search and reject visually similar but factually wrong results. For a mood or aesthetic, similar-image discovery can carry more weight, but still test it against the brief.
-7. Present the reviewed shortlist to the user before developing concepts or finalising art direction.
+3. Before sending a query or other request to Cosmos, check whether it would disclose confidential or unreleased client material. Use generic visual terms drawn from the properties above in that case. Send a private artist, album, product, campaign or internal name to Cosmos only after the user explicitly authorises that disclosure; do not infer permission from access to the brief or a request for visual research.
+4. Search one property or combination at a time with `cosmos_search`, `cosmos_search_clusters`, `cosmos_browse_boards` or `cosmos_spotlights`.
+5. Inspect a small shortlist with `cosmos_view_images`. Captions and rankings do not substitute for looking.
+6. Use `cosmos_similar_elements` only from a seed that genuinely fits. Re-seed when results become repetitive, generic or drift from the brief.
+7. For a public named subject, favour exact search and reject visually similar but factually wrong results. For a mood or aesthetic, similar-image discovery can carry more weight, but still test it against the brief.
+8. Present the reviewed shortlist to the user before developing concepts or finalising art direction.
 
 ## Reference record
 
