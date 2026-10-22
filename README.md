@@ -16,19 +16,15 @@ python3 tools/agency.py --help
 
 Read [AGENTS.md](AGENTS.md) and [SKILL.md](SKILL.md) for routing, and [the command reference](references/commands.md) for manual operation.
 
-Corey Kavanagh is the current practice. This checkout still uses `axis-creative-agency` in skill metadata, installer paths and internal operating files. Those are existing implementation identifiers. The separate [axis-creative-agency repository](https://github.com/notlestat/axis-creative-agency) contains the earlier campaign workflow.
-
-An optional `python3 tools/install_skill.py --dest /path/to/skills/axis-creative-agency` copies a self-contained skill. Without `--dest`, it targets `$CODEX_HOME/skills/axis-creative-agency` or `~/.codex/skills/axis-creative-agency`. It preserves an existing destination and exits with code 2; review the target before installing alongside another version.
-
 ## Start an artist project
 
 Open this folder in Codex and say:
 
 > Start a new artist project for [artist]. This is a [single, EP, album or artist platform]. Here are the music, brief, links, assets and deadlines.
 
-Codex will create the artist and project folders, organise what you supplied, identify the few missing answers that change the work, and begin the correct phase.
+Codex uses the intake workflow to create the artist and project folders. It organises supplied sources and asks for missing details that change the work.
 
-You can also run the file tools directly:
+To run the file tools directly, use the repository root, or add `--root /path/to/workspace` before the subcommand to store clients elsewhere:
 
 ```sh
 python3 tools/agency.py create-client aster-vale --name "Aster Vale" --type artist
@@ -83,14 +79,14 @@ Each client lives under `clients/<slug>/`:
 
 Client files are excluded from Git. Facts, observations, inferences, hypotheses and unknowns stay visibly separate.
 
-## Checks
+## Check the local tools
+
+Run these checks from the repository root. The runtime uses only the Python standard library:
 
 ```sh
-PYTHONPYCACHEPREFIX=/tmp/axis-agency-pycache python3 -m unittest discover -s tests -v
-PYTHONPYCACHEPREFIX=/tmp/axis-agency-pycache python3 -m compileall -q tools tests
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q tools tests
 python3 tools/validate.py
 ```
-
-The previous web application remains recoverable in this repository's Git history at commit `8e2e03a`. It is not part of the current file-based workflow.
 
 The checks above cover local tools and contracts. They do not verify a connected Cosmos account, Melius staging or paid generation.
