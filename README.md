@@ -1,4 +1,4 @@
-# Corey Kavanagh creative intelligence
+# Creative intelligence
 
 A Codex-first creative workflow for brands, artists and releases. Give Codex a client, the source material and the job. Codex keeps the work in local files, conducts evidence-led research, develops options and stops for your decisions.
 
@@ -27,9 +27,9 @@ Codex uses the intake workflow to create the artist and project folders. It orga
 To run the file tools directly, use the repository root, or add `--root /path/to/workspace` before the subcommand to store clients elsewhere:
 
 ```sh
-python3 tools/agency.py create-client aster-vale --name "Aster Vale" --type artist
-python3 tools/agency.py start-project aster-vale new-single --name "New single" --type single
-python3 tools/agency.py status aster-vale new-single
+python3 tools/agency.py create-client example-artist --name "Example Artist" --type artist
+python3 tools/agency.py start-project example-artist new-single --name "New single" --type single
+python3 tools/agency.py status example-artist new-single
 ```
 
 ## The workflow
