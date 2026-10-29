@@ -1,87 +1,38 @@
-# Legendary Campaigns Library
+# Campaign reference library
 
-571 advertising campaigns from 1950–2025, tagged across 17 axes. Used by `creative-director` for pattern calibration, originality benchmarking, and case-based reasoning.
+An attributed campaign-card collection for pattern comparison and originality review. The index and grouping files describe the bundled cards; their contents are reference material, not independently verified campaign evidence.
 
-## Structure
+## Index files
 
-```
-legendary-campaigns/
-├── README.md           ← you are here
-├── MOC-index.md        ← all 571 cards by year DESC
-├── MOC-pattern.md      ← grouped by P01–P18 (18 mechanics)
-├── MOC-emotion.md      ← grouped by emotion_tier (3 → 2 → 1)
-├── MOC-format.md       ← grouped by category (film/integrated/stunt_pr/...)
-├── MOC-industry.md     ← grouped by industry vertical
-├── MOC-budget.md       ← grouped by budget (low/medium/high)
-└── cards/
-    └── {id}.md         ← 571 individual cards (flat namespace)
-```
+| File | Grouping |
+| --- | --- |
+| [MOC-index.md](MOC-index.md) | Year |
+| [MOC-pattern.md](MOC-pattern.md) | Creative mechanism |
+| [MOC-emotion.md](MOC-emotion.md) | Emotion tier |
+| [MOC-format.md](MOC-format.md) | Format |
+| [MOC-industry.md](MOC-industry.md) | Industry |
+| [MOC-budget.md](MOC-budget.md) | Budget |
 
-## Card anatomy
+`cards/` contains the individual Markdown records. [The tag schema](../tag-schema.md) defines their frontmatter. To obtain the card count for this checkout, run from this directory:
 
-Each card has YAML frontmatter (17 axes — see `../tag-schema.md`) + 4 sections:
-
-- **Insight** — the human truth the campaign exploits (one sentence)
-- **Mechanic** — what was actually executed
-- **Why it worked** — psychological / cultural / structural reason
-- **Steal** — pattern-level borrow strategy
-- **Related** — auto-generated wikilinks (pattern hub + 2 sibling cards + emotion match)
-
-## Lookup strategies
-
-**Browse by axis** — open the matching MOC. Each line has inline-context (`brand · year · format · emotion · budget · top_award`) so you can scan without opening cards.
-
-**Filter by combination** — use ripgrep on frontmatter:
-```bash
-# low-budget Tier-3 emotional campaigns:
-rg -l "^budget: low$" cards/ | xargs rg -l "^emotion_tier: 3$"
-
-# all P11 (Absurd as Carrier) cases since 2020:
-rg -l "P11" cards/ | xargs rg -l "^year: 202"
-
-# all canonical cases for QSR:
-rg -l "^industry: qsr$" cards/ | xargs rg -l "^quality: canonical$"
+```sh
+python3 -c 'from pathlib import Path; print(sum(1 for _ in Path("cards").glob("*.md")))'
 ```
 
-**Pattern calibration** — for any new idea, find its closest pattern (P01–P18), open `MOC-pattern.md`, scan canonical examples in that group, articulate how your idea differs.
+## Evidence labels
 
-## Saturation map (originality pressure)
+Cards contain frontmatter and sections for insight, execution, interpretation, pattern reuse, and related records. Confidence and quality labels distinguish fuller records from inferred or minimal entries. Those labels do not establish independent verification.
 
-| Pattern | Cases | Saturation |
-|---------|-------|-----------|
-| P11 (Absurd as Carrier) | high | hardest to be original |
-| P16 (Long-form Drama) | high | hardest to be original |
-| P09 (User as Co-Author) | high | crowded |
-| P15 (Benefit Hyperbole) | low | underused |
-| P01 (Format as Idea) | low | room for novelty |
+The inherited library marks its source URLs as unverified. Check the original campaign source before citing a record in client work. Treat explanations of why a campaign worked as interpretations unless supported by evidence. Pattern frequency in this collection does not establish market-wide saturation or a measured originality score.
 
-If your idea sits in a high-saturation pattern, originality cap = 7 unless you bring a structurally new variant.
+## Maintenance scripts
 
-## Confidence and quality
+The specialist's `scripts/` directory contains schema validation, index generation, and related-link generation. The scripts declare Python 3.11+ and PyYAML. With those dependencies installed, run from this specialist's root directory:
 
-Each card has `confidence: high/medium/low` and `quality: canonical/full/stub_enriched/stub_minimal`:
+```sh
+python3 scripts/validate_schema.py
+```
 
-- `canonical` — ★ in source list + full pattern-file content
-- `full` — non-★ but well-documented from training knowledge
-- `stub_enriched` — limited source detail, sections constructed from inference
-- `stub_minimal` — `verification_required: true`, sections may have TODOs
+Index and related-link regeneration modify the bundled reference records. Inspect and review those changes separately from a documentation edit.
 
-Cards with `confidence: low` should be cross-checked against external sources before citing in client work.
-
-## URL verification
-
-⚠️ All `source_url` fields are unverified — proxy blocks egress during enrichment. Verify links manually before sharing.
-
-## Regeneration
-
-Three scripts maintain this library (run via `uv run` from skill root):
-
-- `scripts/validate_schema.py` — checks every card against `tag-schema.md`
-- `scripts/generate_mocs.py` — rebuilds 6 MOCs from current cards
-- `scripts/generate_links.py` — rebuilds `## Related` sections (idempotent)
-
-Pipeline: edit/add cards → validate → regenerate MOCs → regenerate links.
-
----
-
-*Author: Serge Shima ([t.me/aimastersme](https://t.me/aimastersme) · [sergeshima.com](https://sergeshima.com) · [aimasters.me](https://aimasters.me)) · License: CC BY 4.0 — attribution required · Source: [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)*
+Author: Serge Shima, [sergeshima.com](https://sergeshima.com), [aimasters.me](https://aimasters.me). License: CC BY 4.0, attribution required. Source: [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill).
