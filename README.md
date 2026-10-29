@@ -6,7 +6,7 @@ There is no website, subscription product or model API to configure. Codex is th
 
 ## Setup
 
-Requires Python 3.9+ for the file tools. Their runtime uses the standard library. Open the checkout in Codex for the research and creative workflow; the CLI creates and validates files rather than doing that work itself.
+Requires Python 3.9+ for the file tools. Their runtime uses the standard library. Open the checkout in Codex for the research and creative workflow. The CLI creates and validates files. It does not do the research or creative work.
 
 ```sh
 git clone https://github.com/notlestat/creative-intelligence.git
