@@ -8,7 +8,7 @@ Assess all fifteen criteria. For each asset record hash, observed timestamps, sc
 
 Then apply the performance lens: does the first 1-2 seconds earn attention, is the action comprehensible, why should the audience care, what is sold, is proof needed, is the proposition clear and does the CTA fit? Preserve the distinctive mechanism while correcting ambiguity. Label performance expectations as judgment until real data exists.
 
-If real Meta results are supplied, consult the locally installed axis-meta-context entry and its results reference only for diagnostic questions. Record delivery context, sample size, attribution window and confounders. Do not treat a generic benchmark as this client's result or automatically change the ad account.
+If real Meta results are supplied, consult the locally installed ci-meta-context entry and its results reference only for diagnostic questions. Record delivery context, sample size, attribution window and confounders. Do not treat a generic benchmark as this client's result or automatically change the ad account.
 
 Iteration must state change, preserve, expected benefit and acceptance test. Prompt-only corrections that preserve the approved shot can form a new take. Changes to concept, art, story or shot plan require renewed approval. Never overwrite prior generations or reviews; archive prior review versions inside 09_review/history and append decisions.
 

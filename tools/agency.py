@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local Axis projects, approvals, Melius briefs and learning history. No network."""
+"""Local creative projects, approvals, Melius briefs and learning history. No network."""
 
 import argparse
 import hashlib
@@ -581,7 +581,7 @@ def production(campaign):
 def handoff(campaign):
     rows = {r["shot_id"]: r for r in reviews(campaign, approved_only=True)}
     plan = shot_plan(campaign)
-    text = "# Axis post-production handoff\n\nHuman-approved assets. Prepared as a document only; Axis has not been invoked.\n\n| Order | Shot | Approved file | SHA-256 | Edit duration |\n|---|---|---|---|---|\n"
+    text = "# Post-production handoff\n\nHuman-approved assets. Prepared as a document only. Post-production has not started.\n\n| Order | Shot | Approved file | SHA-256 | Edit duration |\n|---|---|---|---|---|\n"
     for i, s in enumerate(plan["shots"], 1):
         r = rows[s["id"]]
         text += f"| {i} | {s['id']} | 08_generations/{r['file']} | {r['sha256']} | {s['duration_seconds']}s |\n"

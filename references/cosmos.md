@@ -1,10 +1,10 @@
 # Cosmos visual-discovery provider
 
-Cosmos MCP is an optional reference-research provider for Axis. It can search and inspect public material, find visually similar images and, when the user's account is connected, organise collections. It does not replace the project brief, original-source research, rights checks or human creative direction.
+Cosmos MCP is an optional reference-research provider for this workflow. It can search and inspect public material, find visually similar images and, when the user's account is connected, organise collections. It does not replace the project brief, original-source research, rights checks or human creative direction.
 
 ## Start with capability, not assumption
 
-Call `cosmos_whoami` before any other Cosmos tool. Record whether the session is read-only or authenticated. If Cosmos is unavailable, continue with other research sources and leave any provider-specific gap visible. Never make an Axis phase depend on Cosmos alone.
+Call `cosmos_whoami` before any other Cosmos tool. Record whether the session is read-only or authenticated. If Cosmos is unavailable, continue with other research sources and leave any provider-specific gap visible. Never make a phase depend on Cosmos alone.
 
 Never put a Cosmos bearer token, cookie, user ID or credential file in this repository, a client folder, a board, a prompt or chat. Authentication belongs in the user's local Cosmos MCP credential store.
 

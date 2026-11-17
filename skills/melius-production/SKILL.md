@@ -1,6 +1,6 @@
 ---
 name: melius-production
-description: Convert an approved Axis artist, release or brand project into a self-contained production package and, when explicitly requested, stage it in Melius without starting paid generations.
+description: Convert an approved artist, release or brand project into a self-contained production package and, when explicitly requested, stage it in Melius without starting paid generations.
 ---
 
 # Melius production adapter
@@ -33,4 +33,4 @@ Creating generative nodes normally implies running them in Melius. The user's st
 
 Require a separate user instruction naming the shot or node set and a maximum variant or attempt count. Before the first run, query the live model registry and defaults, report the chosen model settings and available cost information, and verify that required reference inputs exist. Start only the authorised nodes. Use Melius's run waiting and download tools. Record run IDs, actual prompt or reference changes and downloaded filenames. Stop at the approved cap.
 
-Place downloaded outputs in `08_generations` with shot ID and take or variant in the filename, then route them to the agency review workflow. Final asset approval remains human. Never invoke Axis post-production as a side effect.
+Place downloaded outputs in `08_generations` with shot ID and take or variant in the filename, then route them to the agency review workflow. Final asset approval remains human. Never invoke post-production as a side effect.

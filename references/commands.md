@@ -39,6 +39,6 @@ python3 tools/agency.py prepare aster-vale new-single handoff
 python3 tools/agency.py learn aster-vale new-single --file /path/to/results-or-feedback.md
 ```
 
-For asset review, fill `09_review/asset-reviews.json`. Use relative paths beneath `08_generations/`. Every reviewed asset must exist; capture its SHA-256 using `python3 tools/agency.py asset-hash <path>`. Human-selected assets must have PASS and assessed scores on every criterion. PASS WITH CHANGES needs a new reviewed file before handoff. Handoff never invokes Axis.
+For asset review, fill `09_review/asset-reviews.json`. Use relative paths beneath `08_generations/`. Every reviewed asset must exist; capture its SHA-256 using `python3 tools/agency.py asset-hash <path>`. Human-selected assets must have PASS and assessed scores on every criterion. PASS WITH CHANGES needs a new reviewed file before handoff. Handoff never starts post-production.
 
 Client learnings are append-only and include the project and time. For metrics, record platform, dates, attribution window, denominators, source and sample limitations. Reimporting the same text for the same project is idempotent.

@@ -1,6 +1,6 @@
 # Copy and release content
 
-Require an approved concept. Run `prepare <client> <project> copy`. Read `skills/axis-performance-creative/SKILL.md`; add `skills/axis-messaging/SKILL.md` only for a genuine proposition or voice issue.
+Require an approved concept. Run `prepare <client> <project> copy`. Read `skills/ci-performance-creative/SKILL.md`; add `skills/ci-messaging/SKILL.md` only for a genuine proposition or voice issue.
 
 Create 07_copy/copy.md with on-screen copy and timings, VO or an explicit no-VO decision, headline, primary text, CTA and alternate hooks where useful. Include the campaign or release sequence and a matrix covering only the approved deliverables. Preserve the approved mechanic and emotional intent.
 

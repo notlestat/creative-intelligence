@@ -44,7 +44,7 @@ def files():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--out", type=Path, default=ROOT / "dist/axis-creative-agency.zip"
+        "--out", type=Path, default=ROOT / "dist/creative-intelligence.zip"
     )
     args = parser.parse_args()
     args.out.parent.mkdir(parents=True, exist_ok=True)
@@ -52,7 +52,7 @@ def main():
     with zipfile.ZipFile(args.out, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in files():
             relative = str(path.relative_to(ROOT))
-            archive.write(path, "axis-creative-agency/" + relative)
+            archive.write(path, "creative-intelligence/" + relative)
             inventory[relative] = hashlib.sha256(path.read_bytes()).hexdigest()
     manifest = args.out.with_suffix(".manifest.json")
     manifest.write_text(json.dumps(inventory, indent=2) + "\n")

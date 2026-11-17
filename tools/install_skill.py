@@ -17,7 +17,7 @@ def main():
         type=Path,
         default=Path(os.environ.get("CODEX_HOME", str(Path.home() / ".codex")))
         / "skills"
-        / "axis-creative-agency",
+        / "creative-intelligence",
     )
     args = parser.parse_args()
     dest = args.dest.expanduser()
@@ -30,7 +30,7 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
     print(
-        f"Installed {dest}. Available on the next Codex turn. Client files belong in your agency workspace."
+        f"Installed {dest}. Available on the next Codex turn. Client files belong in your workspace."
     )
     return 0
 

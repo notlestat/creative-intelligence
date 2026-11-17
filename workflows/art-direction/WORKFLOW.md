@@ -1,6 +1,6 @@
 # Creative world and art direction
 
-Run status and require current concept approval. Read only the selected concept and relevant evidence. Use `.agents/skills/axis-creative-direction`, `axis-art-direction` and `axis-moodboard-analysis`, plus `axis-artist-release` for music or `axis-brand-campaign` for brands.
+Run status and require current concept approval. Read only the selected concept and relevant evidence. Use `.agents/skills/ci-creative-direction`, `ci-art-direction` and `ci-moodboard-analysis`, plus `ci-artist-release` for music or `ci-brand-campaign` for brands.
 
 Run `prepare <client> <project> art-direction`. Build one coherent creative world, then specify the visible decisions that make it real. Cover emotional movement, composition, colour, material, light, environment, styling, type, camera, motion and sound as relevant. Protect the artist's identity and state what this era extends or deliberately changes.
 
