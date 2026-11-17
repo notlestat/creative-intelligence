@@ -4,4 +4,6 @@ Use templates/reviews/learning-note.md when collecting results. Accept client fe
 
 Append with `learn <client> <project> --file <note>`. The tool preserves existing history and suppresses identical reimports for the same project. Correct old conclusions through a new dated note, never rewrite the original. Update artist or client creative preferences only from explicit feedback, linking the dated learning note.
 
+The director's own decision reasons belong in the [director's taste ledger](../../references/director-taste.md). Do not assign a client's feedback to the director. When the director changes an earlier preference, append their explicit correction to `director/taste.md` with the date and the affected decision's source. Keep the original entry. A correction changes how future drafts use the feedback; it does not change project approvals.
+
 Future strategy reads this file before planning. New client knowledge can stale earlier creative approvals because their inputs changed; old approval events remain in history. This is expected, not deletion of earlier decisions.
