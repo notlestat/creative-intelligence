@@ -2,7 +2,7 @@
   "inspected_at": "2026-09-03",
   "skills": [
     {
-      "name": "axis-creative-director",
+      "name": "ci-creative-director",
       "repository": "https://github.com/smixs/creative-director-skill",
       "commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
       "source_path": "creative-director",
@@ -11,7 +11,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-visual-image",
+      "name": "ci-visual-image",
       "repository": "https://github.com/smixs/visual-skills",
       "commit": "3c554715b5eb30f54de78fac3c0df4a7105e4955",
       "source_path": "image",
@@ -20,7 +20,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-visual-video",
+      "name": "ci-visual-video",
       "repository": "https://github.com/smixs/visual-skills",
       "commit": "3c554715b5eb30f54de78fac3c0df4a7105e4955",
       "source_path": "video",
@@ -29,7 +29,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-performance-creative",
+      "name": "ci-performance-creative",
       "repository": "https://github.com/realjaymes/marketingagentskills",
       "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
       "source_path": "skills/ad-creative",
@@ -38,7 +38,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-positioning",
+      "name": "ci-positioning",
       "repository": "https://github.com/realjaymes/marketingagentskills",
       "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
       "source_path": "skills/product-positioning",
@@ -47,7 +47,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-messaging",
+      "name": "ci-messaging",
       "repository": "https://github.com/realjaymes/marketingagentskills",
       "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
       "source_path": "skills/product-messaging",
@@ -56,7 +56,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-audience",
+      "name": "ci-audience",
       "repository": "https://github.com/realjaymes/marketingagentskills",
       "commit": "779b7baedb4ab10d8f7f6ce77fd304d975c2ba06",
       "source_path": "skills/icp-persona",
@@ -65,7 +65,7 @@
       "changes": "Adapted entry point; original SKILL retained; supporting resources unchanged."
     },
     {
-      "name": "axis-meta-context",
+      "name": "ci-meta-context",
       "repository": "https://github.com/adkit/ads-skills",
       "commit": "9bb3f878a73e01c65a1fc105010985ba32b9afa7",
       "source_path": "skills/meta-ads-strategy",

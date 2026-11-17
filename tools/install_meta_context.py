@@ -10,8 +10,8 @@ from pathlib import Path
 
 COMMIT = "9bb3f878a73e01c65a1fc105010985ba32b9afa7"
 ENTRY = """---
-name: axis-meta-context
-description: Consult locally installed AdKit Meta creative context for Axis format, placement and diagnostic questions. Internal use only; no account execution.
+name: ci-meta-context
+description: Consult locally installed AdKit Meta creative context for format, placement and diagnostic questions. Internal use only; no account execution.
 ---
 
 # Meta creative context
@@ -28,11 +28,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
     args = parser.parse_args()
-    dest = args.root / ".local/skills/axis-meta-context"
+    dest = args.root / ".local/skills/ci-meta-context"
     if dest.exists() or dest.is_symlink():
         print(f"Existing local installation preserved: {dest}")
         return 0
-    with tempfile.TemporaryDirectory(prefix="axis-meta-") as temp:
+    with tempfile.TemporaryDirectory(prefix="ci-meta-") as temp:
         repo = Path(temp) / "source"
         subprocess.run(
             [

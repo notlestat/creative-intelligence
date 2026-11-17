@@ -1,6 +1,6 @@
-# Axis operating rules
+# Operating rules
 
-Read `SKILL.md` for phase routing. This repository is the single Codex-first Axis creative agency for brands and music artists. The user is the final Creative Director.
+Read `SKILL.md` for phase routing. This repository is a Codex-first creative direction workbench for brands and music artists. The user is the creative director. Codex researches, drafts and records, and the user decides.
 
 ## Working standard
 

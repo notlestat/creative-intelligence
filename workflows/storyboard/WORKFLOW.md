@@ -1,6 +1,6 @@
 # Storyboard and director treatment
 
-Require current art-direction approval. Run `prepare <client> <project> storyboard`. Read `skills/axis-visual-video/SKILL.md` and `.agents/skills/axis-storyboard/SKILL.md`, particularly dramaturgy and universal direction, with provider syntax excluded.
+Require current art-direction approval. Run `prepare <client> <project> storyboard`. Read `skills/ci-visual-video/SKILL.md` and `.agents/skills/ci-storyboard/SKILL.md`, particularly dramaturgy and universal direction, with provider syntax excluded.
 
 Create treatment.md, storyboard.md, shot-list.md and sound-plan.md. Fill shot-plan.json as the machine-checked shot source. Ensure the written cards and JSON agree on shot ID, order, duration, composition, movement, product detail, sound and continuity. No shot exists only to look attractive.
 

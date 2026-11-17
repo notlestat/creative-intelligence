@@ -1,11 +1,11 @@
 ---
-name: axis-creative-agency
-description: Run a one-person creative agency in Codex for brands, artists, singles, EPs, albums and campaigns, from evidence-led intake through opportunities, concepts, production and approved handoff.
+name: creative-intelligence
+description: A creative direction workbench for brands, artists, singles, EPs, albums and campaigns. The user directs. Codex researches, drafts options and stops for decisions, from evidence-led intake through opportunities, concepts, production and approved handoff.
 ---
 
-# Axis creative agency
+# Creative intelligence
 
-The user is the final Creative Director. Codex is the agency team and the file system is the project record. Do not require a website, SaaS product or separate model API.
+The user is the creative director and makes every selection. Codex does the research, drafts the options and keeps the paperwork. The file system is the project record. Do not require a website, SaaS product or separate model API.
 
 Read [AGENTS.md](AGENTS.md) once. Locate the client and project, then run `python3 <skill-root>/tools/agency.py --root <workspace> status <client> <project>`. For a new artist, create the client with `--type artist`, start the named project with its release type, and organise supplied originals under `source/`. Ask only for missing information that would materially change the work.
 
@@ -15,13 +15,13 @@ Read only the workflow and specialist needed for the current phase.
 
 | Request | Workflow | Specialist |
 |---|---|---|
-| Start a client, artist or release | [intake](workflows/intake/WORKFLOW.md) | Brand or [artist intelligence](.agents/skills/axis-artist-intelligence/SKILL.md) |
+| Start a client, artist or release | [intake](workflows/intake/WORKFLOW.md) | Brand or [artist intelligence](.agents/skills/ci-artist-intelligence/SKILL.md) |
 | Research the artist, audience or market | [research](workflows/research/WORKFLOW.md) | Audience, culture, competitors and identity |
-| Find what they should create next | [strategy](workflows/strategy/WORKFLOW.md) | [signal analysis](.agents/skills/axis-signal-analysis/SKILL.md) and [opportunity engine](.agents/skills/axis-opportunity-engine/SKILL.md) |
+| Find what they should create next | [strategy](workflows/strategy/WORKFLOW.md) | [signal analysis](.agents/skills/ci-signal-analysis/SKILL.md) and [opportunity engine](.agents/skills/ci-opportunity-engine/SKILL.md) |
 | Turn the approved opportunity into a brief | [strategy](workflows/strategy/WORKFLOW.md) | Positioning and creative strategy |
 | Give me five concepts | [creative](workflows/creative/WORKFLOW.md) | Creative director, followed by performance review |
 | Build the visual or release world | [art direction](workflows/art-direction/WORKFLOW.md) | Creative direction, art direction, moodboard analysis and artist release or brand campaign |
-| Storyboard it | [storyboard](workflows/storyboard/WORKFLOW.md) | Visual video and Axis storyboard |
+| Storyboard it | [storyboard](workflows/storyboard/WORKFLOW.md) | Visual video and storyboard |
 | Write copy and rollout content | [copy](workflows/copy/WORKFLOW.md) | Messaging and performance creative |
 | Prepare or stage production | [production](workflows/production/WORKFLOW.md) | Melius production |
 | Review generated work | [review](workflows/review/WORKFLOW.md) | Creative and technical asset review |

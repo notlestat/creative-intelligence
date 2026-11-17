@@ -6,7 +6,7 @@ Inspected on 2026-09-03. Exact commits and full repository file inventories with
 |---|---|---|---|
 | smixs/creative-director-skill | CC BY 4.0 | creative-director | Bundled with full supporting library and notices; adapted entry point |
 | smixs/visual-skills | CC BY 4.0 | image and video | Both bundled; use universal visual/cinematic methodology, Melius adapter for production |
-| realjaymes/marketingagentskills | MIT, James Praise | ad-creative, product-positioning, product-messaging, icp-persona | Bundled under Axis-specific names |
+| realjaymes/marketingagentskills | MIT, James Praise | ad-creative, product-positioning, product-messaging, icp-persona | Bundled under repository-specific names |
 | adkit/ads-skills | AdKit Skills License | meta-ads-strategy | Internal local installation only; excluded from redistribution |
 
 The marketing repository does not contain skills literally named `copywriting`, `product-marketing` or `customer-research` at this commit. Product positioning and messaging cover the relevant strategy/message work; icp-persona helps structure audience evidence. Persona generation is not customer research. Competitive-intelligence, customer-segments and copy-anatomy were inspected but not installed: the agency research workflow covers the needed competitor/consumer work without sales battlecards, lifecycle segmentation or copy templating. No additional source repositories were added.
@@ -33,7 +33,7 @@ The upstream licence grants personal/internal business use and restricts redistr
 
 ## Attribution
 
-Serge Shima, https://github.com/smixs/creative-director-skill and https://github.com/smixs/visual-skills. CC BY 4.0. Original notices also identify https://t.me/aimastersme, https://sergeshima.com and https://aimasters.me. Creative director was created in collaboration with Paul Deadcough. Axis adaptations change routing, approval handling and output contracts as described above; no endorsement is implied.
+Serge Shima, https://github.com/smixs/creative-director-skill and https://github.com/smixs/visual-skills. CC BY 4.0. Original notices also identify https://t.me/aimastersme, https://sergeshima.com and https://aimasters.me. Creative director was created in collaboration with Paul Deadcough. The adaptations here change routing, approval handling and output contracts as described above; no endorsement is implied.
 
 James Praise, https://github.com/realjaymes/marketingagentskills. MIT. Original copyright and permission text are retained in each included adaptation.
 

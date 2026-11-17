@@ -1,6 +1,6 @@
 # External methodology audit
 
-Reviewed on 2026-09-09. These repositories informed Axis methods. They are references, not runtime dependencies, and their text was not copied into the original Axis skills.
+Reviewed on 2026-09-09. These repositories informed these methods. They are references, not runtime dependencies, and their text was not copied into the original skills.
 
 ## Adopted
 
@@ -47,7 +47,7 @@ Source: [anthropics/skills](https://github.com/anthropics/skills/tree/main/skill
 
 - Visual choices come from the product's subject and use, not a default SaaS kit.
 - Typography and structure carry the identity. Decoration must encode information or go.
-- Axis uses one memorable device, a diagonal red measurement line, inside a restrained monochrome workbench.
+- The v0.1 prototype used one memorable device, a diagonal red measurement line, inside a restrained monochrome workbench.
 
 ### Excalidraw
 
@@ -56,7 +56,7 @@ Sources: [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw), [exc
 - The official React package is the simplest reliable embedded canvas.
 - `initialData`, `onChange` and the imperative API support editable application state.
 - Built-in export utilities cover PNG, SVG and `.excalidraw`.
-- The official MCP is useful for one-shot chat diagrams. The yctimlin server is stronger for a persistent coding-agent workbench, but both add a second state system. Axis v0.1 keeps AI board generation in its own provider layer and writes ordinary editable Excalidraw elements.
+- The official MCP is useful for one-shot chat diagrams. The yctimlin server is stronger for a persistent coding-agent workbench, but both add a second state system. v0.1 kept AI board generation in its own provider layer and writes ordinary editable Excalidraw elements.
 
 ### Agent Reach
 
@@ -64,14 +64,14 @@ Source: [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
 
 - The safe local installation was already present, so no system packages were replaced.
 - Health checks showed web and RSS available. X lacked full credentials. Reddit and Instagram adapters existed but were not connected. YouTube was unavailable because `yt-dlp` was not installed.
-- Axis displays availability and continues with healthy or manual sources. It never treats an installed command as proof that a platform returned data.
+- The workflow shows which sources are available and continues with healthy or manual sources. It never treats an installed command as proof that a platform returned data.
 
 ## Rejected or changed
 
 - Synthetic persona names, ages, incomes and quotes were rejected. Unknown audience details stay unknown.
 - Fixed social alert thresholds were rejected unless a client supplies a real baseline.
-- Generic SWOT output was rejected as the main competitor view. Axis maps clusters, differences and possible creative whitespace instead.
-- Forced output quotas were rejected. Axis allows up to ten opportunities, and only distinct evidence-backed possibilities survive.
+- Generic SWOT output was rejected as the main competitor view. The workflow maps clusters, differences and possible creative whitespace instead.
+- Forced output quotas were rejected. The workflow allows up to ten opportunities, and only distinct evidence-backed possibilities survive.
 - Direct competitor work is not a literal art reference.
 - Automatic image generation and model fine-tuning are outside v0.1.
 - Excalidraw MCP servers were not added as runtime dependencies because the embedded package already meets the editing and export requirement with less operational risk.

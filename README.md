@@ -1,6 +1,6 @@
 # Creative intelligence
 
-A Codex-first creative workflow for brands, artists and releases. Give Codex a client, the source material and the job. Codex keeps the work in local files, conducts evidence-led research, develops options and stops for your decisions.
+A creative direction workbench for brands, artists and releases. You direct. Give Codex a client, the source material and the job. Codex researches with cited evidence, drafts options and stops at each stage for your decision. The whole trail stays in local files.
 
 There is no website, subscription product or model API to configure. Codex is the working interface.
 

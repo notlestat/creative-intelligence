@@ -44,7 +44,7 @@ def main():
         if (
             ".local" in rel.parts
             or rel.parts[0] == "clients"
-            or "axis-meta-context" in rel.parts
+            or "ci-meta-context" in rel.parts
         ):
             errors.append(f"Private material enters package: {rel}")
     # Check maintained Markdown links, excluding unchanged upstream reference documents.

@@ -15,7 +15,7 @@ import package_skill
 
 class WorkflowTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory(prefix="axis-test-")
+        self.temp = tempfile.TemporaryDirectory(prefix="ci-test-")
         self.root = Path(self.temp.name).resolve()
         self.run_cli(
             "create-client",
@@ -369,7 +369,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertTrue(paths)
         self.assertFalse(
             any(
-                p[0] == "clients" or ".local" in p or "axis-meta-context" in p
+                p[0] == "clients" or ".local" in p or "ci-meta-context" in p
                 for p in paths
             )
         )
