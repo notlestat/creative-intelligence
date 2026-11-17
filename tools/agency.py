@@ -335,6 +335,75 @@ def require_gates(campaign, gates):
             )
 
 
+def approval_feedback(message, phrase):
+    """Accept an explicit decision followed only by optional, verbatim reasons."""
+    lines = message.splitlines()
+    if not lines or lines[0].strip().upper().rstrip(".") != phrase:
+        raise AgencyError(
+            f"Approval evidence must be the explicit user decision: {phrase}"
+        )
+    feedback = {}
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        match = re.fullmatch(r"(why|rejected):\s*(\S.*)", line.strip(), re.IGNORECASE)
+        if not match or match[1].lower() in feedback:
+            raise AgencyError(
+                "After the approval, use at most one non-empty why: line "
+                "and one rejected: line. Preserve the user's words."
+            )
+        feedback[match[1].lower()] = match[2]
+    return feedback
+
+
+def append_taste(root, campaign, event):
+    """Project approvals are the source; this append-only view can be repaired."""
+    feedback = event.get("feedback")
+    if not feedback:
+        return
+    path = contained(root, "director/taste.md")
+    project = campaign.relative_to(root).as_posix()
+    marker = f"<!-- decision: {project} | {event['id']} -->"
+    if path.exists() and marker in path.read_text():
+        return
+    new_file(
+        path,
+        "# Director's taste ledger\n\n"
+        "Dated user feedback, quoted from project approval records. "
+        "Each decision has its own context; it is not a universal style rule. "
+        "Current instructions and the project brief take priority. "
+        "Append dated corrections rather than rewriting history.\n",
+    )
+    lines = [
+        f"\n## {event['id']} | {campaign.parents[1].name} / {campaign.name}\n",
+        f"\nGate: {event['gate']}. Choice: {event['choice'] or 'not numbered'}.",
+        f"Reviewer: {event['reviewer']}",
+        f"Source: {project}/approvals.jsonl, decision {event['id']}.",
+    ]
+    for field, label in (("why", "Why chosen"), ("rejected", "Why rejected")):
+        if field in feedback:
+            lines.append(f"\n{label}:\n\n> {feedback[field]}")
+    # A completion marker at the end lets an interrupted append be recovered.
+    lines.append(f"\n{marker}")
+    with path.open("a") as stream:
+        stream.write("\n".join(lines) + "\n")
+
+
+def taste(root):
+    """Read shared feedback and recover entries missing after an interrupted write."""
+    clients = contained(root, "clients")
+    for source in sorted(clients.glob("*/projects/*/approvals.jsonl")):
+        campaign = contained(root, source.parent.relative_to(root))
+        for event in events(campaign):
+            append_taste(root, campaign, event)
+    path = contained(root, "director/taste.md")
+    if path.exists():
+        print(f"Read director feedback before drafting: {path}\n")
+        print(path.read_text())
+    else:
+        print("No director feedback recorded yet. Do not infer preferences.")
+
+
 def shot_plan(campaign):
     plan = read_json(contained(campaign, "06_storyboard/shot-plan.json"))
     shots = plan.get("shots", [])
@@ -473,6 +542,8 @@ def prepare(campaign, phase):
         print(
             f"Read client learnings before strategy: {campaign.parents[1] / 'knowledge/learnings.md'}"
         )
+    if phase in ("strategy", "brief", "concepts"):
+        taste(campaign.parents[3])
     if phase == "production":
         return production(campaign)
     if phase == "handoff":
@@ -630,10 +701,13 @@ def approve(campaign, args):
         phrase = f"APPROVE {gate.upper()} {args.choice}"
     else:
         phrase = "APPROVE " + gate.upper().replace("-", " ")
-    if message.strip().upper().rstrip(".") != phrase:
-        raise AgencyError(
-            f"Approval evidence must be the explicit user decision: {phrase}"
-        )
+    feedback = approval_feedback(message, phrase)
+    root = campaign.parents[3]
+    if feedback:
+        # Reject unsafe destinations before committing an approval.
+        destination = contained(root, "director/taste.md")
+        if destination.exists() and not destination.is_file():
+            raise AgencyError("Director's taste ledger must be a file.")
     event = {
         "id": now(),
         "gate": gate,
@@ -643,9 +717,21 @@ def approve(campaign, args):
         "hashes": fingerprint(campaign, gate),
         "dependencies": {dep: latest(campaign, dep)["id"] for dep in DEPS[gate]},
     }
+    if feedback:
+        event["feedback"] = feedback
     with contained(campaign, "approvals.jsonl").open("a") as stream:
         stream.write(json.dumps(event, ensure_ascii=False) + "\n")
     print(f"Recorded {gate} approval by {args.by}. Material edits will invalidate it.")
+    if feedback:
+        try:
+            append_taste(root, campaign, event)
+        except OSError as e:
+            raise AgencyError(
+                "Approval and feedback were saved in approvals.jsonl, but the "
+                f"shared taste history could not be updated: {e}. "
+                "Run taste to recover it; do not repeat the approval."
+            ) from e
+        print(f"Saved director feedback to {root / 'director/taste.md'}")
 
 
 def main(argv=None):
@@ -687,11 +773,17 @@ def main(argv=None):
         if command == "learn":
             p.add_argument("--file", type=Path, required=True)
     sub.add_parser("asset-hash").add_argument("file", type=Path)
+    sub.add_parser(
+        "taste", help="Read director feedback across projects in this workspace."
+    )
     args = parser.parse_args(argv)
     root = args.root.resolve()
     try:
         if args.command == "asset-hash":
             print(sha(args.file))
+            return 0
+        if args.command == "taste":
+            taste(root)
             return 0
         client = client_path(root, args.client)
         if args.command in ("create-client", "create-artist"):

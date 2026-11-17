@@ -68,6 +68,14 @@ Codex recommends but does not select. The guarded stages require explicit decisi
 
 Melius remains the primary visual production engine. Preparing or staging a Melius package does not authorise generation or credit spend. Generation requires a separate instruction naming the shot and maximum attempts.
 
+## Save your reasons
+
+When approving a direction, tell Codex why you chose it and what you rejected. Codex preserves your words in the approval record and the private `director/taste.md` history. Reasons are optional.
+
+Strategy and concept work reads this history before drafting, so previous corrections can inform the next round. Each reason keeps its project context. A rejection for one artist does not become a rule for every client.
+
+Use `python3 tools/agency.py taste` to read the history. See [the director's taste ledger guide](references/director-taste.md) for manual capture and corrections. The history stays local to the workspace and is excluded from Git and packaged copies.
+
 ## Client records
 
 Each client lives under `clients/<slug>/`:

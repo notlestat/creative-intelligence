@@ -38,6 +38,8 @@ Opportunities, concepts, art direction, storyboard, shot list and final assets r
 
 Material changes make later approvals stale. Run status before continuing. Never infer permission to generate assets, spend credits, publish, contact anyone or launch media.
 
+When the user gives reasons for a decision, preserve their words as optional `why:` and `rejected:` lines after the exact approval phrase. The tool saves those lines in the approval record and appends them to `<workspace>/director/taste.md`. Never invent reasons or treat silence about an option as rejection. Do not block an approval if the user gives no reason. Read [director feedback guidance](references/director-taste.md) before using past decisions.
+
 Melius is the primary production engine. `SEND APPROVED PROJECT TO MELIUS` authorises staging only. It never authorises a run. Generation needs a separate instruction naming the shot or nodes and a maximum attempt count. Confirm current settings and cost before spending.
 
 ## Evidence and artist safeguards

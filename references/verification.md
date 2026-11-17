@@ -15,4 +15,12 @@ Verified on 2026-09-29 after adding Cosmos as an optional visual-discovery provi
 - The [Cosmos operating rules](cosmos.md) were added to the research and art-direction workflows.
 - No Cosmos credential, account token, client material or bundled Cosmos runtime is stored in this repository or packaged with the skill.
 
+Verified on 2026-11-17 after adding the director's taste ledger.
+
+- Thirty-nine unit tests passed, including verbatim decision reasons, plain approval compatibility, unchanged approval gates, shared history across clients, repeat-read deduplication, correction preservation, interrupted-write recovery and private package boundaries.
+- Python compilation, the repository validator, Ruff checks and formatting checks passed for the changed Python files.
+- A separate CLI process recorded a synthetic concept decision, returned its reasons and source through `taste`, and surfaced them during concept preparation. The synthetic fixtures were temporary and did not enter the workspace history.
+- A generated archive included the director feedback guide, excluded client files and director history, and passed validation after extraction.
+- No real director preferences were seeded. No live creative project, connected production provider or improvement in creative quality was assessed by these checks.
+
 These checks prove workflow mechanics and packaging. They do not prove creative quality, rights clearance, research truth, platform access, campaign results or current Melius prices. Those need project-specific evidence and human review.

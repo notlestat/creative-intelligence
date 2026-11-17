@@ -30,6 +30,14 @@ python3 tools/agency.py prepare aster-vale new-single production
 
 Approval phrases are `APPROVE OPPORTUNITY 03`, `APPROVE CONCEPT 02`, `APPROVE ART DIRECTION`, `APPROVE STORYBOARD`, `APPROVE SHOT LIST`, `APPROVE ASSETS`. The tool stores the message, reviewer, time and hashes of the reviewed files. It cannot authenticate who typed the message. Agents must never manufacture the evidence file.
 
+Optional `why:` and `rejected:` lines after the approval phrase preserve the user's reasons. Each label can occur once with a non-empty reason on the same line. Unknown text after the decision is rejected. The tool saves reasons in the project approval record and appends them to the private `director/taste.md` history. Plain approval messages remain valid.
+
+```sh
+python3 tools/agency.py --root /path/to/workspace taste
+```
+
+`taste` returns director feedback across that workspace and recovers missing history entries from approval records. Strategy, brief and concept preparation also returns the history. See [director feedback guidance](director-taste.md) for the evidence format, context limits and corrections.
+
 Complete `06_storyboard/shot-plan.json` alongside the human-readable storyboard and shot list. It is the checked source for shot durations and generated Melius shot briefs. Populate every field, keep shot IDs unique, and make durations sum to the planned film duration. `prepare production` blocks on incomplete data and stale approvals.
 
 ```sh

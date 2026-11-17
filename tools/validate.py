@@ -43,7 +43,7 @@ def main():
         rel = path.relative_to(ROOT)
         if (
             ".local" in rel.parts
-            or rel.parts[0] == "clients"
+            or rel.parts[0] in ("clients", "director")
             or "ci-meta-context" in rel.parts
         ):
             errors.append(f"Private material enters package: {rel}")

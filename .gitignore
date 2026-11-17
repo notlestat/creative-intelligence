@@ -1,5 +1,6 @@
 clients/*
 !clients/.gitkeep
+director/
 .local/
 .lavish/
 dist/

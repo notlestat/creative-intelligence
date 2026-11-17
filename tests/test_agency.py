@@ -2,11 +2,13 @@
 
 import contextlib
 import io
+import json
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import agency
@@ -239,6 +241,173 @@ class WorkflowTests(unittest.TestCase):
         path.write_text(path.read_text() + "\nMaterial change.\n")
         self.assertEqual(agency.gate_status(self.campaign, "concept"), "STALE")
 
+    def feedback_approval(self, message, gate="concept", choice="03"):
+        evidence = self.root / "synthetic-feedback.txt"
+        evidence.write_text(message)
+        return self.run_cli(
+            "approve",
+            "mock",
+            "launch",
+            gate,
+            "--choice",
+            choice,
+            "--by",
+            "SYNTHETIC TEST",
+            "--evidence-file",
+            str(evidence),
+        )
+
+    def test_feedback_is_verbatim_linked_and_keeps_approval_current(self):
+        self.concepts()
+        message = (
+            "APPROVE CONCEPT 03\n"
+            "why: The image carries the idea.\n"
+            "rejected: 01 and 04 use neon that feels wrong for this artist."
+        )
+        self.assertEqual(self.feedback_approval(message), 0)
+        event = agency.latest(self.campaign, "concept")
+        self.assertEqual(event["message"], message)
+        self.assertEqual(event["feedback"]["why"], "The image carries the idea.")
+        history = (self.root / "director/taste.md").read_text()
+        self.assertIn(event["feedback"]["why"], history)
+        self.assertIn(event["feedback"]["rejected"], history)
+        self.assertIn("clients/mock/projects/launch/approvals.jsonl", history)
+        self.assertIn(event["id"], history)
+        self.assertIn("SYNTHETIC TEST", history)
+        self.assertEqual(agency.gate_status(self.campaign, "concept"), "APPROVED")
+        # New taste notes do not change the already-reviewed project material.
+        with (self.root / "director/taste.md").open("a") as stream:
+            stream.write("\n## Dated correction\nA later explicit preference.\n")
+        self.assertEqual(agency.gate_status(self.campaign, "concept"), "APPROVED")
+        material = self.campaign / "04_concepts/concept-03.md"
+        material.write_text(material.read_text() + "\nMaterial edit.\n")
+        self.assertEqual(agency.gate_status(self.campaign, "concept"), "STALE")
+        self.assertIn(
+            event["feedback"]["why"], (self.root / "director/taste.md").read_text()
+        )
+
+    def test_plain_approval_does_not_invent_feedback(self):
+        self.concepts()
+        self.approval("concept", "03")
+        self.assertNotIn("feedback", agency.latest(self.campaign, "concept"))
+        self.assertFalse((self.root / "director").exists())
+
+    def test_invalid_feedback_cannot_create_an_approval_or_taste_entry(self):
+        self.concepts()
+        before = (self.campaign / "approvals.jsonl").read_text()
+        for message in (
+            "DO NOT APPROVE CONCEPT 03\nwhy: Test reason.",
+            "APPROVE CONCEPT 03\nActually, do not approve this.",
+            "APPROVE CONCEPT 03\nwhy:",
+            "APPROVE CONCEPT 03\nwhy: First reason.\nwhy: Other reason.",
+        ):
+            with self.subTest(message=message):
+                self.assertEqual(self.feedback_approval(message), 2)
+                self.assertEqual(
+                    before, (self.campaign / "approvals.jsonl").read_text()
+                )
+                self.assertFalse((self.root / "director").exists())
+
+    def test_feedback_still_requires_current_gates(self):
+        self.assertEqual(
+            self.feedback_approval("APPROVE CONCEPT 03\nwhy: Test reason."), 2
+        )
+        self.assertFalse((self.root / "director").exists())
+
+    def test_taste_history_appends_across_clients_without_reimporting(self):
+        self.concepts()
+        self.assertEqual(
+            self.feedback_approval("APPROVE CONCEPT 03\nwhy: First reason."), 0
+        )
+        history = self.root / "director/taste.md"
+        before = history.read_text()
+        # Simulate another project's saved decision, with the same timestamp.
+        self.run_cli("create-client", "second", "--name", "Synthetic second client")
+        self.run_cli("start-project", "second", "other", "--name", "Fixture", "--mock")
+        other = self.root / "clients/second/projects/other"
+        event = agency.latest(self.campaign, "concept").copy()
+        event["feedback"] = {"rejected": "Second project's explicit reason."}
+        (other / "approvals.jsonl").write_text(json.dumps(event) + "\n")
+        self.assertEqual(self.run_cli("taste"), 0)
+        after = history.read_text()
+        self.assertTrue(after.startswith(before))
+        self.assertIn("Second project's explicit reason.", after)
+        self.assertIn("clients/second/projects/other/approvals.jsonl", after)
+        self.run_cli("taste")
+        self.assertEqual(after, history.read_text())
+
+    def test_prepare_surfaces_existing_director_feedback(self):
+        self.concepts()
+        self.feedback_approval("APPROVE CONCEPT 03\nwhy: A distinctive image.")
+        for phase in ("strategy", "brief", "concepts"):
+            with (
+                self.subTest(phase=phase),
+                contextlib.redirect_stdout(io.StringIO()) as out,
+            ):
+                agency.prepare(self.campaign, phase)
+                self.assertIn("A distinctive image.", out.getvalue())
+                self.assertIn("director/taste.md", out.getvalue())
+
+    def test_feedback_works_for_unnumbered_gate(self):
+        self.concepts()
+        self.approval("concept", "03")
+        self.complete("art-direction")
+        self.assertEqual(
+            self.feedback_approval(
+                "APPROVE ART DIRECTION\nrejected: Glossy materials lose the idea.",
+                gate="art-direction",
+                choice="",
+            ),
+            0,
+        )
+        self.assertIsNone(agency.latest(self.campaign, "art-direction")["choice"])
+        self.assertIn("Glossy materials", (self.root / "director/taste.md").read_text())
+
+    def test_unsafe_taste_path_is_rejected_before_approval(self):
+        self.concepts()
+        before = (self.campaign / "approvals.jsonl").read_text()
+        outside = self.root / "outside"
+        outside.mkdir()
+        (self.root / "director").symlink_to(outside, target_is_directory=True)
+        self.assertEqual(
+            self.feedback_approval("APPROVE CONCEPT 03\nwhy: Test reason."), 2
+        )
+        self.assertEqual(before, (self.campaign / "approvals.jsonl").read_text())
+        self.assertFalse((outside / "taste.md").exists())
+
+    def test_failed_taste_write_preserves_feedback_for_recovery(self):
+        self.concepts()
+        with patch.object(agency, "append_taste", side_effect=OSError("Write failed")):
+            self.assertEqual(
+                self.feedback_approval("APPROVE CONCEPT 03\nwhy: Recover this reason."),
+                2,
+            )
+        self.assertEqual(agency.gate_status(self.campaign, "concept"), "APPROVED")
+        count = len(agency.events(self.campaign))
+        self.assertEqual(self.run_cli("taste"), 0)
+        self.assertIn(
+            "Recover this reason.", (self.root / "director/taste.md").read_text()
+        )
+        self.assertEqual(len(agency.events(self.campaign)), count)
+
+    def test_taste_recovers_an_incomplete_append_and_preserves_corrections(self):
+        self.concepts()
+        with patch.object(agency, "append_taste", side_effect=OSError("Interrupted")):
+            self.feedback_approval("APPROVE CONCEPT 03\nwhy: Complete reason.")
+        history = self.root / "director/taste.md"
+        history.parent.mkdir()
+        partial = (
+            "# Director's taste ledger\n\n## Explicit dated correction\nKeep this.\n"
+        )
+        partial += "\n## Interrupted entry\nWhy chosen:\n\n> Complete"
+        history.write_text(partial)
+        self.assertEqual(self.run_cli("taste"), 0)
+        recovered = history.read_text()
+        self.assertTrue(recovered.startswith(partial))
+        self.assertIn("> Complete reason.", recovered)
+        self.run_cli("taste")
+        self.assertEqual(recovered, history.read_text())
+
     def test_new_brand_input_invalidates_approval(self):
         self.concepts()
         self.approval("concept", "03")
@@ -369,10 +538,20 @@ class WorkflowTests(unittest.TestCase):
         self.assertTrue(paths)
         self.assertFalse(
             any(
-                p[0] == "clients" or ".local" in p or "ci-meta-context" in p
+                p[0] in ("clients", "director")
+                or ".local" in p
+                or "ci-meta-context" in p
                 for p in paths
             )
         )
+
+    def test_package_excludes_a_populated_director_history(self):
+        (self.root / "director").mkdir()
+        (self.root / "director/taste.md").write_text("PRIVATE SYNTHETIC FEEDBACK")
+        (self.root / "README.md").write_text("Public documentation")
+        with patch.object(package_skill, "ROOT", self.root):
+            paths = [p.relative_to(self.root).as_posix() for p in package_skill.files()]
+        self.assertEqual(paths, ["README.md"])
 
 
 if __name__ == "__main__":
